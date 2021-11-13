@@ -154,3 +154,79 @@ pm.test("Body matches string", function () {
     pm.expect(pm.response.text()).to.include("Email or password is invalid");
 });
 ```
+
+
+# Registration process tests
+
+## Succesful registration
+
+### Postman result
+```
+{
+	"id": "892282ed-a8bb-4bca-90f9-3ed366515405",
+	"name": "Auth tests",
+	"timestamp": "2021-11-13T12:42:58.746Z",
+	"collection_id": "18048802-3f14596a-1e09-4ed4-a6c0-35a06cabdb49",
+	"folder_id": "18048802-042a693d-525b-48dd-95f4-bb1d8ef68747",
+	"environment_id": "0",
+	"totalPass": 2,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "960e2717-62f5-41c0-9199-da97af403456",
+			"name": "/auth/register",
+			"url": "https://auth.hiringo.tech/auth/register",
+			"time": 2920,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Your test name": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2920
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Your test name": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2920,
+	"collection": {
+		"requests": [
+			{
+				"id": "960e2717-62f5-41c0-9199-da97af403456",
+				"method": "POST"
+			}
+		]
+	}
+}
+```
+
+### Test script
+```
+pm.test("Status code is 201", function () {
+    pm.response.to.have.status(201);
+});
+
+pm.test("Your test name", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.success).to.eql(true);
+});
+```

@@ -1,7 +1,14 @@
-url:{https://main-api.hiringo.tech/user-details/new}
+##UserDetailsRevel
+
+
+##Url
+{https://main-api.hiringo.tech/user-details/new}
 {https://main-api.hiringo.tech/contracts/new}
 {https://main-api.hiringo.tech/user-details/{id}/reveal}
 
+
+
+##Request
 
 User details_new Request Headers:{POST /user-details/new HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiMGRmZjkyYmNkYjM4ZmU1NjVmMDVhYzYyNDVkMzZlNzdjNTdkMDcwNmM1NmI5NDAwZTdkNzcxZTk5NmY0YTc2MyJ9fSwiZXhwIjoxNjM3MDIzMzExLCJpYXQiOjE2MzcwMjI0MTEsIm5iZiI6MTYzNzAyMjQxMH0.vjuMzhri2tkBZqghkkdStpC_bQQvW6ba_gLRElILDmWldOykrbHP97_i-bl8mxR4QLjiD1IfTrQjoP-I9ruZ4Q
@@ -23,6 +30,50 @@ User details_new Request Body:{{
 "telephone": "12345678"
 }}
 
+
+
+
+Contracts_new Request Headers:{POST /contracts/new HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiNGY3Y2ViNTc2NDViYjU0NDRhNWJkN2U5NjdlZmFiMDQwMWU4ZjZiOWM2MDJmMTNiNzg5YjA3NTI5MmQ4MzViMCJ9fSwiZXhwIjoxNjM3MDIzNzQyLCJpYXQiOjE2MzcwMjI4NDIsIm5iZiI6MTYzNzAyMjg0MX0.jNrjUHxjv6xOzfttmxB26vnsY7Of7C_DmwG1znDGeeNJYvSnquxQWZZsWd87AlK2gwGkljo0t1T-QsiCdX5oDQ
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 7908a458-e0fc-4a70-b6ae-8a15aa8feb63
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 124}
+
+
+Contracts_new Request Body:{{
+"end_time": "2021-12-02 16:24",
+"job_id": "0f312672-1792-4b0b-bc01-948130c2e1ef",
+"start_time": "2020-09-02 12:05"
+}}
+
+
+
+
+
+User details_reveal Request Headers:{POST /user-details/871833e6-8297-4de1-b27c-3a2e2572641b/reveal HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiNGY3Y2ViNTc2NDViYjU0NDRhNWJkN2U5NjdlZmFiMDQwMWU4ZjZiOWM2MDJmMTNiNzg5YjA3NTI5MmQ4MzViMCJ9fSwiZXhwIjoxNjM3MDIzNzQyLCJpYXQiOjE2MzcwMjI4NDIsIm5iZiI6MTYzNzAyMjg0MX0.jNrjUHxjv6xOzfttmxB26vnsY7Of7C_DmwG1znDGeeNJYvSnquxQWZZsWd87AlK2gwGkljo0t1T-QsiCdX5oDQ
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 33613c21-c17b-4b7a-a538-956cebe10d27
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 59}
+
+
+
+User details_reveal Request Body:{{
+"contract_id": "a2f7e77b-ca28-474b-8b8d-006b0bf61a42"
+}}
+
+
+##Response
 
 User details_new Response:{HTTP/1.1 200 OK
 Date: Tue, 16 Nov 2021 00:28:17 GMT
@@ -49,25 +100,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-
-
-Contracts_new Request Headers:{POST /contracts/new HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiNGY3Y2ViNTc2NDViYjU0NDRhNWJkN2U5NjdlZmFiMDQwMWU4ZjZiOWM2MDJmMTNiNzg5YjA3NTI5MmQ4MzViMCJ9fSwiZXhwIjoxNjM3MDIzNzQyLCJpYXQiOjE2MzcwMjI4NDIsIm5iZiI6MTYzNzAyMjg0MX0.jNrjUHxjv6xOzfttmxB26vnsY7Of7C_DmwG1znDGeeNJYvSnquxQWZZsWd87AlK2gwGkljo0t1T-QsiCdX5oDQ
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 7908a458-e0fc-4a70-b6ae-8a15aa8feb63
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 124}
-
-
-Contracts_new Request Body:{{
-"end_time": "2021-12-02 16:24",
-"job_id": "0f312672-1792-4b0b-bc01-948130c2e1ef",
-"start_time": "2020-09-02 12:05"
-}}
 
 
 Contracts_new Response:{HTTP/1.1 200 OK
@@ -97,23 +129,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-User details_reveal Request Headers:{POST /user-details/871833e6-8297-4de1-b27c-3a2e2572641b/reveal HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiNGY3Y2ViNTc2NDViYjU0NDRhNWJkN2U5NjdlZmFiMDQwMWU4ZjZiOWM2MDJmMTNiNzg5YjA3NTI5MmQ4MzViMCJ9fSwiZXhwIjoxNjM3MDIzNzQyLCJpYXQiOjE2MzcwMjI4NDIsIm5iZiI6MTYzNzAyMjg0MX0.jNrjUHxjv6xOzfttmxB26vnsY7Of7C_DmwG1znDGeeNJYvSnquxQWZZsWd87AlK2gwGkljo0t1T-QsiCdX5oDQ
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 33613c21-c17b-4b7a-a538-956cebe10d27
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 59}
-
-
-User details_reveal Request Body:{{
-"contract_id": "a2f7e77b-ca28-474b-8b8d-006b0bf61a42"
-}}
-
-
 User details_reveal Response:{HTTP/1.1 404 Not Found
 Date: Tue, 16 Nov 2021 00:37:46 GMT
 Content-Type: application/json; charset=UTF-8
@@ -136,3 +151,11 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"record not found","payload":null}}
+
+
+
+
+
+
+##Results
+Failed

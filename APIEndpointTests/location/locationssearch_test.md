@@ -1,5 +1,14 @@
-url:{https://main-api.hiringo.tech/locations/search}
+##LocationsSearch
 
+
+
+
+##Url:{https://main-api.hiringo.tech/locations/search}
+
+
+
+
+##Request
 
 Request Headers1:{POST /locations/search HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYzQwODU0NjZmNTRiYjNkYWI4MDM1OGVmYTc4Yjg2MThhNzdkZDEyMmJlOWMwZDlhZjFmNGEyOWFmNzIxZWM4MSJ9fSwiZXhwIjoxNjM2ODkyMDI4LCJpYXQiOjE2MzY4OTExMjgsIm5iZiI6MTYzNjg5MTEyN30.tLycfWMVZ4aGJLlCJgdm-VupYe-Rw3omRqy9b7ImiHVhWMczi9f3ctRHEeaArVCt6GnwclH4mu6ln3zTOS7lLw
@@ -13,13 +22,59 @@ Connection: keep-alive
 Content-Length: 39}
 
 
-
 Request Body1:{{
 "latitude": 10,
 "longitude": 20
 }}
 
 
+
+
+Request Headers2:{POST /locations/search HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYzQwODU0NjZmNTRiYjNkYWI4MDM1OGVmYTc4Yjg2MThhNzdkZDEyMmJlOWMwZDlhZjFmNGEyOWFmNzIxZWM4MSJ9fSwiZXhwIjoxNjM2ODkyMDI4LCJpYXQiOjE2MzY4OTExMjgsIm5iZiI6MTYzNjg5MTEyN30.tLycfWMVZ4aGJLlCJgdm-VupYe-Rw3omRqy9b7ImiHVhWMczi9f3ctRHEeaArVCt6GnwclH4mu6ln3zTOS7lLw
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 7ac8701d-7b02-4135-ad8c-9b5ef20d3a09
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 37}
+
+
+Request Body2:{{
+"latitude": 0,
+"longitude": 0
+}}
+
+
+
+
+Request Headers3:{POST /locationsss/search HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYzQwODU0NjZmNTRiYjNkYWI4MDM1OGVmYTc4Yjg2MThhNzdkZDEyMmJlOWMwZDlhZjFmNGEyOWFmNzIxZWM4MSJ9fSwiZXhwIjoxNjM2ODkyMDI4LCJpYXQiOjE2MzY4OTExMjgsIm5iZiI6MTYzNjg5MTEyN30.tLycfWMVZ4aGJLlCJgdm-VupYe-Rw3omRqy9b7ImiHVhWMczi9f3ctRHEeaArVCt6GnwclH4mu6ln3zTOS7lLw
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 02bca519-988d-422d-a5b4-df053df4da85
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 39}
+
+
+Request Body3:{{
+"latitude": 10,
+"longitude": 20
+}
+}
+
+
+
+
+
+
+
+##Response
 
 Response1:{
 HTTP/1.1 200 OK
@@ -48,27 +103,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-
-Request Headers2:{POST /locations/search HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYzQwODU0NjZmNTRiYjNkYWI4MDM1OGVmYTc4Yjg2MThhNzdkZDEyMmJlOWMwZDlhZjFmNGEyOWFmNzIxZWM4MSJ9fSwiZXhwIjoxNjM2ODkyMDI4LCJpYXQiOjE2MzY4OTExMjgsIm5iZiI6MTYzNjg5MTEyN30.tLycfWMVZ4aGJLlCJgdm-VupYe-Rw3omRqy9b7ImiHVhWMczi9f3ctRHEeaArVCt6GnwclH4mu6ln3zTOS7lLw
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 7ac8701d-7b02-4135-ad8c-9b5ef20d3a09
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 37}
-
-
-
-Request Body2:{{
-"latitude": 0,
-"longitude": 0
-}}
-
-
-
 Response2:{
 HTTP/1.1 400 Bad Request
 Date: Sun, 14 Nov 2021 12:03:54 GMT
@@ -91,29 +125,6 @@ CF-RAY: 6ae01968ef775c26-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"code=400, message=Key: 'CreateLocationRequest.Longitude' Error:Field validation for 'Longitude' failed on the 'required' tag\nKey: 'CreateLocationRequest.Latitude' Error:Field validation for 'Latitude' failed on the 'required' tag","payload":null}}
-
-
-
-
-
-Request Headers3:{POST /locationsss/search HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYzQwODU0NjZmNTRiYjNkYWI4MDM1OGVmYTc4Yjg2MThhNzdkZDEyMmJlOWMwZDlhZjFmNGEyOWFmNzIxZWM4MSJ9fSwiZXhwIjoxNjM2ODkyMDI4LCJpYXQiOjE2MzY4OTExMjgsIm5iZiI6MTYzNjg5MTEyN30.tLycfWMVZ4aGJLlCJgdm-VupYe-Rw3omRqy9b7ImiHVhWMczi9f3ctRHEeaArVCt6GnwclH4mu6ln3zTOS7lLw
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 02bca519-988d-422d-a5b4-df053df4da85
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 39}
-
-
-
-Request Body3:{{
-"latitude": 10,
-"longitude": 20
-}
-}
 
 
 
@@ -144,3 +155,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
+
+##Results
+Success

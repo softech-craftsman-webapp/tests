@@ -1,5 +1,12 @@
-url:{https://main-api.hiringo.tech/user-details/{id}/rating}
+##UserDetailRating
 
+
+
+
+##Url:{https://main-api.hiringo.tech/user-details/{id}/rating}
+
+
+##Request
 
 Request1:{GET /user-details/%7B0562f99f-0c3b-4a89-91d1-e97493369694%7D/rating HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiZjNiMDc4NGYxNjBiNDQzNjQ3YWZlODRmN2QwYTBiMDU1YTE5MWI3YWJlNTZiMWQ3YTg1YmU4OWI4NjNjNmI0NSJ9fSwiZXhwIjoxNjM3MDIyNjU3LCJpYXQiOjE2MzcwMjE3NTcsIm5iZiI6MTYzNzAyMTc1Nn0.l3mAdllT1Syf_8pgl8QP5WSOD2zJAKFzqh5AqiPqw4WaJr-SXezAVZS326DeYJh4Q25cjdBwDCStWS3o_3eyWw
@@ -10,6 +17,48 @@ Host: main-api.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive}
 
+
+
+
+Request2:{GET /user-details/%7Bid%7D/rating HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiZjNiMDc4NGYxNjBiNDQzNjQ3YWZlODRmN2QwYTBiMDU1YTE5MWI3YWJlNTZiMWQ3YTg1YmU4OWI4NjNjNmI0NSJ9fSwiZXhwIjoxNjM3MDIyNjU3LCJpYXQiOjE2MzcwMjE3NTcsIm5iZiI6MTYzNzAyMTc1Nn0.l3mAdllT1Syf_8pgl8QP5WSOD2zJAKFzqh5AqiPqw4WaJr-SXezAVZS326DeYJh4Q25cjdBwDCStWS3o_3eyWw
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: baf0ce66-e2b5-4fea-8e0b-b8b67502f842
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+
+
+Request3:{GET /user-details/%7B0562f99f-0c3b-4a89-91d1-e97493369694%7D/rating11 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiZjNiMDc4NGYxNjBiNDQzNjQ3YWZlODRmN2QwYTBiMDU1YTE5MWI3YWJlNTZiMWQ3YTg1YmU4OWI4NjNjNmI0NSJ9fSwiZXhwIjoxNjM3MDIyNjU3LCJpYXQiOjE2MzcwMjE3NTcsIm5iZiI6MTYzNzAyMTc1Nn0.l3mAdllT1Syf_8pgl8QP5WSOD2zJAKFzqh5AqiPqw4WaJr-SXezAVZS326DeYJh4Q25cjdBwDCStWS3o_3eyWw
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: eaf51b52-18bb-460c-a934-085743c10f66
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+
+
+Request4:{GET /user-details/%7B0562f99f-0c3b-4a89-91d1-e97493369694%7D/rating HTTP/1.1
+Authorization: Bearer 111
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 80f3cdf6-1071-498d-b198-43a97c3e57bc
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+
+
+
+
+##Response
 
 Response1:{HTTP/1.1 200 OK
 Date: Tue, 16 Nov 2021 00:17:19 GMT
@@ -37,16 +86,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request2:{GET /user-details/%7Bid%7D/rating HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiZjNiMDc4NGYxNjBiNDQzNjQ3YWZlODRmN2QwYTBiMDU1YTE5MWI3YWJlNTZiMWQ3YTg1YmU4OWI4NjNjNmI0NSJ9fSwiZXhwIjoxNjM3MDIyNjU3LCJpYXQiOjE2MzcwMjE3NTcsIm5iZiI6MTYzNzAyMTc1Nn0.l3mAdllT1Syf_8pgl8QP5WSOD2zJAKFzqh5AqiPqw4WaJr-SXezAVZS326DeYJh4Q25cjdBwDCStWS3o_3eyWw
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: baf0ce66-e2b5-4fea-8e0b-b8b67502f842
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
-
-
 Response2:{HTTP/1.1 500 Internal Server Error
 Date: Tue, 16 Nov 2021 00:20:06 GMT
 Content-Type: application/json; charset=UTF-8
@@ -70,16 +109,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 {"success":false,"message":"ERROR: invalid input syntax for type uuid: \"{id}\" (SQLSTATE 22P02)","payload":null}}
 
 
-
-
-Request3:{GET /user-details/%7B0562f99f-0c3b-4a89-91d1-e97493369694%7D/rating11 HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiZjNiMDc4NGYxNjBiNDQzNjQ3YWZlODRmN2QwYTBiMDU1YTE5MWI3YWJlNTZiMWQ3YTg1YmU4OWI4NjNjNmI0NSJ9fSwiZXhwIjoxNjM3MDIyNjU3LCJpYXQiOjE2MzcwMjE3NTcsIm5iZiI6MTYzNzAyMTc1Nn0.l3mAdllT1Syf_8pgl8QP5WSOD2zJAKFzqh5AqiPqw4WaJr-SXezAVZS326DeYJh4Q25cjdBwDCStWS3o_3eyWw
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: eaf51b52-18bb-460c-a934-085743c10f66
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
 
 
 Response3:{
@@ -109,16 +138,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request4:{GET /user-details/%7B0562f99f-0c3b-4a89-91d1-e97493369694%7D/rating HTTP/1.1
-Authorization: Bearer 111
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 80f3cdf6-1071-498d-b198-43a97c3e57bc
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
-
-
 Response4:{HTTP/1.1 401 Unauthorized
 Date: Tue, 16 Nov 2021 00:23:20 GMT
 Content-Type: application/json; charset=UTF-8
@@ -140,3 +159,11 @@ CF-RAY: 6aec91f10a572b41-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=token contains an invalid number of segments","payload":null}}
+
+
+
+
+
+
+##Results
+Sucess

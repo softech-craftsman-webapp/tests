@@ -1,5 +1,12 @@
-url:{https://main-api.hiringo.tech/ratings/new}
+##RatingsNew
 
+
+
+##Url:{https://main-api.hiringo.tech/ratings/new}
+
+
+
+##Request
 
 Request Headers1:{POST /ratings/new HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiZGIwMGU4OTk5ZWUxMzc3ZjgxYzFiZDQzNzk2M2U0MDM2YzEwMTJhZjRhYTljYjdkOTIxYmMxMjVhMzEyYjJkOCJ9fSwiZXhwIjoxNjM3MDE5Njc5LCJpYXQiOjE2MzcwMTg3NzksIm5iZiI6MTYzNzAxODc3OH0.eeKBTdI1yIRcsvogzqbVqFQp7FLImp1R0xIWB3Jz2bwM_xwzgbNb1ctIsWTPQ8dTmYiFWnIGCLhZTc_Tb-upFA
@@ -22,6 +29,97 @@ Request Body1:{{
 }
 
 
+
+
+Request Headers2:{POST /ratings/new111 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiZGIwMGU4OTk5ZWUxMzc3ZjgxYzFiZDQzNzk2M2U0MDM2YzEwMTJhZjRhYTljYjdkOTIxYmMxMjVhMzEyYjJkOCJ9fSwiZXhwIjoxNjM3MDE5Njc5LCJpYXQiOjE2MzcwMTg3NzksIm5iZiI6MTYzNzAxODc3OH0.eeKBTdI1yIRcsvogzqbVqFQp7FLImp1R0xIWB3Jz2bwM_xwzgbNb1ctIsWTPQ8dTmYiFWnIGCLhZTc_Tb-upFA
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 9a3e16f4-240d-45ca-aac0-7870b7cf2ef5
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 155}
+
+
+Request Body2:{{
+"comment": "hahahahhaha",
+"contract_id": "5834d44f-9084-4539-81bb-fcbf57251d72",
+"points": 3,
+"user_id": "66312a78-1f9e-4d78-a9fb-231e84967f60"
+}}
+
+
+
+
+Request Headers3:{POST /ratings/new HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiZGIwMGU4OTk5ZWUxMzc3ZjgxYzFiZDQzNzk2M2U0MDM2YzEwMTJhZjRhYTljYjdkOTIxYmMxMjVhMzEyYjJkOCJ9fSwiZXhwIjoxNjM3MDE5Njc5LCJpYXQiOjE2MzcwMTg3NzksIm5iZiI6MTYzNzAxODc3OH0.eeKBTdI1yIRcsvogzqbVqFQp7FLImp1R0xIWB3Jz2bwM_xwzgbNb1ctIsWTPQ8dTmYiFWnIGCLhZTc_Tb-upFA
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: f9f5654f-8a7f-4e3e-a13f-beb313975781
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 155}
+
+
+Request Body3:{{
+"comment": "hahahahhaha",
+"contract_id": "4bd81d75-4e5e-418d-9e7e-359a9fd7e6e5",
+"points": 3,
+"user_id": "66312a78-1f9e-4d78-a9fb-231e84967f60"
+}}
+
+
+
+
+
+Request Headers4:{POST /ratings/new HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiZGIwMGU4OTk5ZWUxMzc3ZjgxYzFiZDQzNzk2M2U0MDM2YzEwMTJhZjRhYTljYjdkOTIxYmMxMjVhMzEyYjJkOCJ9fSwiZXhwIjoxNjM3MDE5Njc5LCJpYXQiOjE2MzcwMTg3NzksIm5iZiI6MTYzNzAxODc3OH0.eeKBTdI1yIRcsvogzqbVqFQp7FLImp1R0xIWB3Jz2bwM_xwzgbNb1ctIsWTPQ8dTmYiFWnIGCLhZTc_Tb-upFA
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: e3638321-5f0f-4e56-abf3-e120182374be
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 4}
+
+
+Request Body4:{{
+}}
+
+
+
+
+
+Request Headers5:{POST /ratings/new HTTP/1.1
+Authorization: Bearer 111
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: fc296548-596a-42ab-9163-8fa486f3966b
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 155}
+
+
+Request Body5:{{
+"comment": "hahahahhaha",
+"contract_id": "5834d44f-9084-4539-81bb-fcbf57251d72",
+"points": 3,
+"user_id": "66312a78-1f9e-4d78-a9fb-231e84967f60"
+}}
+
+
+
+
+
+
+##Response
 
 Response1:{HTTP/1.1 200 OK
 Date: Mon, 15 Nov 2021 23:26:39 GMT
@@ -46,30 +144,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
  
 {"success":true,"message":"Success","payload":{"id":"0562f99f-0c3b-4a89-91d1-e97493369694","submitted_by_id":"768653f2-e9cf-48e7-ac5c-7c3350907827","contract_id":"5834d44f-9084-4539-81bb-fcbf57251d72","user_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","points":3,"comment":"hahahahhaha"}}}
 
-
-
-
-
-
-Request Headers2:{POST /ratings/new111 HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiZGIwMGU4OTk5ZWUxMzc3ZjgxYzFiZDQzNzk2M2U0MDM2YzEwMTJhZjRhYTljYjdkOTIxYmMxMjVhMzEyYjJkOCJ9fSwiZXhwIjoxNjM3MDE5Njc5LCJpYXQiOjE2MzcwMTg3NzksIm5iZiI6MTYzNzAxODc3OH0.eeKBTdI1yIRcsvogzqbVqFQp7FLImp1R0xIWB3Jz2bwM_xwzgbNb1ctIsWTPQ8dTmYiFWnIGCLhZTc_Tb-upFA
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 9a3e16f4-240d-45ca-aac0-7870b7cf2ef5
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 155}
-
-
-
-Request Body2:{{
-"comment": "hahahahhaha",
-"contract_id": "5834d44f-9084-4539-81bb-fcbf57251d72",
-"points": 3,
-"user_id": "66312a78-1f9e-4d78-a9fb-231e84967f60"
-}}
 
 
 
@@ -99,28 +173,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-
-
-Request Headers3:{POST /ratings/new HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiZGIwMGU4OTk5ZWUxMzc3ZjgxYzFiZDQzNzk2M2U0MDM2YzEwMTJhZjRhYTljYjdkOTIxYmMxMjVhMzEyYjJkOCJ9fSwiZXhwIjoxNjM3MDE5Njc5LCJpYXQiOjE2MzcwMTg3NzksIm5iZiI6MTYzNzAxODc3OH0.eeKBTdI1yIRcsvogzqbVqFQp7FLImp1R0xIWB3Jz2bwM_xwzgbNb1ctIsWTPQ8dTmYiFWnIGCLhZTc_Tb-upFA
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: f9f5654f-8a7f-4e3e-a13f-beb313975781
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 155}
-
-
-Request Body3:{{
-"comment": "hahahahhaha",
-"contract_id": "4bd81d75-4e5e-418d-9e7e-359a9fd7e6e5",
-"points": 3,
-"user_id": "66312a78-1f9e-4d78-a9fb-231e84967f60"
-}}
-
-
 Response3:{HTTP/1.1 403 Forbidden
 Date: Mon, 15 Nov 2021 23:34:34 GMT
 Content-Type: application/json; charset=UTF-8
@@ -147,24 +199,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-
-
-Request Headers4:{POST /ratings/new HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiZGIwMGU4OTk5ZWUxMzc3ZjgxYzFiZDQzNzk2M2U0MDM2YzEwMTJhZjRhYTljYjdkOTIxYmMxMjVhMzEyYjJkOCJ9fSwiZXhwIjoxNjM3MDE5Njc5LCJpYXQiOjE2MzcwMTg3NzksIm5iZiI6MTYzNzAxODc3OH0.eeKBTdI1yIRcsvogzqbVqFQp7FLImp1R0xIWB3Jz2bwM_xwzgbNb1ctIsWTPQ8dTmYiFWnIGCLhZTc_Tb-upFA
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: e3638321-5f0f-4e56-abf3-e120182374be
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 4}
-
-
-Request Body4:{{
-}}
-
-
 Response4:{HTTP/1.1 400 Bad Request
 Date: Mon, 15 Nov 2021 23:36:20 GMT
 Content-Type: application/json; charset=UTF-8
@@ -189,29 +223,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-
-
-
-Request Headers5:{POST /ratings/new HTTP/1.1
-Authorization: Bearer 111
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: fc296548-596a-42ab-9163-8fa486f3966b
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 155}
-
-
-Request Body5:{{
-"comment": "hahahahhaha",
-"contract_id": "5834d44f-9084-4539-81bb-fcbf57251d72",
-"points": 3,
-"user_id": "66312a78-1f9e-4d78-a9fb-231e84967f60"
-}}
-
-
 Response5:{HTTP/1.1 401 Unauthorized
 Date: Mon, 15 Nov 2021 23:38:09 GMT
 Content-Type: application/json; charset=UTF-8
@@ -233,3 +244,9 @@ CF-RAY: 6aec4fc2ded44e31-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=token contains an invalid number of segments","payload":null}}
+
+
+
+
+##Results
+Success

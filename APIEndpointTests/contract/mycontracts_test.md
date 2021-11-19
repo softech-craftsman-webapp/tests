@@ -1,5 +1,11 @@
-url:{https://main-api.hiringo.tech/contracts/my}
+##MyContracts
 
+
+
+##Url:{https://main-api.hiringo.tech/contracts/my}
+
+
+#Request
 
 Request1:{GET /contracts/my HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZjRhMWMxOWI0NDRiMDZiOWJlZTcxYzgyNGU5ZjM5MmIwMGRkNWQyYjI1MzQxNzFiNTRhMDZjMzQ4YjQwOTRlNCJ9fSwiZXhwIjoxNjM2OTI4NTM2LCJpYXQiOjE2MzY5Mjc2MzYsIm5iZiI6MTYzNjkyNzYzNX0.lW8NTDWjQUG4f7XB9GPJYFyOq9HLR_nZfHDJL2p0lkAvKYW916qWwiip_RIeCchqpgEZZFRzug-Ypxoi9UQaPA
@@ -9,6 +15,36 @@ Postman-Token: 3a9a59a7-04cd-4b19-9279-22678467ec02
 Host: main-api.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive}
+
+
+
+
+Request2:{GET /contracts/my111 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZjRhMWMxOWI0NDRiMDZiOWJlZTcxYzgyNGU5ZjM5MmIwMGRkNWQyYjI1MzQxNzFiNTRhMDZjMzQ4YjQwOTRlNCJ9fSwiZXhwIjoxNjM2OTI4NTM2LCJpYXQiOjE2MzY5Mjc2MzYsIm5iZiI6MTYzNjkyNzYzNX0.lW8NTDWjQUG4f7XB9GPJYFyOq9HLR_nZfHDJL2p0lkAvKYW916qWwiip_RIeCchqpgEZZFRzug-Ypxoi9UQaPA
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: da8a001a-7e1f-45d1-a4cb-4469c4c8725f
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+
+
+Request3:{GET /contracts/my HTTP/1.1
+Authorization: Bearer 111
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 7b0e1813-5422-4ef2-80a0-79c15808e8e5
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+
+
+
+##Response
 
 
 Response1:{HTTP/1.1 200 OK
@@ -35,16 +71,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 {"success":true,"message":"Success","payload":null}}
 
 
-
-
-Request2:{GET /contracts/my111 HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZjRhMWMxOWI0NDRiMDZiOWJlZTcxYzgyNGU5ZjM5MmIwMGRkNWQyYjI1MzQxNzFiNTRhMDZjMzQ4YjQwOTRlNCJ9fSwiZXhwIjoxNjM2OTI4NTM2LCJpYXQiOjE2MzY5Mjc2MzYsIm5iZiI6MTYzNjkyNzYzNX0.lW8NTDWjQUG4f7XB9GPJYFyOq9HLR_nZfHDJL2p0lkAvKYW916qWwiip_RIeCchqpgEZZFRzug-Ypxoi9UQaPA
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: da8a001a-7e1f-45d1-a4cb-4469c4c8725f
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
 
 
 
@@ -75,17 +101,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request3:{GET /contracts/my HTTP/1.1
-Authorization: Bearer 111
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 7b0e1813-5422-4ef2-80a0-79c15808e8e5
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
-
-
-
 Response3:{HTTP/1.1 401 Unauthorized
 Date: Sun, 14 Nov 2021 22:11:17 GMT
 Content-Type: application/json; charset=UTF-8
@@ -107,3 +122,10 @@ CF-RAY: 6ae3931facf15c6e-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=token contains an invalid number of segments","payload":null}}
+
+
+
+
+
+##Results
+Success

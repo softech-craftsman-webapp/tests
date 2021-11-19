@@ -1,6 +1,13 @@
-url:{https://main-api.hiringo.tech/categories/new}
+##CategoriesNew
 
 
+
+##Url:{https://main-api.hiringo.tech/categories/new}
+
+
+
+
+#Request
 
 Request Headers1:{POST /categories/new HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMWNlODYwY2E0N2YzNWZlMjA4MTg0ODViNjMzMTM2MGQ1NjVjZjJkNTU2MTk1OWQwN2RjNjYwOTVmOTY5OWU2YiJ9fSwiZXhwIjoxNjM2NzU3MDMxLCJpYXQiOjE2MzY3NTYxMzEsIm5iZiI6MTYzNjc1NjEzMH0.falkCCX5YZqmWtybuc8XYf2Pg_oCcx_fJVLFbqMD9uIfMM772GGmTq6j7VmIoXs5YFQhZ7s5S-gzj2cCzS8W7A
@@ -20,6 +27,71 @@ Request Body1:{{
 }}
 
 
+
+
+Request Headers2:{POST /categories/new1111 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiY2QyYTc2MjA2YWNiMzYwOGZlMjFlOGQyMmEzYjU0MmViYWVlNDNiMzk2YmMxNjdlMjg3Y2MzNzZhZDk2YjIzMCJ9fSwiZXhwIjoxNjM2NzU4Mjg3LCJpYXQiOjE2MzY3NTczODcsIm5iZiI6MTYzNjc1NzM4Nn0.AQ6UlXvLfro6GrbrTAYeNp4CS3Tjn_S0E2mqIVT5ZV64DXcbDClb2Py2pyroDmDIqsNTKhhJ9bCBVufiqm9NDA
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 6b51eaad-aba8-45b1-8462-92941a561ea4
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 54}
+
+
+
+Request Body2:{{
+"description": "hahahahha",
+"name": "Painting"
+}}
+
+
+
+
+Request Headers3:{POST /categories/new HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiY2QyYTc2MjA2YWNiMzYwOGZlMjFlOGQyMmEzYjU0MmViYWVlNDNiMzk2YmMxNjdlMjg3Y2MzNzZhZDk2YjIzMCJ9fSwiZXhwIjoxNjM2NzU4Mjg3LCJpYXQiOjE2MzY3NTczODcsIm5iZiI6MTYzNjc1NzM4Nn0.AQ6UlXvLfro6GrbrTAYeNp4CS3Tjn_S0E2mqIVT5ZV64DXcbDClb2Py2pyroDmDIqsNTKhhJ9bCBVufiqm9NDA111
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 9c65d442-0929-4937-a954-50a82593a739
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 54}
+
+
+
+Request Body3:{{
+"description": "hahahahha",
+"name": "Painting"
+}}
+
+
+
+
+
+Request Headers4:{POST /categories/new HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiY2QyYTc2MjA2YWNiMzYwOGZlMjFlOGQyMmEzYjU0MmViYWVlNDNiMzk2YmMxNjdlMjg3Y2MzNzZhZDk2YjIzMCJ9fSwiZXhwIjoxNjM2NzU4Mjg3LCJpYXQiOjE2MzY3NTczODcsIm5iZiI6MTYzNjc1NzM4Nn0.AQ6UlXvLfro6GrbrTAYeNp4CS3Tjn_S0E2mqIVT5ZV64DXcbDClb2Py2pyroDmDIqsNTKhhJ9bCBVufiqm9NDA
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 235787c0-f37e-4781-b479-06708201b4cc
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 6}
+
+
+
+Request Body4:{{
+}}
+
+
+
+
+##Response
 
 Response1:{HTTP/1.1 200 OK
 Date: Fri, 12 Nov 2021 22:30:55 GMT
@@ -45,26 +117,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 {"success":true,"message":"Success","payload":{"id":"eb5cadc7-091e-427c-a972-0962f58bedd0","created_by_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","name":"Painting","description":"hahahahha"}}}
 
 
-
-
-
-Request Headers2:{POST /categories/new1111 HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiY2QyYTc2MjA2YWNiMzYwOGZlMjFlOGQyMmEzYjU0MmViYWVlNDNiMzk2YmMxNjdlMjg3Y2MzNzZhZDk2YjIzMCJ9fSwiZXhwIjoxNjM2NzU4Mjg3LCJpYXQiOjE2MzY3NTczODcsIm5iZiI6MTYzNjc1NzM4Nn0.AQ6UlXvLfro6GrbrTAYeNp4CS3Tjn_S0E2mqIVT5ZV64DXcbDClb2Py2pyroDmDIqsNTKhhJ9bCBVufiqm9NDA
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 6b51eaad-aba8-45b1-8462-92941a561ea4
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 54}
-
-
-
-Request Body2:{{
-"description": "hahahahha",
-"name": "Painting"
-}}
 
 
 Response2:{HTTP/1.1 404 Not Found
@@ -93,29 +145,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-
-
-Request Headers3:{POST /categories/new HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiY2QyYTc2MjA2YWNiMzYwOGZlMjFlOGQyMmEzYjU0MmViYWVlNDNiMzk2YmMxNjdlMjg3Y2MzNzZhZDk2YjIzMCJ9fSwiZXhwIjoxNjM2NzU4Mjg3LCJpYXQiOjE2MzY3NTczODcsIm5iZiI6MTYzNjc1NzM4Nn0.AQ6UlXvLfro6GrbrTAYeNp4CS3Tjn_S0E2mqIVT5ZV64DXcbDClb2Py2pyroDmDIqsNTKhhJ9bCBVufiqm9NDA111
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 9c65d442-0929-4937-a954-50a82593a739
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 54}
-
-
-
-
-Request Body3:{{
-"description": "hahahahha",
-"name": "Painting"
-}}
-
-
-
 Response3:{HTTP/1.1 401 Unauthorized
 Date: Fri, 12 Nov 2021 22:52:39 GMT
 Content-Type: application/json; charset=UTF-8
@@ -138,25 +167,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
  
 {"success":false,"message":"invalid or expired jwt, internal=illegal base64 data at input byte 88","payload":null}}
 
-
-
-
-
-Request Headers4:{POST /categories/new HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiY2QyYTc2MjA2YWNiMzYwOGZlMjFlOGQyMmEzYjU0MmViYWVlNDNiMzk2YmMxNjdlMjg3Y2MzNzZhZDk2YjIzMCJ9fSwiZXhwIjoxNjM2NzU4Mjg3LCJpYXQiOjE2MzY3NTczODcsIm5iZiI6MTYzNjc1NzM4Nn0.AQ6UlXvLfro6GrbrTAYeNp4CS3Tjn_S0E2mqIVT5ZV64DXcbDClb2Py2pyroDmDIqsNTKhhJ9bCBVufiqm9NDA
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 235787c0-f37e-4781-b479-06708201b4cc
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 6}
-
-
-
-Request Body4:{{
-}}
 
 
 
@@ -187,3 +197,5 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
+##Results
+Success

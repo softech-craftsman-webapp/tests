@@ -1,5 +1,13 @@
-url:{https://main-api.hiringo.tech/transactions/{abd89b03-13de-42bf-892d-7e749e375782}}
+##TransactionDetails
 
+
+
+##Url
+{https://main-api.hiringo.tech/transactions/{id}}
+
+
+
+#Request
 
 Request1:{GET /transactions/%7Babd89b03-13de-42bf-892d-7e749e375782%7D HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiY2VmMWI2MjJlM2VhOTlmOTJhOGI1OTk3NGQ0ZTVmNDlhNjEwN2UxYWFmYzBjOTBiNWM3MDcyMjk4OWIyMDVkOCJ9fSwiZXhwIjoxNjM2NjYyNTU3LCJpYXQiOjE2MzY2NjE2NTcsIm5iZiI6MTYzNjY2MTY1Nn0.hLvEY_iBu_sMXlWOauR3KOvYRH6hHj6SLkYcav-AU0En1oMfWakD_EaTiD6bxNKmFF_pNKwAsyiQ-9a-DaswUA
@@ -11,6 +19,27 @@ Accept-Encoding: gzip, deflate, br
 Connection: keep-alive}
 
 
+
+
+Request2:{GET /transactions/%7Bid%7D HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiY2VmMWI2MjJlM2VhOTlmOTJhOGI1OTk3NGQ0ZTVmNDlhNjEwN2UxYWFmYzBjOTBiNWM3MDcyMjk4OWIyMDVkOCJ9fSwiZXhwIjoxNjM2NjYyNTU3LCJpYXQiOjE2MzY2NjE2NTcsIm5iZiI6MTYzNjY2MTY1Nn0.hLvEY_iBu_sMXlWOauR3KOvYRH6hHj6SLkYcav-AU0En1oMfWakD_EaTiD6bxNKmFF_pNKwAsyiQ-9a-DaswUA
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: a3bc1da2-d4e6-497b-8e9e-583c6dfbe335
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+
+Request3:{GET /transactions/%7B%22abd89b03-13de-42bf-892d-7e749e375782%22%7D HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMzA2YjlhNDcyNjRiYjRiNzRkYzQ1YmM0OGEwZDYyMjNkOGU1OGZiODBmODQ1MTcxM2VmZDA1MGVmMTRjMzQwZSJ9fSwiZXhwIjoxNjM2NjYzOTAwLCJpYXQiOjE2MzY2NjMwMDAsIm5iZiI6MTYzNjY2Mjk5OX0.jhzAiWn9yUyWybDFxFRg-MArtXyuLqDcfTDZOUXlmEUCiVASQTQaAI7htVCKJxn7HjYP0T3IvJkhYD4f73bo-g
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 4cbf0444-b3c9-46f8-9beb-441906593ef3
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
 
 
 
@@ -40,18 +69,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-
-
-Request2:{GET /transactions/%7Bid%7D HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiY2VmMWI2MjJlM2VhOTlmOTJhOGI1OTk3NGQ0ZTVmNDlhNjEwN2UxYWFmYzBjOTBiNWM3MDcyMjk4OWIyMDVkOCJ9fSwiZXhwIjoxNjM2NjYyNTU3LCJpYXQiOjE2MzY2NjE2NTcsIm5iZiI6MTYzNjY2MTY1Nn0.hLvEY_iBu_sMXlWOauR3KOvYRH6hHj6SLkYcav-AU0En1oMfWakD_EaTiD6bxNKmFF_pNKwAsyiQ-9a-DaswUA
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: a3bc1da2-d4e6-497b-8e9e-583c6dfbe335
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
-
-
 Response2:{HTTP/1.1 401 Unauthorized
 Date: Thu, 11 Nov 2021 20:29:51 GMT
 Content-Type: application/json; charset=UTF-8
@@ -76,14 +93,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request3:{GET /transactions/%7B%22abd89b03-13de-42bf-892d-7e749e375782%22%7D HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMzA2YjlhNDcyNjRiYjRiNzRkYzQ1YmM0OGEwZDYyMjNkOGU1OGZiODBmODQ1MTcxM2VmZDA1MGVmMTRjMzQwZSJ9fSwiZXhwIjoxNjM2NjYzOTAwLCJpYXQiOjE2MzY2NjMwMDAsIm5iZiI6MTYzNjY2Mjk5OX0.jhzAiWn9yUyWybDFxFRg-MArtXyuLqDcfTDZOUXlmEUCiVASQTQaAI7htVCKJxn7HjYP0T3IvJkhYD4f73bo-g
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 4cbf0444-b3c9-46f8-9beb-441906593ef3
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
 
 
 Response3:{HTTP/1.1 404 Not Found
@@ -112,3 +121,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
+
+#Results
+Success

@@ -1,5 +1,12 @@
-url:{https://main-api.hiringo.tech/statistics/category}
+##StatisticsCategories
 
+
+
+##Url:{https://main-api.hiringo.tech/statistics/category}
+
+
+
+##Request
 
 Request1:{GET /statistics/category HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNjQxNGYxNGY4MjgwNzFkN2E1YWU2MmJiZTMzOTJkMGQ1Mjc1YTg5NzUxMGExNDQxMzY4ZmFjZGExYzlkOTZhNyJ9fSwiZXhwIjoxNjM3MDAzNzQ3LCJpYXQiOjE2MzcwMDI4NDcsIm5iZiI6MTYzNzAwMjg0Nn0.lQFQAMXhmBS4IMng6mEKQB9G9exI5fKkZmWG6EAhaUGRQ5Z9OnXEXSxui5V2vA_Z7Z5qh61NMBPvQN0Rd7DIeg
@@ -11,6 +18,36 @@ Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
 }
 
+
+
+
+Request2:{GET /statistics/category111 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNjQxNGYxNGY4MjgwNzFkN2E1YWU2MmJiZTMzOTJkMGQ1Mjc1YTg5NzUxMGExNDQxMzY4ZmFjZGExYzlkOTZhNyJ9fSwiZXhwIjoxNjM3MDAzNzQ3LCJpYXQiOjE2MzcwMDI4NDcsIm5iZiI6MTYzNzAwMjg0Nn0.lQFQAMXhmBS4IMng6mEKQB9G9exI5fKkZmWG6EAhaUGRQ5Z9OnXEXSxui5V2vA_Z7Z5qh61NMBPvQN0Rd7DIeg
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 264b8685-3aa2-4213-824b-482620d7c680
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+
+
+Request3:{GET /statistics/category HTTP/1.1
+Authorization: Bearer 111
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 68906594-4072-401b-9ff1-4938c7fcb207
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+
+
+
+
+##Response
 
 Response1:{HTTP/1.1 200 OK
 Date: Mon, 15 Nov 2021 19:01:09 GMT
@@ -35,18 +72,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
  
 {"success":true,"message":"Success","payload":{"popular_item":{"id":"285932f0-3efe-4b05-a901-af952512fb6b","created_by_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","name":"Repairing Car","description":"lalalalala"},"total":15,"time":"2021-11-13 17:43:32"}}}
 
-
-
-
-
-Request2:{GET /statistics/category111 HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNjQxNGYxNGY4MjgwNzFkN2E1YWU2MmJiZTMzOTJkMGQ1Mjc1YTg5NzUxMGExNDQxMzY4ZmFjZGExYzlkOTZhNyJ9fSwiZXhwIjoxNjM3MDAzNzQ3LCJpYXQiOjE2MzcwMDI4NDcsIm5iZiI6MTYzNzAwMjg0Nn0.lQFQAMXhmBS4IMng6mEKQB9G9exI5fKkZmWG6EAhaUGRQ5Z9OnXEXSxui5V2vA_Z7Z5qh61NMBPvQN0Rd7DIeg
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 264b8685-3aa2-4213-824b-482620d7c680
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
 
 
 Response2:{HTTP/1.1 404 Not Found
@@ -75,17 +100,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-
-Request3:{GET /statistics/category HTTP/1.1
-Authorization: Bearer 111
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 68906594-4072-401b-9ff1-4938c7fcb207
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
-
-
 Response3:{HTTP/1.1 401 Unauthorized
 Date: Mon, 15 Nov 2021 19:03:42 GMT
 Content-Type: application/json; charset=UTF-8
@@ -107,3 +121,11 @@ CF-RAY: 6aeabdb88ef56925-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=token contains an invalid number of segments","payload":null}}
+
+
+
+
+
+
+##Results
+Success

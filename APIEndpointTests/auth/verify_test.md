@@ -1,4 +1,12 @@
-url:{https://auth.hiringo.tech/auth/verify/{token}}
+##Verify
+
+
+##Url 
+{https://auth.hiringo.tech/auth/verify/{token}}
+
+
+
+##Request
 
 Login Request Headers:{POST /auth/login HTTP/1.1
 Content-Type: application/json
@@ -16,6 +24,18 @@ Login Request Body:{{
 "password": "qwaezsxd12"
 }}
 
+
+
+Verify Request:{GET /auth/verify/eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYWRhZGNjZDAxOTA5MTk3NWVmYmIwMzNmODEyMmYwNDAzNjdmNzY0ZGQ4Y2ZiZWZmM2M5YWQyMGM1ODhjMGFhNiJ9fSwiZXhwIjoxNjM2ODk1MTUxLCJpYXQiOjE2MzY4OTQyNTEsIm5iZiI6MTYzNjg5NDI1MH0.eSmwwgPYCWlsJbBoq7Hxyww9kV7enpL-FdFa4s_ZJ6m9dcshqFf9Lcl6TvUkXnFQBbDX4EyeUh9IZRue4aaMsA?email=xxxx@gmail.com HTTP/1.1
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 1e39ff9b-fb42-4f9d-bdc6-d6cf3ccb569a
+Host: auth.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+##Response
 
 Login Response:{HTTP/1.1 200 OK
 Date: Sun, 14 Nov 2021 12:50:51 GMT
@@ -43,14 +63,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Verify Request:{GET /auth/verify/eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYWRhZGNjZDAxOTA5MTk3NWVmYmIwMzNmODEyMmYwNDAzNjdmNzY0ZGQ4Y2ZiZWZmM2M5YWQyMGM1ODhjMGFhNiJ9fSwiZXhwIjoxNjM2ODk1MTUxLCJpYXQiOjE2MzY4OTQyNTEsIm5iZiI6MTYzNjg5NDI1MH0.eSmwwgPYCWlsJbBoq7Hxyww9kV7enpL-FdFa4s_ZJ6m9dcshqFf9Lcl6TvUkXnFQBbDX4EyeUh9IZRue4aaMsA?email=xxxx@gmail.com HTTP/1.1
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 1e39ff9b-fb42-4f9d-bdc6-d6cf3ccb569a
-Host: auth.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
-
 
 Verify Response:{HTTP/1.1 400 Bad Request
 Date: Sun, 14 Nov 2021 12:55:02 GMT
@@ -73,3 +85,9 @@ CF-RAY: 6ae064512c174dd0-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"Token not found","payload":null}}
+
+
+
+
+##Result
+Failed

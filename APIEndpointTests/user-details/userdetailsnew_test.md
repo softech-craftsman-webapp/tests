@@ -1,5 +1,12 @@
-url:{https://main-api.hiringo.tech/user-details/new}
+##UserDetailsNew
 
+
+##Url:{https://main-api.hiringo.tech/user-details/new}
+
+
+
+
+##Request
 
 Request Headers1:{POST /user-details/new HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNzY4ZjVlNDI2MGQ0M2ExNzA0ZjMyMjcwMmMwNjVkYjhmMzY2MWFhZGU0ZDhjZDU4ZTFlOWYxMzk0ZDI1MzEyMSJ9fSwiZXhwIjoxNjM3MDA1MjgyLCJpYXQiOjE2MzcwMDQzODIsIm5iZiI6MTYzNzAwNDM4MX0.33Q-oOVJrTmWHw8cbg0Iv5tiGyBgvwxdY7_MnoDmv5oocB6gkyAnzoQJKaHqblUQa6w7ArKcOUvYSIS3q_GjuA
@@ -21,6 +28,81 @@ Request Body1:{{
 "telephone": "123456"
 }}
 
+
+
+Request Headers2:{POST /user-details/new HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNzY4ZjVlNDI2MGQ0M2ExNzA0ZjMyMjcwMmMwNjVkYjhmMzY2MWFhZGU0ZDhjZDU4ZTFlOWYxMzk0ZDI1MzEyMSJ9fSwiZXhwIjoxNjM3MDA1MjgyLCJpYXQiOjE2MzcwMDQzODIsIm5iZiI6MTYzNzAwNDM4MX0.33Q-oOVJrTmWHw8cbg0Iv5tiGyBgvwxdY7_MnoDmv5oocB6gkyAnzoQJKaHqblUQa6w7ArKcOUvYSIS3q_GjuA
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 16ecf2c6-4297-4929-8073-c64b1d876567
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 97}
+
+
+Request Body2:{{
+"email": "xxxx@gmail.com",
+"latitude": 10,
+"longitude": 20,
+"telephone": "123456"
+}}
+
+
+
+
+
+
+Request Headers3:{POST /user-details/new111 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNzY4ZjVlNDI2MGQ0M2ExNzA0ZjMyMjcwMmMwNjVkYjhmMzY2MWFhZGU0ZDhjZDU4ZTFlOWYxMzk0ZDI1MzEyMSJ9fSwiZXhwIjoxNjM3MDA1MjgyLCJpYXQiOjE2MzcwMDQzODIsIm5iZiI6MTYzNzAwNDM4MX0.33Q-oOVJrTmWHw8cbg0Iv5tiGyBgvwxdY7_MnoDmv5oocB6gkyAnzoQJKaHqblUQa6w7ArKcOUvYSIS3q_GjuA
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: e897f8ce-285d-410f-873b-8bb545cfac3c
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 121}
+
+
+Request Body3:{{
+"bio": "lalalalalalala",
+"email": "xxxx@gmail.com",
+"latitude": 10,
+"longitude": 20,
+"telephone": "123456"
+}}
+
+
+
+
+
+Request Headers4:{POST /user-details/new HTTP/1.1
+Authorization: Bearer 111
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: bb811011-4422-4aa5-b0f0-81ce2e93b343
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 121}
+
+
+Request Body4:{{
+"bio": "lalalalalalala",
+"email": "xxxx@gmail.com",
+"latitude": 10,
+"longitude": 20,
+"telephone": "123456"
+}}
+
+
+
+
+
+##Response
 
 Response1:{HTTP/1.1 200 OK
 Date: Mon, 15 Nov 2021 19:27:25 GMT
@@ -49,24 +131,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request Headers2:{POST /user-details/new HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNzY4ZjVlNDI2MGQ0M2ExNzA0ZjMyMjcwMmMwNjVkYjhmMzY2MWFhZGU0ZDhjZDU4ZTFlOWYxMzk0ZDI1MzEyMSJ9fSwiZXhwIjoxNjM3MDA1MjgyLCJpYXQiOjE2MzcwMDQzODIsIm5iZiI6MTYzNzAwNDM4MX0.33Q-oOVJrTmWHw8cbg0Iv5tiGyBgvwxdY7_MnoDmv5oocB6gkyAnzoQJKaHqblUQa6w7ArKcOUvYSIS3q_GjuA
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 16ecf2c6-4297-4929-8073-c64b1d876567
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 97}
-
-Request Body2:{{
-"email": "xxxx@gmail.com",
-"latitude": 10,
-"longitude": 20,
-"telephone": "123456"
-}}
-
 Response2:{HTTP/1.1 400 Bad Request
 Date: Mon, 15 Nov 2021 19:30:41 GMT
 Content-Type: application/json; charset=UTF-8
@@ -91,25 +155,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request Headers3:{POST /user-details/new111 HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNzY4ZjVlNDI2MGQ0M2ExNzA0ZjMyMjcwMmMwNjVkYjhmMzY2MWFhZGU0ZDhjZDU4ZTFlOWYxMzk0ZDI1MzEyMSJ9fSwiZXhwIjoxNjM3MDA1MjgyLCJpYXQiOjE2MzcwMDQzODIsIm5iZiI6MTYzNzAwNDM4MX0.33Q-oOVJrTmWHw8cbg0Iv5tiGyBgvwxdY7_MnoDmv5oocB6gkyAnzoQJKaHqblUQa6w7ArKcOUvYSIS3q_GjuA
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: e897f8ce-285d-410f-873b-8bb545cfac3c
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 121}
-
-
-Request Body3:{{
-"bio": "lalalalalalala",
-"email": "xxxx@gmail.com",
-"latitude": 10,
-"longitude": 20,
-"telephone": "123456"
-}}
 
 
 Response3:{HTTP/1.1 404 Not Found
@@ -137,24 +182,7 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request Headers4:{POST /user-details/new HTTP/1.1
-Authorization: Bearer 111
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: bb811011-4422-4aa5-b0f0-81ce2e93b343
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 121}
 
-Request Body4:{{
-"bio": "lalalalalalala",
-"email": "xxxx@gmail.com",
-"latitude": 10,
-"longitude": 20,
-"telephone": "123456"
-}}
 
 Response4:{HTTP/1.1 401 Unauthorized
 Date: Mon, 15 Nov 2021 19:32:49 GMT
@@ -177,3 +205,10 @@ CF-RAY: 6aeae861789d68f2-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=token contains an invalid number of segments","payload":null}}
+
+
+
+
+
+##Results
+Sucess

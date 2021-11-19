@@ -1,5 +1,10 @@
-url:{https://auth.hiringo.tech/auth/email-resend}
+##EmailResend
 
+##Url
+{https://auth.hiringo.tech/auth/email-resend}
+
+
+##Request
 
 Request1:{POST /auth/email-resend HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZmM2Y2FiMzJlZjJhMDFhMDhiMjFlODViNmFmOWRkYzYxOGNjNmE4OTBlOTkxNjRiMDRjOGIzOGFjYmY1NzFjYyJ9fSwiZXhwIjoxNjM2NzE4MzkyLCJpYXQiOjE2MzY3MTc0OTIsIm5iZiI6MTYzNjcxNzQ5MX0.-9iw8vHSk5oaO6KnoIeTFUX7MT7xAmrOZll4s1Sybu_HTnSKpeiFWidYPQaj50aUXVLgGSRTeXNPWpy44eAE1A
@@ -12,6 +17,31 @@ Connection: keep-alive
 Content-Length: 0}
 
 
+Request2:{OST /auth/email-resend HTTP/1.1
+Authorization: Bearer 22222
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 62ad813b-4eb2-429c-af79-cdf069581ac6
+Host: auth.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0}
+
+
+Request3:{POST /auth/email-resend HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZmM2Y2FiMzJlZjJhMDFhMDhiMjFlODViNmFmOWRkYzYxOGNjNmE4OTBlOTkxNjRiMDRjOGIzOGFjYmY1NzFjYyJ9fSwiZXhwIjoxNjM2NzE4MzkyLCJpYXQiOjE2MzY3MTc0OTIsIm5iZiI6MTYzNjcxNzQ5MX0.-9iw8vHSk5oaO6KnoIeTFUX7MT7xAmrOZll4s1Sybu_HTnSKpeiFWidYPQaj50aUXVLgGSRTeXNPWpy44eAE1A
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 25ff774a-ee6e-4952-b43a-1586cbfd5536
+Host: auth.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0}
+
+
+
+
+##Response
 
 Response1:{HTTP/1.1 200 OK
 Date: Fri, 12 Nov 2021 11:46:41 GMT
@@ -35,23 +65,6 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Verification sent successfully","payload":null}}
-
-
-
-
-
-
-
-Request2:{OST /auth/email-resend HTTP/1.1
-Authorization: Bearer 22222
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 62ad813b-4eb2-429c-af79-cdf069581ac6
-Host: auth.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 0}
-
 
 
 
@@ -81,17 +94,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request3:{POST /auth/email-resend HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZmM2Y2FiMzJlZjJhMDFhMDhiMjFlODViNmFmOWRkYzYxOGNjNmE4OTBlOTkxNjRiMDRjOGIzOGFjYmY1NzFjYyJ9fSwiZXhwIjoxNjM2NzE4MzkyLCJpYXQiOjE2MzY3MTc0OTIsIm5iZiI6MTYzNjcxNzQ5MX0.-9iw8vHSk5oaO6KnoIeTFUX7MT7xAmrOZll4s1Sybu_HTnSKpeiFWidYPQaj50aUXVLgGSRTeXNPWpy44eAE1A
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 25ff774a-ee6e-4952-b43a-1586cbfd5536
-Host: auth.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 0}
-
-
 
 
 Response3:{HTTP/1.1 500 Internal Server Error
@@ -117,3 +119,7 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 {"success":false,"message":"token is blacklisted","payload":null}}
 
 
+
+
+##Results
+Success

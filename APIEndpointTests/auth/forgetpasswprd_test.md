@@ -1,5 +1,12 @@
-url:{https://auth.hiringo.tech/auth/forgot-password}
+##ForgetPassword
 
+
+
+##Url
+{https://auth.hiringo.tech/auth/forgot-password}
+
+
+##Request
 
 Request Headers1:{POST //auth/forgot-password HTTP/1.1
 Authorization: Bearer yJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZDk2NWJlYWQ5Y2VlNDE2NGY0NzU3MDQ0ODNkYjhmZWVjYTAzNzM5NmQzN2E3MzM0M2RiNmNhNTliMjQ0MmE1MyJ9fSwiZXhwIjoxNjM2NzIzODAzLCJpYXQiOjE2MzY3MjI5MDMsIm5iZiI6MTYzNjcyMjkwMn0.MY_bBx63McY-BMMFHciJ_8FlZQscCFMRevw9Inog0_Ac_EafyNO12DOFJSTHKnfQnCVD8v6HcTyZyQkOJe5jPw
@@ -17,6 +24,65 @@ Request Body1:{{
 }
 }
 
+
+
+Request Headers2:{POST /auth/forgot-password HTTP/1.1
+Authorization: Bearer yJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZDk2NWJlYWQ5Y2VlNDE2NGY0NzU3MDQ0ODNkYjhmZWVjYTAzNzM5NmQzN2E3MzM0M2RiNmNhNTliMjQ0MmE1MyJ9fSwiZXhwIjoxNjM2NzIzODAzLCJpYXQiOjE2MzY3MjI5MDMsIm5iZiI6MTYzNjcyMjkwMn0.MY_bBx63McY-BMMFHciJ_8FlZQscCFMRevw9Inog0_Ac_EafyNO12DOFJSTHKnfQnCVD8v6HcTyZyQkOJe5jPw
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 3f061b4b-8386-459f-b6d9-747710d2018f
+Host: auth.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 34}
+
+Request Body2:{{
+"email": "xxxx123@gmail.com"
+}}
+
+
+
+Request Headers3:{POST /auth/forgot-password111 HTTP/1.1
+Authorization: Bearer yJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZDk2NWJlYWQ5Y2VlNDE2NGY0NzU3MDQ0ODNkYjhmZWVjYTAzNzM5NmQzN2E3MzM0M2RiNmNhNTliMjQ0MmE1MyJ9fSwiZXhwIjoxNjM2NzIzODAzLCJpYXQiOjE2MzY3MjI5MDMsIm5iZiI6MTYzNjcyMjkwMn0.MY_bBx63McY-BMMFHciJ_8FlZQscCFMRevw9Inog0_Ac_EafyNO12DOFJSTHKnfQnCVD8v6HcTyZyQkOJe5jPw
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: e6068ce6-41a6-49c9-9eb4-5cb0283c7de6
+Host: auth.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 31}
+
+
+Request Body3:{{
+"email": "xxxx@gmail.com"
+}}
+
+
+
+
+Request Headers4:{POST /auth/forgot-password HTTP/1.1
+Authorization: Bearer yJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZDk2NWJlYWQ5Y2VlNDE2NGY0NzU3MDQ0ODNkYjhmZWVjYTAzNzM5NmQzN2E3MzM0M2RiNmNhNTliMjQ0MmE1MyJ9fSwiZXhwIjoxNjM2NzIzODAzLCJpYXQiOjE2MzY3MjI5MDMsIm5iZiI6MTYzNjcyMjkwMn0.MY_bBx63McY-BMMFHciJ_8FlZQscCFMRevw9Inog0_Ac_EafyNO12DOFJSTHKnfQnCVD8v6HcTyZyQkOJe5jPw
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 72cb5dfd-f7d5-4803-a957-0bb528b954f2
+Host: auth.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 30}
+
+
+Request Body4:{{
+"password": "qwaezsxd12"
+}}
+
+
+
+
+
+##Response
 
 
 Response1:{HTTP/1.1 200 OK
@@ -46,23 +112,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request Headers2:{POST /auth/forgot-password HTTP/1.1
-Authorization: Bearer yJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZDk2NWJlYWQ5Y2VlNDE2NGY0NzU3MDQ0ODNkYjhmZWVjYTAzNzM5NmQzN2E3MzM0M2RiNmNhNTliMjQ0MmE1MyJ9fSwiZXhwIjoxNjM2NzIzODAzLCJpYXQiOjE2MzY3MjI5MDMsIm5iZiI6MTYzNjcyMjkwMn0.MY_bBx63McY-BMMFHciJ_8FlZQscCFMRevw9Inog0_Ac_EafyNO12DOFJSTHKnfQnCVD8v6HcTyZyQkOJe5jPw
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 3f061b4b-8386-459f-b6d9-747710d2018f
-Host: auth.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 34}
-
-
-Request Body2:{{
-"email": "xxxx123@gmail.com"
-}}
-
-
 Response2:{HTTP/1.1 404 Not Found
 Date: Fri, 12 Nov 2021 13:27:57 GMT
 Content-Type: application/json; charset=UTF-8
@@ -87,27 +136,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 {"success":false,"message":"User not found","payload":null}}
 
 
-
-
-
-
-
-Request Headers3:{POST /auth/forgot-password111 HTTP/1.1
-Authorization: Bearer yJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZDk2NWJlYWQ5Y2VlNDE2NGY0NzU3MDQ0ODNkYjhmZWVjYTAzNzM5NmQzN2E3MzM0M2RiNmNhNTliMjQ0MmE1MyJ9fSwiZXhwIjoxNjM2NzIzODAzLCJpYXQiOjE2MzY3MjI5MDMsIm5iZiI6MTYzNjcyMjkwMn0.MY_bBx63McY-BMMFHciJ_8FlZQscCFMRevw9Inog0_Ac_EafyNO12DOFJSTHKnfQnCVD8v6HcTyZyQkOJe5jPw
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: e6068ce6-41a6-49c9-9eb4-5cb0283c7de6
-Host: auth.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 31}
-
-
-
-Request Body3:{{
-"email": "xxxx@gmail.com"
-}}
 
 
 
@@ -137,25 +165,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request Headers4:{POST /auth/forgot-password HTTP/1.1
-Authorization: Bearer yJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZDk2NWJlYWQ5Y2VlNDE2NGY0NzU3MDQ0ODNkYjhmZWVjYTAzNzM5NmQzN2E3MzM0M2RiNmNhNTliMjQ0MmE1MyJ9fSwiZXhwIjoxNjM2NzIzODAzLCJpYXQiOjE2MzY3MjI5MDMsIm5iZiI6MTYzNjcyMjkwMn0.MY_bBx63McY-BMMFHciJ_8FlZQscCFMRevw9Inog0_Ac_EafyNO12DOFJSTHKnfQnCVD8v6HcTyZyQkOJe5jPw
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 72cb5dfd-f7d5-4803-a957-0bb528b954f2
-Host: auth.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 30}
-
-
-
-Request Body4:{{
-"password": "qwaezsxd12"
-}}
-
-
-
 
 Response4:{HTTP/1.1 400 Bad Request
 Date: Fri, 12 Nov 2021 13:39:14 GMT
@@ -181,5 +190,8 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
+
+##Result
+Success
 
 

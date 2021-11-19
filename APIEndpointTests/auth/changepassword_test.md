@@ -1,6 +1,12 @@
-url:{https://auth.hiringo.tech/auth​/change-password​/{token}}
+##ChangePassword
+
+
+##url
+{https://auth.hiringo.tech/auth​/change-password​/{token}}
 https://auth.hiringo.tech/auth/login
 
+
+##Request
 Login Request Headers:{POST /auth/login HTTP/1.1
 Content-Type: application/json
 User-Agent: PostmanRuntime/7.28.4
@@ -12,6 +18,7 @@ Connection: keep-alive
 Content-Length: 59}
 
 
+
 Login Request Body:{{
 "email": "xxxx@gmail.com",
 "password": "qwaezsxd12"
@@ -19,6 +26,26 @@ Login Request Body:{{
 
 
 
+Change Password Request Headers:{POST /auth/change-password/eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNWYzZDU1Nzc2NmEzYmQ1NGE4MzhlODkzNjVkOTdiMzA5Y2RjYmVhM2M4NjQyMjYxZGNkYjI2YzUwYmMyNjg0NSJ9fSwiZXhwIjoxNjM2ODk3MDYxLCJpYXQiOjE2MzY4OTYxNjEsIm5iZiI6MTYzNjg5NjE2MH0.5RSFRDv76o_MyR00T7vR_Hfzt5o1WSe2sV30IzBMPvnTU7ON5iSCNzzaCM6FlMNa6kPWVtUkCjj8fIjio7yw-A?email=xxxx@gmail.com HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 03ce1176-0497-4222-8c3e-035ce53c6832
+Host: auth.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 36}
+
+
+
+Change Password Request Body:{
+{
+"password":"qwaezsxd12"
+}}
+
+
+
+##Response
 Login Response:{HTTP/1.1 200 OK
 Date: Sun, 14 Nov 2021 13:22:41 GMT
 Content-Type: application/json; charset=UTF-8
@@ -46,27 +73,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-
-
-Change Password Request Headers:{POST /auth/change-password/eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNWYzZDU1Nzc2NmEzYmQ1NGE4MzhlODkzNjVkOTdiMzA5Y2RjYmVhM2M4NjQyMjYxZGNkYjI2YzUwYmMyNjg0NSJ9fSwiZXhwIjoxNjM2ODk3MDYxLCJpYXQiOjE2MzY4OTYxNjEsIm5iZiI6MTYzNjg5NjE2MH0.5RSFRDv76o_MyR00T7vR_Hfzt5o1WSe2sV30IzBMPvnTU7ON5iSCNzzaCM6FlMNa6kPWVtUkCjj8fIjio7yw-A?email=xxxx@gmail.com HTTP/1.1
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 03ce1176-0497-4222-8c3e-035ce53c6832
-Host: auth.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 36}
-
-
-
-Change Password Request Body:{
-{
-"password":"qwaezsxd12"
-}}
-
-
-
 Change Password Response:{HTTP/1.1 400 Bad Request
 Date: Sun, 14 Nov 2021 13:24:37 GMT
 Content-Type: application/json; charset=UTF-8
@@ -88,3 +94,10 @@ CF-RAY: 6ae08fa56a784a55-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"Token not found","payload":null}}
+
+
+
+
+
+##Response
+Failed

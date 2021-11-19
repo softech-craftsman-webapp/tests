@@ -1,5 +1,11 @@
-url:{https://main-api.hiringo.tech/transactions/my}
+##TransactionList
 
+
+
+##Url:{https://main-api.hiringo.tech/transactions/my}
+
+
+##Request
 
 Request1:{GET /transactions/my HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNjA1YTA4NDM2NTRmN2I3NTcwYWZhYTY4ZmUwZGQxZmY1YzAyZmFkYTc5MTE1Yjk5MDU1ZGUwMzkxODM1YzQ3NyJ9fSwiZXhwIjoxNjM2NzA3OTg4LCJpYXQiOjE2MzY3MDcwODgsIm5iZiI6MTYzNjcwNzA4N30.SGt6Zux66jdepsZ0WI6hVHhIc8GES84TO3Q5E54E6wtEaU7NtapjQ7kjJA8skOK08kQ_f2ZKZvJ-dIyjnK1SeQ
@@ -10,6 +16,34 @@ Host: main-api.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive}
 
+
+
+
+Request2:{GET /transactions/mytransaction HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNjA1YTA4NDM2NTRmN2I3NTcwYWZhYTY4ZmUwZGQxZmY1YzAyZmFkYTc5MTE1Yjk5MDU1ZGUwMzkxODM1YzQ3NyJ9fSwiZXhwIjoxNjM2NzA3OTg4LCJpYXQiOjE2MzY3MDcwODgsIm5iZiI6MTYzNjcwNzA4N30.SGt6Zux66jdepsZ0WI6hVHhIc8GES84TO3Q5E54E6wtEaU7NtapjQ7kjJA8skOK08kQ_f2ZKZvJ-dIyjnK1SeQ
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 74dab144-b6a8-4a18-a8cf-5ac1125bdf50
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+
+Request3:{GET /transactions/my HTTP/1.1
+Authorization: Bearer 9999999
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: d0d0526e-27e3-423c-a196-30e9431fd57b
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+
+
+
+##Response
 
 Response1:{HTTP/1.1 200 OK
 Date: Fri, 12 Nov 2021 08:54:23 GMT
@@ -34,19 +68,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
  
 {"success":true,"message":"Success","payload":[{"id":"e1f0431f-6db3-4495-aa5a-bf48539c9623","user_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","amount":100000,"currency":"EUR"},{"id":"d40062dd-f993-4ac7-8b60-f0269f38c5ca","user_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","amount":2000,"currency":"EUR"},{"id":"ad493f8b-54fd-452e-8d63-faf2ae21844d","user_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","amount":2000,"currency":"HUF"},{"id":"13101885-094e-4e5b-a26f-74a3f90aae21","user_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","amount":2000,"currency":"HUF"},{"id":"bf31b3bf-0fc6-4659-ba9f-431d4ca232a3","user_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","amount":700,"currency":"EUR"},{"id":"c59ff530-6786-4b07-ab29-d4219a70805b","user_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","amount":700,"currency":"EUR"},{"id":"17e6d545-b665-4967-b541-d722808ec913","user_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","amount":700,"currency":"EUR"},{"id":"abd89b03-13de-42bf-892d-7e749e375782","user_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","amount":700,"currency":"EUR"},{"id":"003a0cdc-94d5-4e0a-a06e-0ae9ea2de027","user_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","amount":900,"currency":"EUR"}]}
 }
-
-
-
-
-
-Request2:{GET /transactions/mytransaction HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNjA1YTA4NDM2NTRmN2I3NTcwYWZhYTY4ZmUwZGQxZmY1YzAyZmFkYTc5MTE1Yjk5MDU1ZGUwMzkxODM1YzQ3NyJ9fSwiZXhwIjoxNjM2NzA3OTg4LCJpYXQiOjE2MzY3MDcwODgsIm5iZiI6MTYzNjcwNzA4N30.SGt6Zux66jdepsZ0WI6hVHhIc8GES84TO3Q5E54E6wtEaU7NtapjQ7kjJA8skOK08kQ_f2ZKZvJ-dIyjnK1SeQ
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 74dab144-b6a8-4a18-a8cf-5ac1125bdf50
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
 
 
 
@@ -77,17 +98,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request3:{GET /transactions/my HTTP/1.1
-Authorization: Bearer 9999999
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: d0d0526e-27e3-423c-a196-30e9431fd57b
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
-
-
-
 
 Response3:{HTTP/1.1 401 Unauthorized
 Date: Fri, 12 Nov 2021 09:06:17 GMT
@@ -111,3 +121,9 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
  
 {"success":false,"message":"invalid or expired jwt, internal=token contains an invalid number of segments","payload":null}
 }
+
+
+
+
+##Results
+Success

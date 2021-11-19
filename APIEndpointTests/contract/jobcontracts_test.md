@@ -1,5 +1,13 @@
-url:{https://main-api.hiringo.tech/jobs/{id}/contracts}
+##JobTracts
 
+
+
+
+##Url:{https://main-api.hiringo.tech/jobs/{id}/contracts}
+
+
+
+##Request
 
 Request1:{GET /jobs/%7B108dc6eb-1888-44f1-8638-ceccaa23f5bc%7D/contracts HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNjFmNjk3MjFkZmM3ZjgyYWEzYTcwMzdlODQ5NGM2NjgwYjc0ODgyYjkyYjJmYzkxOWY1YmE5ZjJjYzM0MTRhZiJ9fSwiZXhwIjoxNjM2OTMwNjk2LCJpYXQiOjE2MzY5Mjk3OTYsIm5iZiI6MTYzNjkyOTc5NX0.Y5kN4QbSGLv3hXN2TMk9abkWIJYoWi309G2vjjHpLyHG1zHVZlvzFHFiwaqrUPEvNFFgydEMqYTaIUMiEXklWw
@@ -11,6 +19,35 @@ Accept-Encoding: gzip, deflate, br
 Connection: keep-alive}
 
 
+
+
+Request2:{GET /jobs/%7B108dc6eb-1888-44f1-8638-ceccaa23f5bc%7D/contractsss HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNjFmNjk3MjFkZmM3ZjgyYWEzYTcwMzdlODQ5NGM2NjgwYjc0ODgyYjkyYjJmYzkxOWY1YmE5ZjJjYzM0MTRhZiJ9fSwiZXhwIjoxNjM2OTMwNjk2LCJpYXQiOjE2MzY5Mjk3OTYsIm5iZiI6MTYzNjkyOTc5NX0.Y5kN4QbSGLv3hXN2TMk9abkWIJYoWi309G2vjjHpLyHG1zHVZlvzFHFiwaqrUPEvNFFgydEMqYTaIUMiEXklWw
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: bd297611-6456-4bd6-8e2d-fde455701ffd
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+
+
+Request3:{GET /jobs/%7B108dc6eb-1888-44f1-8638-ceccaa23f5bc%7D/contracts HTTP/1.1
+Authorization: Bearer 1111
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 32078ff8-1ba0-49ac-8a25-74c4faf7922e
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+}
+
+
+
+
+
+##Response
 
 Response1:{HTTP/1.1 200 OK
 Date: Sun, 14 Nov 2021 22:44:43 GMT
@@ -35,17 +72,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
  
 {"success":true,"message":"Success","payload":null}}
 
-
-
-
-Request2:{GET /jobs/%7B108dc6eb-1888-44f1-8638-ceccaa23f5bc%7D/contractsss HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNjFmNjk3MjFkZmM3ZjgyYWEzYTcwMzdlODQ5NGM2NjgwYjc0ODgyYjkyYjJmYzkxOWY1YmE5ZjJjYzM0MTRhZiJ9fSwiZXhwIjoxNjM2OTMwNjk2LCJpYXQiOjE2MzY5Mjk3OTYsIm5iZiI6MTYzNjkyOTc5NX0.Y5kN4QbSGLv3hXN2TMk9abkWIJYoWi309G2vjjHpLyHG1zHVZlvzFHFiwaqrUPEvNFFgydEMqYTaIUMiEXklWw
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: bd297611-6456-4bd6-8e2d-fde455701ffd
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
 
 
 
@@ -76,18 +102,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request3:{GET /jobs/%7B108dc6eb-1888-44f1-8638-ceccaa23f5bc%7D/contracts HTTP/1.1
-Authorization: Bearer 1111
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 32078ff8-1ba0-49ac-8a25-74c4faf7922e
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-}
-
-
-
 Response3:{
 HTTP/1.1 401 Unauthorized
 Date: Sun, 14 Nov 2021 22:47:26 GMT
@@ -110,3 +124,11 @@ CF-RAY: 6ae3c815bd6d5c6e-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=token contains an invalid number of segments","payload":null}}
+
+
+
+
+
+
+##Results
+Success

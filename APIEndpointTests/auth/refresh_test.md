@@ -1,5 +1,13 @@
-url:{https://auth.hiringo.tech/auth/refresh}
+##Refresh
 
+
+
+##Url 
+{https://auth.hiringo.tech/auth/refresh}
+
+
+
+##Request
 
 Request1:{GET /auth/refresh HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNTVjMDA0NzhkYTNhYWU2ZjA1MDQ1YzM2NGRlNTMwNWI2OWQ1NzE5MmRkM2U4ZjI5OTkzYjA1YmM1ZWMxODdkOCJ9fSwiZXhwIjoxNjM2NzI3NjY4LCJpYXQiOjE2MzY3MjY3NjgsIm5iZiI6MTYzNjcyNjc2N30.2ciSBhINxlO-QzFLMdQEJsPb_ORdt7dubW_AvCUAI0ks_TIDXYkG2Ai-WUenfL8s2jVsOBIuUc3uMOYHKPXVQw
@@ -13,6 +21,30 @@ Connection: keep-alive}
 
 
 
+Request2:{GET /auth/refresh HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiMGY5ZDA5ZDgxNDJlODZkODRiM2ZlODM1ZGZkZmVjNDZlOGZlNzA0MGI5MjBiZWUyODhhZGM0NGFhODQ2NDdlMCJ9fSwiZXhwIjoxNjM5NDg0MzI4LCJpYXQiOjE2MzY4OTIzMjgsIm5iZiI6MTYzNjg5MjMyN30.3wpErxiHMbHTpyQc1sMhlKIbmzarACoGfNSI23zJeroH4zyPwB8TmnyXO5uunuy_43OkiAHqX56KZUsTcbpq2Q
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 1a70a7e0-6613-440f-a380-ed67dff6d073
+Host: auth.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+
+
+Request3:{GET /auth/refresh111 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiMGY5ZDA5ZDgxNDJlODZkODRiM2ZlODM1ZGZkZmVjNDZlOGZlNzA0MGI5MjBiZWUyODhhZGM0NGFhODQ2NDdlMCJ9fSwiZXhwIjoxNjM5NDg0MzI4LCJpYXQiOjE2MzY4OTIzMjgsIm5iZiI6MTYzNjg5MjMyN30.3wpErxiHMbHTpyQc1sMhlKIbmzarACoGfNSI23zJeroH4zyPwB8TmnyXO5uunuy_43OkiAHqX56KZUsTcbpq2Q
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: db472059-1509-44bd-a235-9d015d327678
+Host: auth.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+
+##Response
 
 Response1:{HTTP/1.1 401 Unauthorized
 Date: Fri, 12 Nov 2021 14:20:40 GMT
@@ -36,17 +68,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
  
 {"success":false,"message":"invalid or expired jwt, internal=crypto/ecdsa: verification error","payload":null}}
 
-
-
-
-Request2:{GET /auth/refresh HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiMGY5ZDA5ZDgxNDJlODZkODRiM2ZlODM1ZGZkZmVjNDZlOGZlNzA0MGI5MjBiZWUyODhhZGM0NGFhODQ2NDdlMCJ9fSwiZXhwIjoxNjM5NDg0MzI4LCJpYXQiOjE2MzY4OTIzMjgsIm5iZiI6MTYzNjg5MjMyN30.3wpErxiHMbHTpyQc1sMhlKIbmzarACoGfNSI23zJeroH4zyPwB8TmnyXO5uunuy_43OkiAHqX56KZUsTcbpq2Q
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 1a70a7e0-6613-440f-a380-ed67dff6d073
-Host: auth.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
 
 
 
@@ -76,16 +97,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request3:{GET /auth/refresh111 HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiMGY5ZDA5ZDgxNDJlODZkODRiM2ZlODM1ZGZkZmVjNDZlOGZlNzA0MGI5MjBiZWUyODhhZGM0NGFhODQ2NDdlMCJ9fSwiZXhwIjoxNjM5NDg0MzI4LCJpYXQiOjE2MzY4OTIzMjgsIm5iZiI6MTYzNjg5MjMyN30.3wpErxiHMbHTpyQc1sMhlKIbmzarACoGfNSI23zJeroH4zyPwB8TmnyXO5uunuy_43OkiAHqX56KZUsTcbpq2Q
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: db472059-1509-44bd-a235-9d015d327678
-Host: auth.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
-
-
 
 Response3:{
 HTTP/1.1 500 Internal Server Error
@@ -112,14 +123,5 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-
-
-
-
-Request4:{}
-
-
-
-
-
-Response4:{}
+##Result
+Success

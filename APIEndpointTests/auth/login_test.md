@@ -1,4 +1,11 @@
-url: https://auth.hiringo.tech/auth/login
+##Login
+
+
+##Url
+https://auth.hiringo.tech/auth/login
+
+
+##Request
 
 Request Headers1:{POST /auth/login HTTP/1.1
 Content-Type: application/json
@@ -14,6 +21,31 @@ Request Body1:{{
 "email": "xxxx@gmail.com",
 "password": "qwaezsxd12"
 }}
+
+
+
+Request Headers2:{POST /auth/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: d9029ea1-1696-4dda-b9bb-d6682053ba2f
+Host: auth.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 56
+}
+
+
+Request Body2:{{
+"email": "x@gmail.com",
+"password": "qwaezsxd12"
+}
+}
+
+
+
+
+##Response
 
 Response1:{
 Date: Wed, 10 Nov 2021 18:46:46 GMT
@@ -40,23 +72,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request Headers2:{POST /auth/login HTTP/1.1
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: d9029ea1-1696-4dda-b9bb-d6682053ba2f
-Host: auth.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 56
-}
-
-
-Request Body2:{{
-"email": "x@gmail.com",
-"password": "qwaezsxd12"
-}
-}
 
 
 Response2:{
@@ -85,4 +100,5 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-
+##Result
+Success

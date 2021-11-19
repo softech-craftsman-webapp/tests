@@ -1,4 +1,16 @@
-url:{https://main-api.hiringo.tech/contracts/{id}/sign}
+##SignContracts
+
+
+
+
+
+##Url:{https://main-api.hiringo.tech/contracts/{id}/sign}
+
+
+
+
+
+##Request
 
 Request1:{POST /contracts/%7B3bc83e6c-35c6-4eca-925a-1372fe7e804a%7D/sign HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMWY2ODUwODY4MWNiMDhjNjk3YTQ0OWZlMjY4NTExNWZjNDVmNjNjNGNiNTRhMGY5N2ZiNzUwMjE0NmE4MzUwNiJ9fSwiZXhwIjoxNjM2OTMxNzE1LCJpYXQiOjE2MzY5MzA4MTUsIm5iZiI6MTYzNjkzMDgxNH0.j_LCKOPoTzb1rA6HIQ0hpl6WRDK0A_wHv4P4eKl4bX6798tTD5NHyk-hYSdXUP2CSjbt1PP9KYzg-hGilvTxMw
@@ -12,6 +24,50 @@ Content-Length: 0}
 
 
 
+
+Request2:{POST /contracts/%7B3bc83e6c-35c6-4eca-925a-1372fe7e804a%7D/sign111 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMWY2ODUwODY4MWNiMDhjNjk3YTQ0OWZlMjY4NTExNWZjNDVmNjNjNGNiNTRhMGY5N2ZiNzUwMjE0NmE4MzUwNiJ9fSwiZXhwIjoxNjM2OTMxNzE1LCJpYXQiOjE2MzY5MzA4MTUsIm5iZiI6MTYzNjkzMDgxNH0.j_LCKOPoTzb1rA6HIQ0hpl6WRDK0A_wHv4P4eKl4bX6798tTD5NHyk-hYSdXUP2CSjbt1PP9KYzg-hGilvTxMw
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: c241e85b-ac60-496d-b9a8-6d8ba19a7d83
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0}
+
+
+
+
+
+Request3:{POST /contracts/%7B3bc83e6c-35c6-4eca-925a-1372fe7e804a%7D/sign HTTP/1.1
+Authorization: Bearer 111
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 91c35afb-6a24-442d-8b65-68872dcf8930
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0}
+
+
+
+
+
+
+Request4:{POST /contracts/%7B%7D/sign HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMWY2ODUwODY4MWNiMDhjNjk3YTQ0OWZlMjY4NTExNWZjNDVmNjNjNGNiNTRhMGY5N2ZiNzUwMjE0NmE4MzUwNiJ9fSwiZXhwIjoxNjM2OTMxNzE1LCJpYXQiOjE2MzY5MzA4MTUsIm5iZiI6MTYzNjkzMDgxNH0.j_LCKOPoTzb1rA6HIQ0hpl6WRDK0A_wHv4P4eKl4bX6798tTD5NHyk-hYSdXUP2CSjbt1PP9KYzg-hGilvTxMw
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 499f0fe0-c002-4dfd-b40c-e68bdfdbf62e
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0}
+
+
+
+
+##Response
 
 Response1:{HTTP/1.1 200 OK
 Date: Sun, 14 Nov 2021 23:00:56 GMT
@@ -37,17 +93,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 {"success":true,"message":"Success","payload":{"id":"3bc83e6c-35c6-4eca-925a-1372fe7e804a"}}}
 
 
-
-
-Request2:{POST /contracts/%7B3bc83e6c-35c6-4eca-925a-1372fe7e804a%7D/sign111 HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMWY2ODUwODY4MWNiMDhjNjk3YTQ0OWZlMjY4NTExNWZjNDVmNjNjNGNiNTRhMGY5N2ZiNzUwMjE0NmE4MzUwNiJ9fSwiZXhwIjoxNjM2OTMxNzE1LCJpYXQiOjE2MzY5MzA4MTUsIm5iZiI6MTYzNjkzMDgxNH0.j_LCKOPoTzb1rA6HIQ0hpl6WRDK0A_wHv4P4eKl4bX6798tTD5NHyk-hYSdXUP2CSjbt1PP9KYzg-hGilvTxMw
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: c241e85b-ac60-496d-b9a8-6d8ba19a7d83
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 0}
 
 
 
@@ -77,15 +122,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request3:{POST /contracts/%7B3bc83e6c-35c6-4eca-925a-1372fe7e804a%7D/sign HTTP/1.1
-Authorization: Bearer 111
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 91c35afb-6a24-442d-8b65-68872dcf8930
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 0}
 
 
 
@@ -115,17 +151,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request4:{POST /contracts/%7B%7D/sign HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMWY2ODUwODY4MWNiMDhjNjk3YTQ0OWZlMjY4NTExNWZjNDVmNjNjNGNiNTRhMGY5N2ZiNzUwMjE0NmE4MzUwNiJ9fSwiZXhwIjoxNjM2OTMxNzE1LCJpYXQiOjE2MzY5MzA4MTUsIm5iZiI6MTYzNjkzMDgxNH0.j_LCKOPoTzb1rA6HIQ0hpl6WRDK0A_wHv4P4eKl4bX6798tTD5NHyk-hYSdXUP2CSjbt1PP9KYzg-hGilvTxMw
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 499f0fe0-c002-4dfd-b40c-e68bdfdbf62e
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 0}
-
-
 
 Response4:{HTTP/1.1 500 Internal Server Error
 Date: Sun, 14 Nov 2021 23:05:39 GMT
@@ -148,3 +173,11 @@ CF-RAY: 6ae3e2c69f150601-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"ERROR: invalid input syntax for type uuid: \"{}\" (SQLSTATE 22P02)","payload":null}}
+
+
+
+
+
+
+##Results
+Success

@@ -1,4 +1,13 @@
-url:{https://main-api.hiringo.tech/user-details/edit}
+##EditeUserDetails
+
+
+
+##Url:{https://main-api.hiringo.tech/user-details/edit}
+
+
+
+
+##Request
 
 
 Request Headers1:{PUT /user-details/edit HTTP/1.1
@@ -12,6 +21,7 @@ Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
 Content-Length: 122}
 
+
 Request Body1:{{
 "bio": "hahahahahaxixi",
 "email": "xxxx17@gmail.com",
@@ -19,6 +29,82 @@ Request Body1:{{
 "longitude": 20,
 "telephone": "123456"
 }}
+
+
+
+
+
+Request Headers2:{PUT /user-details/edit111 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMjI3YTFjOWM5YjcwMTNmYTYzMjUyMzc3OWQ2ZjRhMjc1NjUxZTA4YWQzYjU5ZGQyMzM1ODQ2NDAyMDAzZDJhZSJ9fSwiZXhwIjoxNjM3MDEwNTk1LCJpYXQiOjE2MzcwMDk2OTUsIm5iZiI6MTYzNzAwOTY5NH0.j9INdXeRl4U5sRvsewYphZV5DWxQpGxt0RCGemx6a1MuUZIT22rpu1oKaZ_b9mpKxu4ZXw58PhCf8TNqVaZQzw
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: bd306df1-0346-4e4a-abc9-9244210dfc1d
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 122}
+
+
+Request Body2:{PUT /user-details/edit111 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMjI3YTFjOWM5YjcwMTNmYTYzMjUyMzc3OWQ2ZjRhMjc1NjUxZTA4YWQzYjU5ZGQyMzM1ODQ2NDAyMDAzZDJhZSJ9fSwiZXhwIjoxNjM3MDEwNTk1LCJpYXQiOjE2MzcwMDk2OTUsIm5iZiI6MTYzNzAwOTY5NH0.j9INdXeRl4U5sRvsewYphZV5DWxQpGxt0RCGemx6a1MuUZIT22rpu1oKaZ_b9mpKxu4ZXw58PhCf8TNqVaZQzw
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: bd306df1-0346-4e4a-abc9-9244210dfc1d
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 122}
+
+
+
+
+
+Request Headers3:{PUT /user-details/edit HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMjI3YTFjOWM5YjcwMTNmYTYzMjUyMzc3OWQ2ZjRhMjc1NjUxZTA4YWQzYjU5ZGQyMzM1ODQ2NDAyMDAzZDJhZSJ9fSwiZXhwIjoxNjM3MDEwNTk1LCJpYXQiOjE2MzcwMDk2OTUsIm5iZiI6MTYzNzAwOTY5NH0.j9INdXeRl4U5sRvsewYphZV5DWxQpGxt0RCGemx6a1MuUZIT22rpu1oKaZ_b9mpKxu4ZXw58PhCf8TNqVaZQzw
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: bab66da2-5ad8-4031-9845-89e0a89a4428
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 6}
+
+
+Request Body3:{{
+}}
+
+
+
+
+
+Request Headers4:{PUT /user-details/edit HTTP/1.1
+Authorization: Bearer 111
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 78700357-4a46-4e81-a9d8-78f177d9dd58
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 122}
+
+Request Body4:{{
+"bio": "hahahahahaxixi",
+"email": "xxxx17@gmail.com",
+"latitude": 10,
+"longitude": 20,
+"telephone": "123456"
+}}
+
+
+
+
+
+
+##Response
 
 Response1:{HTTP/1.1 200 OK
 Date: Mon, 15 Nov 2021 20:24:43 GMT
@@ -45,27 +131,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request Headers2:{PUT /user-details/edit111 HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMjI3YTFjOWM5YjcwMTNmYTYzMjUyMzc3OWQ2ZjRhMjc1NjUxZTA4YWQzYjU5ZGQyMzM1ODQ2NDAyMDAzZDJhZSJ9fSwiZXhwIjoxNjM3MDEwNTk1LCJpYXQiOjE2MzcwMDk2OTUsIm5iZiI6MTYzNzAwOTY5NH0.j9INdXeRl4U5sRvsewYphZV5DWxQpGxt0RCGemx6a1MuUZIT22rpu1oKaZ_b9mpKxu4ZXw58PhCf8TNqVaZQzw
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: bd306df1-0346-4e4a-abc9-9244210dfc1d
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 122}
-
-Request Body2:{PUT /user-details/edit111 HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMjI3YTFjOWM5YjcwMTNmYTYzMjUyMzc3OWQ2ZjRhMjc1NjUxZTA4YWQzYjU5ZGQyMzM1ODQ2NDAyMDAzZDJhZSJ9fSwiZXhwIjoxNjM3MDEwNTk1LCJpYXQiOjE2MzcwMDk2OTUsIm5iZiI6MTYzNzAwOTY5NH0.j9INdXeRl4U5sRvsewYphZV5DWxQpGxt0RCGemx6a1MuUZIT22rpu1oKaZ_b9mpKxu4ZXw58PhCf8TNqVaZQzw
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: bd306df1-0346-4e4a-abc9-9244210dfc1d
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 122}
 
 Response2:{HTTP/1.1 404 Not Found
 Date: Mon, 15 Nov 2021 20:57:05 GMT
@@ -93,20 +158,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request Headers3:{PUT /user-details/edit HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMjI3YTFjOWM5YjcwMTNmYTYzMjUyMzc3OWQ2ZjRhMjc1NjUxZTA4YWQzYjU5ZGQyMzM1ODQ2NDAyMDAzZDJhZSJ9fSwiZXhwIjoxNjM3MDEwNTk1LCJpYXQiOjE2MzcwMDk2OTUsIm5iZiI6MTYzNzAwOTY5NH0.j9INdXeRl4U5sRvsewYphZV5DWxQpGxt0RCGemx6a1MuUZIT22rpu1oKaZ_b9mpKxu4ZXw58PhCf8TNqVaZQzw
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: bab66da2-5ad8-4031-9845-89e0a89a4428
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 6}
-
-Request Body3:{{
-}}
-
 Response3:{HTTP/1.1 400 Bad Request
 Date: Mon, 15 Nov 2021 20:59:26 GMT
 Content-Type: application/json; charset=UTF-8
@@ -131,24 +182,7 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request Headers4:{PUT /user-details/edit HTTP/1.1
-Authorization: Bearer 111
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 78700357-4a46-4e81-a9d8-78f177d9dd58
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 122}
 
-Request Body4:{{
-"bio": "hahahahahaxixi",
-"email": "xxxx17@gmail.com",
-"latitude": 10,
-"longitude": 20,
-"telephone": "123456"
-}}
 
 Response4:{HTTP/1.1 401 Unauthorized
 Date: Mon, 15 Nov 2021 21:02:06 GMT
@@ -171,3 +205,12 @@ CF-RAY: 6aeb6b29a9934e44-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=token contains an invalid number of segments","payload":null}}
+
+
+
+
+
+
+
+##Results
+Success

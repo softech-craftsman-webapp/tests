@@ -1,5 +1,12 @@
-Url:{https://main-api.hiringo.tech/ratings/{id}}
+##RatingsDetails
 
+
+
+##Url:{https://main-api.hiringo.tech/ratings/{id}}
+
+
+
+##Request
 
 Request1:{GET /ratings/%7B0562f99f-0c3b-4a89-91d1-e97493369694%7D HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiOWM1YzBhNjczYmQyODNhYzgwYzljOTRjODdhNGU3OWE3ZTY3NjRjNGU3ZWFmOWI2YzUyZGViMTM3NGNlMGM0NiJ9fSwiZXhwIjoxNjM3MDIxMDk2LCJpYXQiOjE2MzcwMjAxOTYsIm5iZiI6MTYzNzAyMDE5NX0.OJPpFIE4qs1K6LdZTVlhVe7v9kInCWdAYGjTs0CnGZ7_b0s6WmZlJCDTRP3luLynsCKMTACglobPZ8PWVobUUQ
@@ -9,6 +16,37 @@ Postman-Token: 4535c4be-ffd6-4318-93a6-4d9b52ed76df
 Host: main-api.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive}
+
+
+
+
+Request2:{GET /ratings/%7Bid%7D HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiOWM1YzBhNjczYmQyODNhYzgwYzljOTRjODdhNGU3OWE3ZTY3NjRjNGU3ZWFmOWI2YzUyZGViMTM3NGNlMGM0NiJ9fSwiZXhwIjoxNjM3MDIxMDk2LCJpYXQiOjE2MzcwMjAxOTYsIm5iZiI6MTYzNzAyMDE5NX0.OJPpFIE4qs1K6LdZTVlhVe7v9kInCWdAYGjTs0CnGZ7_b0s6WmZlJCDTRP3luLynsCKMTACglobPZ8PWVobUUQ
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 0f1756df-1bda-4277-b737-5dcdd6cfa120
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+
+
+Request3:{GET /ratings/%7B0562f99f-0c3b-4a89-91d1-e97493369694%7D HTTP/1.1
+Authorization: Bearer 111
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 1df653ff-0f11-44d9-a5a6-ad7349971bea
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+
+
+
+
+##Response
 
 Response1:{HTTP/1.1 200 OK
 Date: Mon, 15 Nov 2021 23:53:27 GMT
@@ -36,15 +74,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request2:{GET /ratings/%7Bid%7D HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiOWM1YzBhNjczYmQyODNhYzgwYzljOTRjODdhNGU3OWE3ZTY3NjRjNGU3ZWFmOWI2YzUyZGViMTM3NGNlMGM0NiJ9fSwiZXhwIjoxNjM3MDIxMDk2LCJpYXQiOjE2MzcwMjAxOTYsIm5iZiI6MTYzNzAyMDE5NX0.OJPpFIE4qs1K6LdZTVlhVe7v9kInCWdAYGjTs0CnGZ7_b0s6WmZlJCDTRP3luLynsCKMTACglobPZ8PWVobUUQ
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 0f1756df-1bda-4277-b737-5dcdd6cfa120
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
-
 Response2:{HTTP/1.1 404 Not Found
 Date: Mon, 15 Nov 2021 23:58:34 GMT
 Content-Type: application/json; charset=UTF-8
@@ -71,15 +100,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request3:{GET /ratings/%7B0562f99f-0c3b-4a89-91d1-e97493369694%7D HTTP/1.1
-Authorization: Bearer 111
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 1df653ff-0f11-44d9-a5a6-ad7349971bea
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
-
 Response3:{
 HTTP/1.1 401 Unauthorized
 Date: Mon, 15 Nov 2021 23:59:39 GMT
@@ -102,3 +122,11 @@ CF-RAY: 6aec6f3dfa784e31-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=token contains an invalid number of segments","payload":null}}
+
+
+
+
+
+
+##Results
+Success

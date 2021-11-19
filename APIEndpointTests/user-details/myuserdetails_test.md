@@ -1,6 +1,12 @@
-url:{https://main-api.hiringo.tech/user-details/my}
+##MyUserDetails
 
 
+
+##Url:{https://main-api.hiringo.tech/user-details/my}
+
+
+
+##Request
 
 Request1:{GET /user-details/my HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNjI5MjZhOTQ5MDVjODRlZWQyZWM4MjJkNjNjYTliNzc5NTI5OTY5OWQ3YTAyYTNiNjI4ZGUxZmUxYjBkM2ZkYiJ9fSwiZXhwIjoxNjM3MDA1ODUxLCJpYXQiOjE2MzcwMDQ5NTEsIm5iZiI6MTYzNzAwNDk1MH0.SkitRnRjjQ-f0aKn8mGukikCjnUImhSzH9z7UMGVVXgq_fBl_upJOKpA_-h5vCMAWOlKOwBibwimoyQ7GVOtCQ
@@ -11,6 +17,34 @@ Host: main-api.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive}
 
+
+
+
+Request2:{GET /user-details/my111 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNjI5MjZhOTQ5MDVjODRlZWQyZWM4MjJkNjNjYTliNzc5NTI5OTY5OWQ3YTAyYTNiNjI4ZGUxZmUxYjBkM2ZkYiJ9fSwiZXhwIjoxNjM3MDA1ODUxLCJpYXQiOjE2MzcwMDQ5NTEsIm5iZiI6MTYzNzAwNDk1MH0.SkitRnRjjQ-f0aKn8mGukikCjnUImhSzH9z7UMGVVXgq_fBl_upJOKpA_-h5vCMAWOlKOwBibwimoyQ7GVOtCQ
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 68a773e0-10f2-48da-8475-5617c578bf7e
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+
+
+
+Request3:{GET /user-details/my HTTP/1.1
+Authorization: Bearer 33333
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: c6bd2673-856d-40ff-a867-84f98db525c2
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+
+##Response
 
 Response1:{HTTP/1.1 200 OK
 Date: Mon, 15 Nov 2021 19:36:06 GMT
@@ -36,16 +70,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 {"success":true,"message":"Success","payload":{"id":"35b41f98-dfd7-4077-baa4-451edcf368d3","user_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","email":"xxxx@gmail.com","bio":"lalalalalalala","telephone":"123456","latitude":10,"longitude":20}}}
 
 
-
-
-Request2:{GET /user-details/my111 HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNjI5MjZhOTQ5MDVjODRlZWQyZWM4MjJkNjNjYTliNzc5NTI5OTY5OWQ3YTAyYTNiNjI4ZGUxZmUxYjBkM2ZkYiJ9fSwiZXhwIjoxNjM3MDA1ODUxLCJpYXQiOjE2MzcwMDQ5NTEsIm5iZiI6MTYzNzAwNDk1MH0.SkitRnRjjQ-f0aKn8mGukikCjnUImhSzH9z7UMGVVXgq_fBl_upJOKpA_-h5vCMAWOlKOwBibwimoyQ7GVOtCQ
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 68a773e0-10f2-48da-8475-5617c578bf7e
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
 
 
 
@@ -77,14 +101,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request3:{GET /user-details/my HTTP/1.1
-Authorization: Bearer 33333
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: c6bd2673-856d-40ff-a867-84f98db525c2
-Host: main-api.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive}
 
 
 
@@ -109,3 +125,11 @@ CF-RAY: 6aeaf06ebb4b68f2-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=token contains an invalid number of segments","payload":null}}
+
+
+
+
+
+
+##Results
+Success

@@ -40,7 +40,7 @@ Content-Length: 36}
 
 Change Password Request Body:{
 {
-"password":"qwaezsxd12"
+"password":"qwaezsxd123"
 }}
 
 

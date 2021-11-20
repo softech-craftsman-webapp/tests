@@ -3,56 +3,48 @@
 
 
 ##Url:{https://main-api.hiringo.tech/contracts/{id}}
-{https://auth.hiringo.tech/auth/login}
-{https://main-api.hiringo.tech/contracts/new}
 
 
 ##Request
 
-Login Request Headers:{POST /auth/login HTTP/1.1
-Content-Type: application/json
+Request1:{DELETE /contracts/a2f7e77b-ca28-474b-8b8d-006b0bf61a42 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiYjJkYzFmMmViNjg3MTI3NmMxMzNlNGI5OGNhMGExMTg0ZGVlMTFlM2I4ZmJkM2E4Zjg0ODhkNzQxYzQyYmM4ZCJ9fSwiZXhwIjoxNjM3MzY0MTc3LCJpYXQiOjE2MzczNjMyNzcsIm5iZiI6MTYzNzM2MzI3Nn0.vXYQhhpLF7uhq1PkLujZUPUrUKLOqWV0REY-gVvWVT-Zx33sBiz2xRdqFffU7bLEzqX9N8u40dlIkcBlTWpfeQ
 User-Agent: PostmanRuntime/7.28.4
 Accept: */*
-Postman-Token: 0860cada-778c-4cf6-a6ee-d856edd43a13
-Host: auth.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 59}
-
-Login Request Body:{{
-"email": "xxxx@gmail.com",
-"password": "qwaezsxd12"
-}}
-
-
-
-Contract_new Request Headers:{POST /contracts/new HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZmMzOTZjZWNiMTE3YmI0OTYwODAxNWJiNWE0NmEyMzk1NGM0YjFkYzdmYjVjZWZhNDg1ODc2Nzk1OTI5MGMyNiJ9fSwiZXhwIjoxNjM2OTMyODMwLCJpYXQiOjE2MzY5MzE5MzAsIm5iZiI6MTYzNjkzMTkyOX0.tptCNCepkEEAUW1d8IN5rOuVacIMlrA9rU-pdnsrxBWLMj2DE-S3z2xhRttkaSv-LSzOxVlGiwcgekBoeMm5_g
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: debf01df-deb5-4b8f-aff9-cfd5724c06c3
+Postman-Token: 236b5da5-559b-4e7d-b575-75ca9c5e57da
 Host: main-api.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
-Content-Length: 124}
+}
 
 
 
-Contract_new Request Body:{{
-"end_time": "2021-09-02 16:24",
-"job_id": "2ef792f1-720a-4822-abdd-bcde4804cf60",
-"start_time": "2020-09-02 12:05"
-}}
-
-
-
-
-Contracts_delete Request:{DELETE /contracts/a102d052-bf52-4a8a-b288-234b952f4212 HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZmMzOTZjZWNiMTE3YmI0OTYwODAxNWJiNWE0NmEyMzk1NGM0YjFkYzdmYjVjZWZhNDg1ODc2Nzk1OTI5MGMyNiJ9fSwiZXhwIjoxNjM2OTMyODMwLCJpYXQiOjE2MzY5MzE5MzAsIm5iZiI6MTYzNjkzMTkyOX0.tptCNCepkEEAUW1d8IN5rOuVacIMlrA9rU-pdnsrxBWLMj2DE-S3z2xhRttkaSv-LSzOxVlGiwcgekBoeMm5_g
+Request2:{DELETE /contracts/aaa HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiYjJkYzFmMmViNjg3MTI3NmMxMzNlNGI5OGNhMGExMTg0ZGVlMTFlM2I4ZmJkM2E4Zjg0ODhkNzQxYzQyYmM4ZCJ9fSwiZXhwIjoxNjM3MzY0MTc3LCJpYXQiOjE2MzczNjMyNzcsIm5iZiI6MTYzNzM2MzI3Nn0.vXYQhhpLF7uhq1PkLujZUPUrUKLOqWV0REY-gVvWVT-Zx33sBiz2xRdqFffU7bLEzqX9N8u40dlIkcBlTWpfeQ
 User-Agent: PostmanRuntime/7.28.4
 Accept: */*
-Postman-Token: 04a24a6a-6b38-4054-80cb-830e63364c21
+Postman-Token: 0f7940d3-507f-4473-9c23-20ab01e6d86d
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+
+Request3:{DELETE /contracts/ HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiYjJkYzFmMmViNjg3MTI3NmMxMzNlNGI5OGNhMGExMTg0ZGVlMTFlM2I4ZmJkM2E4Zjg0ODhkNzQxYzQyYmM4ZCJ9fSwiZXhwIjoxNjM3MzY0MTc3LCJpYXQiOjE2MzczNjMyNzcsIm5iZiI6MTYzNzM2MzI3Nn0.vXYQhhpLF7uhq1PkLujZUPUrUKLOqWV0REY-gVvWVT-Zx33sBiz2xRdqFffU7bLEzqX9N8u40dlIkcBlTWpfeQ
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: ab689b0e-585e-4ef0-a172-8aa8438557e8
+Host: main-api.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive}
+
+
+Request4:{DELETE /contracts/e5d43103-d707-48f4-bc3b-a5578a93cb58 HTTP/1.1
+Authorization: Bearer 111
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 9cccfbeb-4d9c-4d23-b3a9-da2f3b35cf62
 Host: main-api.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive}
@@ -60,10 +52,11 @@ Connection: keep-alive}
 
 
 
+
 ##Response
 
-Login Response:{HTTP/1.1 200 OK
-Date: Sun, 14 Nov 2021 23:18:50 GMT
+Response1:{HTTP/1.1 200 OK
+Date: Fri, 19 Nov 2021 23:10:08 GMT
 Content-Type: application/json; charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -76,21 +69,20 @@ x-frame-options: SAMEORIGIN
 x-xss-protection: 1; mode=block
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=r8IdaZMZazk%2FzXV%2FCh392cOnfXcqgjXBkUOcQnKADzWErd5TwikJnGTYW1hnyBXjDAipFJixW7V%2B25mHno32n08LUBglCI7qHVHmmpSpl4eo4HUKs3iP7VV%2BWVZQfiw39sfGxg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=n%2BcLPDFggVcEnO2T6iavwmVodOGAh0cL0Nc9fSfkzje%2F2qKBWpM9z8pYy%2BxmDfv7c3Uhnn65cjuQfKiF0BC9PSodUQGgIRJjxTjKLnc8uMyjhbfAg6%2BAcgiBI0jQWn%2F%2FvzwGxKV4eiE%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 6ae3f6140fb60629-FRA
+CF-RAY: 6b0d1c34edd67031-FRA
 Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
-{"success":true,"message":"Success","payload":{"id":"66312a78-1f9e-4d78-a9fb-231e84967f60","email":"xxxx@gmail.com","name":"Rachel","email_verified_at":null,"token":"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZmMzOTZjZWNiMTE3YmI0OTYwODAxNWJiNWE0NmEyMzk1NGM0YjFkYzdmYjVjZWZhNDg1ODc2Nzk1OTI5MGMyNiJ9fSwiZXhwIjoxNjM2OTMyODMwLCJpYXQiOjE2MzY5MzE5MzAsIm5iZiI6MTYzNjkzMTkyOX0.tptCNCepkEEAUW1d8IN5rOuVacIMlrA9rU-pdnsrxBWLMj2DE-S3z2xhRttkaSv-LSzOxVlGiwcgekBoeMm5_g","token_expiration":1636932830,"refresh_token":"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZmMzOTZjZWNiMTE3YmI0OTYwODAxNWJiNWE0NmEyMzk1NGM0YjFkYzdmYjVjZWZhNDg1ODc2Nzk1OTI5MGMyNiJ9fSwiZXhwIjoxNjM5NTIzOTMwLCJpYXQiOjE2MzY5MzE5MzAsIm5iZiI6MTYzNjkzMTkyOX0.eLW_ZpcUPEegTcLbK7GZeZD6qOOaXhMJl4LPvtyPWzvGUdiyBwIFci0U-4N9cLTrvVe0xW8BLje40u4s6AErmA"}}
+{"success":true,"message":"Success","payload":{"id":"a2f7e77b-ca28-474b-8b8d-006b0bf61a42"}}
 }
 
 
 
-Contract_new Response:{
-HTTP/1.1 200 OK
-Date: Sun, 14 Nov 2021 23:20:48 GMT
+Response2:{HTTP/1.1 500 Internal Server Error
+Date: Fri, 19 Nov 2021 23:15:16 GMT
 Content-Type: application/json; charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -103,20 +95,18 @@ x-frame-options: SAMEORIGIN
 x-xss-protection: 1; mode=block
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=j7ejDDNCev6vEMay2be0o20QBPtQj3A%2BS8PSCzoSvk8Lci22M29P54CdqzIKWsYGiH5JdyW3mFNspftwZRMg67BTBTsiWUsKgOS9KeeqqNdgxwb3alUjryrFGizRGFF1oOcF8YYO%2BO0%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8eeLy4i4dR23cAh8X7f5tz%2F%2B1RqarWcJC1E50C%2Bd053JWpoiYgWUey6L2Jqe1zhht0E4lSm4rc2Ufv4nIeklOmFFNOafabCGnKv3nGhwKnbUJAkQrOaIfcJwDl6jIRcX6g%2Bi9SW2cDk%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 6ae3f8f68b880601-FRA
-Content-Encoding: br
+CF-RAY: 6b0d23bb3d8d7031-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
-{"success":true,"message":"Success","payload":{"id":"a102d052-bf52-4a8a-b288-234b952f4212","start_time":"2020-09-02T12:05:00Z","end_time":"2021-09-02T16:24:00Z","signed_by_recruiter_time":"0001-01-01T00:00:00Z","signed_by_professional_time":"2021-11-15T00:20:48.676688165+01:00","recruiter_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","professional_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","job_id":"2ef792f1-720a-4822-abdd-bcde4804cf60"}}}
+{"success":false,"message":"ERROR: invalid input syntax for type uuid: \"aaa\" (SQLSTATE 22P02)","payload":null}}
 
 
 
-
-Contracts_delete Response:{HTTP/1.1 403 Forbidden
-Date: Sun, 14 Nov 2021 23:22:54 GMT
+Response3:{HTTP/1.1 404 Not Found
+Date: Fri, 19 Nov 2021 23:17:01 GMT
 Content-Type: application/json; charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -129,17 +119,41 @@ x-frame-options: SAMEORIGIN
 x-xss-protection: 1; mode=block
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=G58ZR%2BelJvB1imkDN%2Bk0aQY5yuA0cYfJS1QL1uj1%2F%2F%2FnCfwc6YCajqVIAmslu4ob%2BycUM%2FJY5dKo8AKqCpS1iWl5pel9CZUnLtjGvCQLiwqVmMy5MaJHFtDrxBXz5D7Y3IJFYJTM3bg%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tVSB5Ijdrlb2fwaMqQkxuGp9WzOTTLfYxQ0V0%2F11NHvGsm5AAXoEc7iVV456UJ14LBgVyfxGt3wTBnnabtbyycsMBHbmCeC3%2Bssk4VRIJjycvNPwugG1878RqPfe2gVgcuHGPWLZ96Y%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 6ae3fc065da20601-FRA
+CF-RAY: 6b0d264dbd4a7031-FRA
 Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
-{"success":true,"message":"You are not permitted to delete contract. Contract is already signed.","payload":null}}
+{"success":false,"message":"Not Found","payload":null}}
 
+
+
+Response4:{HTTP/1.1 401 Unauthorized
+Date: Fri, 19 Nov 2021 23:19:47 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+content-security-policy: default-src 'self' 'unsafe-inline'
+strict-transport-security: max-age=3600; includeSubdomains
+vary: Accept-Encoding
+vary: Origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=l8KxbcA3uLKbXy%2BPa%2BR5IurLHtpd8f2xRmM61tRCluvGO%2Fp7V1HE2EVXvX4aaOGeMsdeCIS9vDtCumHMS1t4z7mYQDB8hOxY8ocWfz8yHfDKprWIqdqnqsBm%2FQk2%2FXj0mebtSIfLj6U%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6b0d2a5b9a9a7031-FRA
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+ 
+{"success":false,"message":"invalid or expired jwt, internal=token contains an invalid number of segments","payload":null}
+}
 
 
 
 ##Results
-Failed
+Success

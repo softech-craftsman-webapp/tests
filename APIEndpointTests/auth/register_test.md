@@ -1,4 +1,12 @@
-url:{https://auth.hiringo.tech/auth/register}
+##Register
+
+
+
+##Url:{https://auth.hiringo.tech/auth/register}
+
+
+
+##Request
 
 Request Headers1:{POST /auth/register HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMzAyZjRkY2Q2OWVkYWU3MzBhMjYzMDY1NDg0ODZmMDdiYzMxNDBmMzM1ZGNjM2I1YTU3YzI2YTc4YzdjYjk3MSJ9fSwiZXhwIjoxNjM2MjgxNzA4LCJpYXQiOjE2MzYyODA4MDgsIm5iZiI6MTYzNjI4MDgwN30.WNNehwtwzuEocNqHvKTWtn0M-FqkLO1GFbcpNZQgtaZGymM8ChO3I3ySuHZ29ouNAD4FtNPPL0Gn3Ei5EAeMIw
@@ -18,6 +26,32 @@ Request Body1:{{
   "password": "qwaezsxd12"
 }}
 
+
+
+Request Headers2:{POST /auth/register HTTP/1.1
+Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMzAyZjRkY2Q2OWVkYWU3MzBhMjYzMDY1NDg0ODZmMDdiYzMxNDBmMzM1ZGNjM2I1YTU3YzI2YTc4YzdjYjk3MSJ9fSwiZXhwIjoxNjM2MjgxNzA4LCJpYXQiOjE2MzYyODA4MDgsIm5iZiI6MTYzNjI4MDgwN30.WNNehwtwzuEocNqHvKTWtn0M-FqkLO1GFbcpNZQgtaZGymM8ChO3I3ySuHZ29ouNAD4FtNPPL0Gn3Ei5EAeMIw
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.4
+Accept: */*
+Postman-Token: 8cf2e7a9-2329-4666-be35-ffca4f7b6d77
+Host: auth.hiringo.tech
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 68}
+
+
+
+Request Body2:{{
+  "email": "xxx17@gmail.com",
+  "name": "xx",
+  "password": "&&"
+}}
+
+
+
+
+
+##Response
 
 Response1:{
 HTTP/1.1 201 Created
@@ -44,28 +78,6 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-Request Headers2:{POST /auth/register HTTP/1.1
-Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMzAyZjRkY2Q2OWVkYWU3MzBhMjYzMDY1NDg0ODZmMDdiYzMxNDBmMzM1ZGNjM2I1YTU3YzI2YTc4YzdjYjk3MSJ9fSwiZXhwIjoxNjM2MjgxNzA4LCJpYXQiOjE2MzYyODA4MDgsIm5iZiI6MTYzNjI4MDgwN30.WNNehwtwzuEocNqHvKTWtn0M-FqkLO1GFbcpNZQgtaZGymM8ChO3I3ySuHZ29ouNAD4FtNPPL0Gn3Ei5EAeMIw
-Content-Type: application/json
-User-Agent: PostmanRuntime/7.28.4
-Accept: */*
-Postman-Token: 8cf2e7a9-2329-4666-be35-ffca4f7b6d77
-Host: auth.hiringo.tech
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-Content-Length: 68}
-
-
-
-
-Request Body2:{{
-  "email": "xxx17@gmail.com",
-  "name": "xx",
-  "password": "&&"
-}}
-
-
-
 Response2:{
 HTTP/1.1 400 Bad Request
 Date: Thu, 11 Nov 2021 17:30:08 GMT
@@ -88,3 +100,10 @@ CF-RAY: 6ac93f2a0fd8dffb-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"Key: 'RegisterRequest.Password' Error:Field validation for 'Password' failed on the 'min' tag","payload":null}}
+
+
+
+
+
+##Results
+Success

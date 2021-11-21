@@ -1,15 +1,12 @@
-##LocationsSearch
+## LocationsSearch
 
+## URL
+```
+https://main-api.hiringo.tech/locations/search
+```
 
-
-
-##Url:{https://main-api.hiringo.tech/locations/search}
-
-
-
-
-##Request
-
+## Request
+```
 Request Headers1:{POST /locations/search HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYzQwODU0NjZmNTRiYjNkYWI4MDM1OGVmYTc4Yjg2MThhNzdkZDEyMmJlOWMwZDlhZjFmNGEyOWFmNzIxZWM4MSJ9fSwiZXhwIjoxNjM2ODkyMDI4LCJpYXQiOjE2MzY4OTExMjgsIm5iZiI6MTYzNjg5MTEyN30.tLycfWMVZ4aGJLlCJgdm-VupYe-Rw3omRqy9b7ImiHVhWMczi9f3ctRHEeaArVCt6GnwclH4mu6ln3zTOS7lLw
 Content-Type: application/json
@@ -26,10 +23,10 @@ Request Body1:{{
 "latitude": 10,
 "longitude": 20
 }}
+```
 
 
-
-
+```
 Request Headers2:{POST /locations/search HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYzQwODU0NjZmNTRiYjNkYWI4MDM1OGVmYTc4Yjg2MThhNzdkZDEyMmJlOWMwZDlhZjFmNGEyOWFmNzIxZWM4MSJ9fSwiZXhwIjoxNjM2ODkyMDI4LCJpYXQiOjE2MzY4OTExMjgsIm5iZiI6MTYzNjg5MTEyN30.tLycfWMVZ4aGJLlCJgdm-VupYe-Rw3omRqy9b7ImiHVhWMczi9f3ctRHEeaArVCt6GnwclH4mu6ln3zTOS7lLw
 Content-Type: application/json
@@ -46,10 +43,10 @@ Request Body2:{{
 "latitude": 0,
 "longitude": 0
 }}
+```
 
 
-
-
+```
 Request Headers3:{POST /locationsss/search HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYzQwODU0NjZmNTRiYjNkYWI4MDM1OGVmYTc4Yjg2MThhNzdkZDEyMmJlOWMwZDlhZjFmNGEyOWFmNzIxZWM4MSJ9fSwiZXhwIjoxNjM2ODkyMDI4LCJpYXQiOjE2MzY4OTExMjgsIm5iZiI6MTYzNjg5MTEyN30.tLycfWMVZ4aGJLlCJgdm-VupYe-Rw3omRqy9b7ImiHVhWMczi9f3ctRHEeaArVCt6GnwclH4mu6ln3zTOS7lLw
 Content-Type: application/json
@@ -65,17 +62,17 @@ Content-Length: 39}
 Request Body3:{{
 "latitude": 10,
 "longitude": 20
-}
-}
+}}
+```
 
 
 
 
 
 
+## Response
 
-##Response
-
+```
 Response1:{
 HTTP/1.1 200 OK
 Date: Sun, 14 Nov 2021 11:59:12 GMT
@@ -99,10 +96,9 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Success","payload":{"place_id":282384302,"osm_type":"relation","osm_id":3106489,"lat":"10.7575596","lon":"20.6934116","display_name":"Salamat, Chad","address":{"house_number":"","road":"","suburb":"","city_district":"","region":"","postcode":"","country":"Chad","country_code":"td"},"boundingbox":["9.0830416","12.123","18.874","22.387222"]}}}
+```
 
-
-
-
+```
 Response2:{
 HTTP/1.1 400 Bad Request
 Date: Sun, 14 Nov 2021 12:03:54 GMT
@@ -125,9 +121,9 @@ CF-RAY: 6ae01968ef775c26-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"code=400, message=Key: 'CreateLocationRequest.Longitude' Error:Field validation for 'Longitude' failed on the 'required' tag\nKey: 'CreateLocationRequest.Latitude' Error:Field validation for 'Latitude' failed on the 'required' tag","payload":null}}
+```
 
-
-
+```
 Response3:{
 HTTP/1.1 404 Not Found
 Date: Sun, 14 Nov 2021 12:06:51 GMT
@@ -151,10 +147,10 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"Not Found","payload":null}}
+```
 
 
 
 
-
-##Results
+## Results
 Success

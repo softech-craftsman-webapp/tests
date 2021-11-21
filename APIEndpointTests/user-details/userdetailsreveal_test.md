@@ -1,13 +1,14 @@
-##UserDetailsRevel
+# UserDetailsRevel
 
 
-##Url
-{https://main-api.hiringo.tech/user-details/{id}/reveal}
+## URL
+```
+https://main-api.hiringo.tech/user-details/{id}/reveal
+```
 
 
-
-##Request
-
+## Request
+```
 Request Headers1:{POST /user-details/66312a78-1f9e-4d78-a9fb-231e84967f60/reveal HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiM2VjMGRkMDZlM2Q1MmNlNzUxOWZmZDQwY2FjNTA0Y2E0NDdlZTg4NmM1NGIwYjNhNjg5NTE1NWE3NzFiOGIxZiJ9fSwiZXhwIjoxNjM3MzY4MDY3LCJpYXQiOjE2MzczNjcxNjcsIm5iZiI6MTYzNzM2NzE2Nn0.8u-SBHmluGBn-Cr4ZRIwAq6Gr-_8THupP3RgEuqz_IuiKCOyuRpH3k0U7MGywM8GtwRQf2FpE-2SlVWr-a1Bvg
 Content-Type: application/json
@@ -23,10 +24,10 @@ Content-Length: 59}
 Request Body1:{{
 "contract_id": "e5d43103-d707-48f4-bc3b-a5578a93cb58"
 }}
+```
 
 
-
-
+```
 Request Headers2:{POST /user-details/66312a78-1f9e-4d78-a9fb-231e84967f60/reveal HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiM2VjMGRkMDZlM2Q1MmNlNzUxOWZmZDQwY2FjNTA0Y2E0NDdlZTg4NmM1NGIwYjNhNjg5NTE1NWE3NzFiOGIxZiJ9fSwiZXhwIjoxNjM3MzY4MDY3LCJpYXQiOjE2MzczNjcxNjcsIm5iZiI6MTYzNzM2NzE2Nn0.8u-SBHmluGBn-Cr4ZRIwAq6Gr-_8THupP3RgEuqz_IuiKCOyuRpH3k0U7MGywM8GtwRQf2FpE-2SlVWr-a1Bvg
 Content-Type: application/json
@@ -43,11 +44,11 @@ Request Body2:{{
 "contract_id": "111"
 }
 }
+```
 
 
 
-
-
+```
 Request Headers3:{POST /user-details/66312a78-1f9e-4d78-a9fb-231e84967f60/reveal HTTP/1.1
 Authorization: Bearer 111
 Content-Type: application/json
@@ -64,10 +65,10 @@ Content-Length: 59}
 Request Body3:{{
 "contract_id": "e5d43103-d707-48f4-bc3b-a5578a93cb58"
 }}
+```
 
-
-##Response
-
+## Response
+```
 Response1:{HTTP/1.1 200 OK
 Date: Sat, 20 Nov 2021 00:16:27 GMT
 Content-Type: application/json; charset=UTF-8
@@ -90,11 +91,11 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Success","payload":{"id":"35b41f98-dfd7-4077-baa4-451edcf368d3","user_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","email":"xxxx@gmail.com","bio":"hahahahahaxixi","telephone":"123456","latitude":10,"longitude":20}}}
+```
 
 
 
-
-
+```
 Response2:{HTTP/1.1 404 Not Found
 Date: Sat, 20 Nov 2021 00:21:20 GMT
 Content-Type: application/json; charset=UTF-8
@@ -117,11 +118,11 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"ERROR: invalid input syntax for type uuid: \"111\" (SQLSTATE 22P02)","payload":null}}
+```
 
 
 
-
-
+```
 Response3:{HTTP/1.1 401 Unauthorized
 Date: Sat, 20 Nov 2021 00:23:47 GMT
 Content-Type: application/json; charset=UTF-8
@@ -143,11 +144,11 @@ CF-RAY: 6b0d88191b752c26-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=token contains an invalid number of segments","payload":null}}
+```
 
 
 
 
 
-
-##Results
+## Results
 Sucess

@@ -1,14 +1,16 @@
-##MyRatings
+# MyRatings
 
 
 
 
-##Url:{https://main-api.hiringo.tech/ratings/my}
+## URL
+```
+https://main-api.hiringo.tech/ratings/my
 
+```
 
-
-##Request
-
+## Request
+```
 Request1:{GET /ratings/my HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiMzdhZGY2M2FjYmYwM2M4YjlmMmMzMGNlYmRhZTQ2MzBmOGU0NTVhZjM2MGRkNzg5YTAzZmY2MzRjMzFhMzE4YSJ9fSwiZXhwIjoxNjM3MDIwNzUwLCJpYXQiOjE2MzcwMTk4NTAsIm5iZiI6MTYzNzAxOTg0OX0.qfCJjbTiGWJWYOh41yGNBL-4qUcjEBddYJvWCc-rVYHKcZcFeGHhepBjWcISlHc9FIJC2K1ntuv_fYBWfEjU2w
 User-Agent: PostmanRuntime/7.28.4
@@ -17,9 +19,9 @@ Postman-Token: c88bc8ba-ddbb-4a92-b2de-dfa60ea9ac9e
 Host: main-api.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive}
+```
 
-
-
+```
 Request2:{GET /ratings/my111 HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiMzdhZGY2M2FjYmYwM2M4YjlmMmMzMGNlYmRhZTQ2MzBmOGU0NTVhZjM2MGRkNzg5YTAzZmY2MzRjMzFhMzE4YSJ9fSwiZXhwIjoxNjM3MDIwNzUwLCJpYXQiOjE2MzcwMTk4NTAsIm5iZiI6MTYzNzAxOTg0OX0.qfCJjbTiGWJWYOh41yGNBL-4qUcjEBddYJvWCc-rVYHKcZcFeGHhepBjWcISlHc9FIJC2K1ntuv_fYBWfEjU2w
 User-Agent: PostmanRuntime/7.28.4
@@ -28,9 +30,9 @@ Postman-Token: 73bf401f-1521-4bfd-916f-24daa7238968
 Host: main-api.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive}
+```
 
-
-
+```
 Request3:{GET /ratings/my HTTP/1.1
 Authorization: Bearer 111
 User-Agent: PostmanRuntime/7.28.4
@@ -39,14 +41,14 @@ Postman-Token: 893be69d-a09e-4271-aab8-d7f3851d1a31
 Host: main-api.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive}
+```
 
 
 
 
 
-
-##Response
-
+## Response
+```
 Response1:{HTTP/1.1 200 OK
 Date: Mon, 15 Nov 2021 23:44:34 GMT
 Content-Type: application/json; charset=UTF-8
@@ -69,10 +71,10 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Success","payload":null}}
+```
 
 
-
-
+```
 Response2:{HTTP/1.1 404 Not Found
 Date: Mon, 15 Nov 2021 23:47:59 GMT
 Content-Type: application/json; charset=UTF-8
@@ -95,10 +97,10 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"ERROR: invalid input syntax for type uuid: \"my111\" (SQLSTATE 22P02)","payload":null}}
+```
 
 
-
-
+```
 Response3:{
 HTTP/1.1 401 Unauthorized
 Date: Mon, 15 Nov 2021 23:50:10 GMT
@@ -121,10 +123,10 @@ CF-RAY: 6aec6158d88d4e31-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=token contains an invalid number of segments","payload":null}}
+```
 
 
 
 
-
-##Results
+## Results
 Success

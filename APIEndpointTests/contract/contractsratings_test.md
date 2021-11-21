@@ -1,15 +1,17 @@
-##ContractsRatings
+# ContractsRatings
 
 
 
 
-##Url:{https://main-api.hiringo.tech/contracts/{id}/ratings}
+## URL
+```
+https://main-api.hiringo.tech/contracts/{id}/ratings
+```
 
 
 
-
-##Request
-
+## Request
+```
 Request1:{GET /contracts/%7B9c2d2242-f66d-486f-a75f-ab01e93e3b56%7D/ratings HTTP/1.1
 Authorization: Bearer 111
 User-Agent: PostmanRuntime/7.28.4
@@ -18,10 +20,10 @@ Postman-Token: 268094c6-8cc1-4698-b4b6-46164256b905
 Host: main-api.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive}
+```
 
 
-
-
+```
 Request2:{GET /contracts/%7B9c2d2242-f66d-486f-a75f-ab01e93e3b56%7D/ratings HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNGM0MGFhMTVjYmEzMTMzMDRmZTUwYjBkM2VlOTE5MGRhY2IwZWMzZjAzZDg2YTcwZTYxNzY0MmIxM2E4MzdlZSJ9fSwiZXhwIjoxNjM2OTMwMzE1LCJpYXQiOjE2MzY5Mjk0MTUsIm5iZiI6MTYzNjkyOTQxNH0.dgCKjfrP5SyxhlnjsZHGG0Altj987S6uhU0K6Ygloqhi2xJF3WBW2CsYm6xdDhGeygjiGPJObq9iL7GdhLEjQQ
 User-Agent: PostmanRuntime/7.28.4
@@ -30,10 +32,10 @@ Postman-Token: 65a3a101-3872-42fe-99c9-682c08ef5338
 Host: main-api.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive}
+```
 
 
-
-
+```
 Request3:{GET /contracts/%7B%7D/ratings HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNGM0MGFhMTVjYmEzMTMzMDRmZTUwYjBkM2VlOTE5MGRhY2IwZWMzZjAzZDg2YTcwZTYxNzY0MmIxM2E4MzdlZSJ9fSwiZXhwIjoxNjM2OTMwMzE1LCJpYXQiOjE2MzY5Mjk0MTUsIm5iZiI6MTYzNjkyOTQxNH0.dgCKjfrP5SyxhlnjsZHGG0Altj987S6uhU0K6Ygloqhi2xJF3WBW2CsYm6xdDhGeygjiGPJObq9iL7GdhLEjQQ
 User-Agent: PostmanRuntime/7.28.4
@@ -42,10 +44,10 @@ Postman-Token: 353050cc-9d22-4d95-93ab-ab797948804e
 Host: main-api.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive}
+```
 
 
-
-
+```
 Request4:{GET /contracts/%7B9c2d2242-f66d-486f-a75f-ab01e93e3b56%7D/ratings1111 HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNGM0MGFhMTVjYmEzMTMzMDRmZTUwYjBkM2VlOTE5MGRhY2IwZWMzZjAzZDg2YTcwZTYxNzY0MmIxM2E4MzdlZSJ9fSwiZXhwIjoxNjM2OTMwMzE1LCJpYXQiOjE2MzY5Mjk0MTUsIm5iZiI6MTYzNjkyOTQxNH0.dgCKjfrP5SyxhlnjsZHGG0Altj987S6uhU0K6Ygloqhi2xJF3WBW2CsYm6xdDhGeygjiGPJObq9iL7GdhLEjQQ
 User-Agent: PostmanRuntime/7.28.4
@@ -54,11 +56,11 @@ Postman-Token: 7a7b31f1-e460-448f-b2f6-2ac65085f80b
 Host: main-api.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive}
+```
 
 
-
-##Response
-
+## Response
+```
 Response1:{
 HTTP/1.1 401 Unauthorized
 Date: Sun, 14 Nov 2021 22:36:19 GMT
@@ -81,11 +83,11 @@ CF-RAY: 6ae3b7ce8fb25c6e-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=token contains an invalid number of segments","payload":null}}
+```
 
 
 
-
-
+```
 Response2:{HTTP/1.1 200 OK
 Date: Sun, 14 Nov 2021 22:37:04 GMT
 Content-Type: application/json; charset=UTF-8
@@ -108,10 +110,10 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Success","payload":{"job_id":"2ef792f1-720a-4822-abdd-bcde4804cf60","contract_id":"9c2d2242-f66d-486f-a75f-ab01e93e3b56","recruiter_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","professional_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","is_rating_finished":false,"rating_items":null}}}
+```
 
 
-
-
+```
 Response3:{HTTP/1.1 500 Internal Server Error
 Date: Sun, 14 Nov 2021 22:39:09 GMT
 Content-Type: application/json; charset=UTF-8
@@ -133,11 +135,11 @@ CF-RAY: 6ae3bbf149035c6e-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"ERROR: invalid input syntax for type uuid: \"{}\" (SQLSTATE 22P02)","payload":null}}
+```
 
 
 
-
-
+```
 Response4:{HTTP/1.1 404 Not Found
 Date: Sun, 14 Nov 2021 22:40:14 GMT
 Content-Type: application/json; charset=UTF-8
@@ -160,10 +162,10 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"Not Found","payload":null}}
+```
 
 
 
 
-
-##Results
+## Results
 Success

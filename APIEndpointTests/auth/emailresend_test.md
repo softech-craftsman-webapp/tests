@@ -2,7 +2,7 @@
 
 ## URL
 ```
-{https://auth.hiringo.tech/auth/email-resend}
+https://auth.hiringo.tech/auth/email-resend
 ```
 
 ## Request

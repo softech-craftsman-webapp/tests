@@ -1,13 +1,15 @@
-##UpdatePassword
+# UpdatePassword
 
 
 
-##Url
-{https://auth.hiringo.tech/users/{id}/update-password}
+## URL
+```
+https://auth.hiringo.tech/users/{id}/update-password
+```
 
 
-
-#Request
+# Request
+```
 Request Headers1:{PUT /users/%7B66312a78-1f9e-4d78-a9fb-231e84967f60%7D/update-password HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMTg6MzM6MzEuNTI3Njg1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYzI3NzdiYmY4YjdjZmVlZDdkOTM5ZGMyMDRkMmQ3OWIyNTBjNThiMjEwN2U3ODk0MGIwOTA0NTc2NjA3ZjIzNiJ9fSwiZXhwIjoxNjM2NzUxMDc1LCJpYXQiOjE2MzY3NTAxNzUsIm5iZiI6MTYzNjc1MDE3NH0.tV3RR4ky1cbp58HaSHR9hk9fMdd25gAt4x88UCGJW9AASjNDkAGh3eOR6zZMpF3Yc38ZlU5ytiUVv9BXseczGA
 Content-Type: application/json
@@ -26,10 +28,10 @@ Request Body1:{{
 "password": "qwaezsxd123"
 }
  }
+```
 
 
-
-
+```
 Request Headers2:{PUT /users/%7Bid%7D/update-password HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMTg6MzM6MzEuNTI3Njg1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYzI3NzdiYmY4YjdjZmVlZDdkOTM5ZGMyMDRkMmQ3OWIyNTBjNThiMjEwN2U3ODk0MGIwOTA0NTc2NjA3ZjIzNiJ9fSwiZXhwIjoxNjM2NzUxMDc1LCJpYXQiOjE2MzY3NTAxNzUsIm5iZiI6MTYzNjc1MDE3NH0.tV3RR4ky1cbp58HaSHR9hk9fMdd25gAt4x88UCGJW9AASjNDkAGh3eOR6zZMpF3Yc38ZlU5ytiUVv9BXseczGA
 Content-Type: application/json
@@ -46,10 +48,10 @@ Request Body2:{{
 "old_password": "qwaezsxd12",
 "password": "qwaezsxd123"
 }}
+```
 
 
-
-
+```
 Request Headers3:{PUT /users/%7B66312a78-1f9e-4d78-a9fb-231e84967f60%7D/update-password1111 HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiOTdiZTQxZjNkMGI4ODdjNDc0YTJiNzBhYTMwNWVhOTU3ODA2NDljZDQyOTg0ZGYwMDRlMTIzNmNhMmE5MWQ3ZCJ9fSwiZXhwIjoxNjM2NzUyMDgzLCJpYXQiOjE2MzY3NTExODMsIm5iZiI6MTYzNjc1MTE4Mn0.lWk0quhjFtLVB0zj8KMD3TI6H2zVJscbe343uhH-tNc8PS_1DyNyrjqLadSvivVQecyUugmUm-GhZc-xXXYM0g
 Content-Type: application/json
@@ -67,10 +69,10 @@ Request Body3:{{
 "old_password": "qwaezsxd12",
 "password": "qwaezsxd123"
 }}
+```
 
 
-
-
+```
 Request Headers4:{PUT /users/%7B66312a78-1f9e-4d78-a9fb-231e84967f60%7D/update-password HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiOTdiZTQxZjNkMGI4ODdjNDc0YTJiNzBhYTMwNWVhOTU3ODA2NDljZDQyOTg0ZGYwMDRlMTIzNmNhMmE5MWQ3ZCJ9fSwiZXhwIjoxNjM2NzUyMDgzLCJpYXQiOjE2MzY3NTExODMsIm5iZiI6MTYzNjc1MTE4Mn0.lWk0quhjFtLVB0zj8KMD3TI6H2zVJscbe343uhH-tNc8PS_1DyNyrjqLadSvivVQecyUugmUm-GhZc-xXXYM0g
 Content-Type: application/json
@@ -86,11 +88,11 @@ Content-Length: 6}
 
 Request Body4:{{
 }}
+```
 
 
 
-
-
+```
 Request Headers5:{PUT /users/%7B66312a78-1f9e-4d78-a9fb-231e84967f60%7D/update-password HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiOTdiZTQxZjNkMGI4ODdjNDc0YTJiNzBhYTMwNWVhOTU3ODA2NDljZDQyOTg0ZGYwMDRlMTIzNmNhMmE5MWQ3ZCJ9fSwiZXhwIjoxNjM2NzUyMDgzLCJpYXQiOjE2MzY3NTExODMsIm5iZiI6MTYzNjc1MTE4Mn0.lWk0quhjFtLVB0zj8KMD3TI6H2zVJscbe343uhH-tNc8PS_1DyNyrjqLadSvivVQecyUugmUm-GhZc-xXXYM0g
 Content-Type: application/json
@@ -108,11 +110,11 @@ Request Body5:{{
 "old_password": "qwaezsxd12",
 "password": "qwaezsxd123"
 }}
+```
 
 
-
-##Response
-
+## Response
+```
 Response1:{HTTP/1.1 200 OK
 Date: Fri, 12 Nov 2021 20:52:31 GMT
 Content-Type: application/json; charset=UTF-8
@@ -135,11 +137,11 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Success","payload":{"id":"66312a78-1f9e-4d78-a9fb-231e84967f60"}}}
+```
 
 
 
-
-
+```
 Response2:{HTTP/1.1 403 Forbidden
 Date: Fri, 12 Nov 2021 20:57:12 GMT
 Content-Type: application/json; charset=UTF-8
@@ -162,11 +164,11 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Forbidden","payload":null}}
+```
 
 
 
-
-
+```
 Response3:{HTTP/1.1 401 Unauthorized
 Date: Fri, 12 Nov 2021 21:06:39 GMT
 Content-Type: application/json; charset=UTF-8
@@ -189,9 +191,9 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
  
 {"success":false,"message":"invalid or expired jwt, internal=crypto/ecdsa: verification error","payload":null}
 }
+```
 
-
-
+```
 Response4:{HTTP/1.1 400 Bad Request
 Date: Fri, 12 Nov 2021 21:10:51 GMT
 Content-Type: application/json; charset=UTF-8
@@ -214,9 +216,9 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
  
 {"success":false,"message":"Key: 'UpdatePasswordRequest.OldPassword' Error:Field validation for 'OldPassword' failed on the 'required' tag\nKey: 'UpdatePasswordRequest.Password' Error:Field validation for 'Password' failed on the 'required' tag","payload":null}
 }
+```
 
-
-
+```
 Response5:{HTTP/1.1 500 Internal Server Error
 Date: Fri, 12 Nov 2021 21:13:19 GMT
 Content-Type: application/json; charset=UTF-8
@@ -238,10 +240,10 @@ CF-RAY: 6ad2c3773e87dfc3-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"token is blacklisted","payload":null}}
+```
 
 
 
 
-
-##Results
+## Results
 Success

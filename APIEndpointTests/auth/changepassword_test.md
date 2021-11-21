@@ -3,7 +3,7 @@
 
 ## URL
 ```
-{https://auth.hiringo.tech/auth​/change-password​/{token}}
+https://auth.hiringo.tech/auth​/change-password​/{token}
 ```
 
 

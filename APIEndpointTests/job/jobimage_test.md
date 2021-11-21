@@ -1,15 +1,16 @@
-##JobImage
+# JobImage
 
 
 
-##Url:{https://auth.hiringo.tech/auth/login}
-{https://main-api.hiringo.tech/jobs/{id}/image}
+## URL
+```
+https://main-api.hiringo.tech/jobs/{id}/image
+```
 
 
 
-
-##Request
-
+## Request
+```
 Login Request Headers:{POST /auth/login HTTP/1.1
 Content-Type: application/json
 User-Agent: PostmanRuntime/7.28.4
@@ -25,9 +26,9 @@ Login Request Body:{{
 "email": "xxxx@gmail.com",
 "password": "qwaezsxd12"
 }}
+```
 
-
-
+```
 Job_new Request Headers:{POST /jobs/new HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiY2Q3MTc2ZGZkZTZmYzk1NmVjZTc3Y2ZjNDJmNDg2NjU2YmQ5YTMzOGY5Mzc2OGNkODg5NDE0ZTRjOTdlN2FlYSJ9fSwiZXhwIjoxNjM2ODQ3Mzk2LCJpYXQiOjE2MzY4NDY0OTYsIm5iZiI6MTYzNjg0NjQ5NX0.qJ_D30uV1IJhsABOO4vftgtd0GzwY7s7hSqt3fagQLQ6e2VlJusXliGoX6QViigV3FiMQHwvR0TujMFWKJ50kA
 Content-Type: application/json
@@ -51,9 +52,9 @@ Job_new Request Body:{{
 "transaction_id": "d40062dd-f993-4ac7-8b60-f0269f38c5ca",
 "valid_until": "2021-12-13 15:09"
 }}
+```
 
-
-
+```
 jobs_image Request Headers:{PUT /jobs/%7B6ab16755-011c-4471-bbf2-7cbf37927b30%7D/image HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiOTJhMjczZTg0ZGFmODhlYTcyZjM3M2ViM2YxYzJjZjJhMmUwOGE3MTU0ZTFhODQwNjg3NzZkMmFiMmRiNGU2ZSJ9fSwiZXhwIjoxNjM2ODQ3MTc4LCJpYXQiOjE2MzY4NDYyNzgsIm5iZiI6MTYzNjg0NjI3N30.QyXpT3drOvpFIBhOM7nR7sMjFZVNwhw-bdMaItFnFIgPLOhQmsRxlGmCkRXS1b7fmBNYNNfAJbvkcEfLHs88ug
 Content-Type: application/json
@@ -70,11 +71,11 @@ jobs_image Request Body:{{
 "image": "image1"
 }
 }
+```
 
 
-
-##Response
-
+## Response
+```
 Login Response:{HTTP/1.1 200 OK
 Date: Sat, 13 Nov 2021 23:34:56 GMT
 Content-Type: application/json; charset=UTF-8
@@ -97,9 +98,9 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Success","payload":{"id":"66312a78-1f9e-4d78-a9fb-231e84967f60","email":"xxxx@gmail.com","name":"Rachel","email_verified_at":null,"token":"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiY2Q3MTc2ZGZkZTZmYzk1NmVjZTc3Y2ZjNDJmNDg2NjU2YmQ5YTMzOGY5Mzc2OGNkODg5NDE0ZTRjOTdlN2FlYSJ9fSwiZXhwIjoxNjM2ODQ3Mzk2LCJpYXQiOjE2MzY4NDY0OTYsIm5iZiI6MTYzNjg0NjQ5NX0.qJ_D30uV1IJhsABOO4vftgtd0GzwY7s7hSqt3fagQLQ6e2VlJusXliGoX6QViigV3FiMQHwvR0TujMFWKJ50kA","token_expiration":1636847395,"refresh_token":"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiY2Q3MTc2ZGZkZTZmYzk1NmVjZTc3Y2ZjNDJmNDg2NjU2YmQ5YTMzOGY5Mzc2OGNkODg5NDE0ZTRjOTdlN2FlYSJ9fSwiZXhwIjoxNjM5NDM4NDk2LCJpYXQiOjE2MzY4NDY0OTYsIm5iZiI6MTYzNjg0NjQ5NX0.AdIOTZlYLz3yD_e117lkUYkCovRAvbcrQMvuPnh6zOmn-P2GbZpULv9d3pT8Ht5fMektUvnuVQIZH868vVBAlA"}}}
+```
 
-
-
+```
 Job_new Response:{
 HTTP/1.1 200 OK
 Date: Sat, 13 Nov 2021 23:38:04 GMT
@@ -123,9 +124,9 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Success","payload":{"id":"6ab16755-011c-4471-bbf2-7cbf37927b30","user_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","name":"Repairing Car","description":"lalalalala","image":"image1","valid_until":"2021-12-13T15:09:00Z","is_premium":false,"is_equipment_required":true,"category_id":"285932f0-3efe-4b05-a901-af952512fb6b","transaction_id":"d40062dd-f993-4ac7-8b60-f0269f38c5ca","latitude":10,"longitude":20,"distance":0,"is_contract_signed":false}}}
+```
 
-
-
+```
 jobs_image Response:{HTTP/1.1 403 Forbidden
 Date: Sat, 13 Nov 2021 23:38:20 GMT
 Content-Type: application/json; charset=UTF-8
@@ -148,11 +149,11 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Forbidden","payload":null}}
+```
 
 
 
 
 
-
-##Results
+## Results
 Failed

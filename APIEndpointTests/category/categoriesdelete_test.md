@@ -1,16 +1,14 @@
-##CategoriesDelete
+# CategoriesDelete
 
 
 
-##Url
-{https://main-api.hiringo.tech/categories/{id}}
-{https://auth.hiringo.tech/auth/login}
-{https://main-api.hiringo.tech/categories/new}
+## URL
+https://main-api.hiringo.tech/categories/{id}
 
 
 
-#Request
-
+## Request
+```
 Login Request Headers:{POST /auth/login HTTP/1.1
 Content-Type: application/json
 User-Agent: PostmanRuntime/7.28.4
@@ -27,9 +25,9 @@ Login Request Body:{{
 "email": "xxxx@gmail.com",
 "password": "qwaezsxd12"
 }}
+```
 
-
-
+```
 Categories_new Request Headers:{POST /categories/new HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYTAzYjY3MWM3YzA2ZTExM2U3ZTFmOWZkMDYxZTE1NDg3NjUzYTE5YTFkZjVkNzc2NWM4MWEwMjhkZGZhNmYxYyJ9fSwiZXhwIjoxNjM2ODQyMTYyLCJpYXQiOjE2MzY4NDEyNjIsIm5iZiI6MTYzNjg0MTI2MX0.jMFf5vTVGubMRpFDsQKEdE3YfZJwKKkgGmxHtXaur8OmytnNIcghyk2c_Isszt3rRAxxfLIGiFOjfj0HA1DFcA
 Content-Type: application/json
@@ -47,11 +45,11 @@ Categories_new Request Body:{{
 "description": "lalalalala",
 "name": "Repairing Car"
 }}
+```
 
 
 
-
-
+```
 Categories_delete Request:{DELETE /categories/5eaaa0d7-8ae8-4466-ba1a-b729e8730c1e HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYTAzYjY3MWM3YzA2ZTExM2U3ZTFmOWZkMDYxZTE1NDg3NjUzYTE5YTFkZjVkNzc2NWM4MWEwMjhkZGZhNmYxYyJ9fSwiZXhwIjoxNjM2ODQyMTYyLCJpYXQiOjE2MzY4NDEyNjIsIm5iZiI6MTYzNjg0MTI2MX0.jMFf5vTVGubMRpFDsQKEdE3YfZJwKKkgGmxHtXaur8OmytnNIcghyk2c_Isszt3rRAxxfLIGiFOjfj0HA1DFcA
 User-Agent: PostmanRuntime/7.28.4
@@ -60,10 +58,10 @@ Postman-Token: 50d67664-fddc-4bf3-9f88-0704710d47e2
 Host: main-api.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive}
+```
 
-
-##Response
-
+## Response
+```
 Login Response:{HTTP/1.1 200 OK
 Date: Sat, 13 Nov 2021 22:07:42 GMT
 Content-Type: application/json; charset=UTF-8
@@ -87,10 +85,10 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
  
 {"success":true,"message":"Success","payload":{"id":"66312a78-1f9e-4d78-a9fb-231e84967f60","email":"xxxx@gmail.com","name":"Rachel","email_verified_at":null,"token":"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYTAzYjY3MWM3YzA2ZTExM2U3ZTFmOWZkMDYxZTE1NDg3NjUzYTE5YTFkZjVkNzc2NWM4MWEwMjhkZGZhNmYxYyJ9fSwiZXhwIjoxNjM2ODQyMTYyLCJpYXQiOjE2MzY4NDEyNjIsIm5iZiI6MTYzNjg0MTI2MX0.jMFf5vTVGubMRpFDsQKEdE3YfZJwKKkgGmxHtXaur8OmytnNIcghyk2c_Isszt3rRAxxfLIGiFOjfj0HA1DFcA","token_expiration":1636842162,"refresh_token":"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYTAzYjY3MWM3YzA2ZTExM2U3ZTFmOWZkMDYxZTE1NDg3NjUzYTE5YTFkZjVkNzc2NWM4MWEwMjhkZGZhNmYxYyJ9fSwiZXhwIjoxNjM5NDMzMjYyLCJpYXQiOjE2MzY4NDEyNjIsIm5iZiI6MTYzNjg0MTI2MX0.mxcZgwER2SHScW9-_FSx9KTdBASepAdfqbUTkUmhspoNk5d0gC7SJAVGyytRbHwiI8V3ZkN2HScK9iVXkXeHVQ"}}
 }
+```
 
 
-
-
+```
 Categories_new Response:{HTTP/1.1 200 OK
 Date: Sat, 13 Nov 2021 22:08:19 GMT
 Content-Type: application/json; charset=UTF-8
@@ -113,10 +111,10 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Success","payload":{"id":"5eaaa0d7-8ae8-4466-ba1a-b729e8730c1e","created_by_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","name":"Repairing Car","description":"lalalalala"}}}
+```
 
 
-
-
+```
 Categories_delete Response:{HTTP/1.1 403 Forbidden
 Date: Sat, 13 Nov 2021 22:09:38 GMT
 Content-Type: application/json; charset=UTF-8
@@ -139,9 +137,9 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Forbidden","payload":null}}
+```
 
 
 
-
-##Results
+## Results
 Failed

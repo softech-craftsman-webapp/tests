@@ -1,12 +1,14 @@
-##ForgetPassword
+# ForgetPassword
 
 
 
-##Url
-{https://auth.hiringo.tech/auth/forgot-password}
+## URL
+```
+https://auth.hiringo.tech/auth/forgot-password
+```
 
-
-##Request
+## Request
+```
 
 Request Headers1:{POST //auth/forgot-password HTTP/1.1
 Authorization: Bearer yJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZDk2NWJlYWQ5Y2VlNDE2NGY0NzU3MDQ0ODNkYjhmZWVjYTAzNzM5NmQzN2E3MzM0M2RiNmNhNTliMjQ0MmE1MyJ9fSwiZXhwIjoxNjM2NzIzODAzLCJpYXQiOjE2MzY3MjI5MDMsIm5iZiI6MTYzNjcyMjkwMn0.MY_bBx63McY-BMMFHciJ_8FlZQscCFMRevw9Inog0_Ac_EafyNO12DOFJSTHKnfQnCVD8v6HcTyZyQkOJe5jPw
@@ -23,9 +25,9 @@ Request Body1:{{
 "email": "xxxx@gmail.com"
 }
 }
+```
 
-
-
+```
 Request Headers2:{POST /auth/forgot-password HTTP/1.1
 Authorization: Bearer yJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZDk2NWJlYWQ5Y2VlNDE2NGY0NzU3MDQ0ODNkYjhmZWVjYTAzNzM5NmQzN2E3MzM0M2RiNmNhNTliMjQ0MmE1MyJ9fSwiZXhwIjoxNjM2NzIzODAzLCJpYXQiOjE2MzY3MjI5MDMsIm5iZiI6MTYzNjcyMjkwMn0.MY_bBx63McY-BMMFHciJ_8FlZQscCFMRevw9Inog0_Ac_EafyNO12DOFJSTHKnfQnCVD8v6HcTyZyQkOJe5jPw
 Content-Type: application/json
@@ -40,9 +42,9 @@ Content-Length: 34}
 Request Body2:{{
 "email": "xxxx123@gmail.com"
 }}
+```
 
-
-
+```
 Request Headers3:{POST /auth/forgot-password111 HTTP/1.1
 Authorization: Bearer yJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZDk2NWJlYWQ5Y2VlNDE2NGY0NzU3MDQ0ODNkYjhmZWVjYTAzNzM5NmQzN2E3MzM0M2RiNmNhNTliMjQ0MmE1MyJ9fSwiZXhwIjoxNjM2NzIzODAzLCJpYXQiOjE2MzY3MjI5MDMsIm5iZiI6MTYzNjcyMjkwMn0.MY_bBx63McY-BMMFHciJ_8FlZQscCFMRevw9Inog0_Ac_EafyNO12DOFJSTHKnfQnCVD8v6HcTyZyQkOJe5jPw
 Content-Type: application/json
@@ -58,10 +60,10 @@ Content-Length: 31}
 Request Body3:{{
 "email": "xxxx@gmail.com"
 }}
+```
 
 
-
-
+```
 Request Headers4:{POST /auth/forgot-password HTTP/1.1
 Authorization: Bearer yJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZDk2NWJlYWQ5Y2VlNDE2NGY0NzU3MDQ0ODNkYjhmZWVjYTAzNzM5NmQzN2E3MzM0M2RiNmNhNTliMjQ0MmE1MyJ9fSwiZXhwIjoxNjM2NzIzODAzLCJpYXQiOjE2MzY3MjI5MDMsIm5iZiI6MTYzNjcyMjkwMn0.MY_bBx63McY-BMMFHciJ_8FlZQscCFMRevw9Inog0_Ac_EafyNO12DOFJSTHKnfQnCVD8v6HcTyZyQkOJe5jPw
 Content-Type: application/json
@@ -77,13 +79,13 @@ Content-Length: 30}
 Request Body4:{{
 "password": "qwaezsxd12"
 }}
+```
 
 
 
 
-
-##Response
-
+## Response
+```
 
 Response1:{HTTP/1.1 200 OK
 Date: Fri, 12 Nov 2021 13:16:06 GMT
@@ -107,11 +109,11 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Verification sent successfully","payload":null}}
+```
 
 
 
-
-
+```
 Response2:{HTTP/1.1 404 Not Found
 Date: Fri, 12 Nov 2021 13:27:57 GMT
 Content-Type: application/json; charset=UTF-8
@@ -134,11 +136,11 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"User not found","payload":null}}
+```
 
 
 
-
-
+```
 Response3:{HTTP/1.1 401 Unauthorized
 Date: Fri, 12 Nov 2021 13:30:46 GMT
 Content-Type: application/json; charset=UTF-8
@@ -161,11 +163,11 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
  
 {"success":false,"message":"invalid or expired jwt, internal=invalid character 'È' looking for beginning of value","payload":null}
 }
+```
 
 
 
-
-
+```
 Response4:{HTTP/1.1 400 Bad Request
 Date: Fri, 12 Nov 2021 13:39:14 GMT
 Content-Type: application/json; charset=UTF-8
@@ -187,11 +189,11 @@ CF-RAY: 6ad02a4b4ad32c26-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"Key: 'ForgotPasswordRequest.Email' Error:Field validation for 'Email' failed on the 'required' tag","payload":null}}
+```
 
 
 
-
-##Result
+## Result
 Success
 
 

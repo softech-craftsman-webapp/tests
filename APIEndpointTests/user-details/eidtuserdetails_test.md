@@ -1,14 +1,16 @@
-##EditeUserDetails
+# EditeUserDetails
 
 
 
-##Url:{https://main-api.hiringo.tech/user-details/edit}
+## URL
+```
+https://main-api.hiringo.tech/user-details/edit
+```
 
 
 
-
-##Request
-
+## Request
+```
 
 Request Headers1:{PUT /user-details/edit HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiZTc1MGQ1MzgyM2ExZTA5ZTg1ZjMxMTY5NzY1YTExNjVkZDkxZjE3ODI5MDhhNTkxZjljNGFjOTY0ZGM3YzFkMiJ9fSwiZXhwIjoxNjM3MDA4NzYzLCJpYXQiOjE2MzcwMDc4NjMsIm5iZiI6MTYzNzAwNzg2Mn0.B1axqS2i79T6VQRVmVDIQAKO9V68Yc6-qGEfFlQjO1cNYpkqi_patz_SWp8jPMVRSunvsa_sXbWWyj_ebTlgUQ
@@ -29,11 +31,11 @@ Request Body1:{{
 "longitude": 20,
 "telephone": "123456"
 }}
+```
 
 
 
-
-
+```
 Request Headers2:{PUT /user-details/edit111 HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMjI3YTFjOWM5YjcwMTNmYTYzMjUyMzc3OWQ2ZjRhMjc1NjUxZTA4YWQzYjU5ZGQyMzM1ODQ2NDAyMDAzZDJhZSJ9fSwiZXhwIjoxNjM3MDEwNTk1LCJpYXQiOjE2MzcwMDk2OTUsIm5iZiI6MTYzNzAwOTY5NH0.j9INdXeRl4U5sRvsewYphZV5DWxQpGxt0RCGemx6a1MuUZIT22rpu1oKaZ_b9mpKxu4ZXw58PhCf8TNqVaZQzw
 Content-Type: application/json
@@ -56,11 +58,11 @@ Host: main-api.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
 Content-Length: 122}
+```
 
 
 
-
-
+```
 Request Headers3:{PUT /user-details/edit HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMjI3YTFjOWM5YjcwMTNmYTYzMjUyMzc3OWQ2ZjRhMjc1NjUxZTA4YWQzYjU5ZGQyMzM1ODQ2NDAyMDAzZDJhZSJ9fSwiZXhwIjoxNjM3MDEwNTk1LCJpYXQiOjE2MzcwMDk2OTUsIm5iZiI6MTYzNzAwOTY5NH0.j9INdXeRl4U5sRvsewYphZV5DWxQpGxt0RCGemx6a1MuUZIT22rpu1oKaZ_b9mpKxu4ZXw58PhCf8TNqVaZQzw
 Content-Type: application/json
@@ -75,11 +77,11 @@ Content-Length: 6}
 
 Request Body3:{{
 }}
+```
 
 
 
-
-
+```
 Request Headers4:{PUT /user-details/edit HTTP/1.1
 Authorization: Bearer 111
 Content-Type: application/json
@@ -98,14 +100,14 @@ Request Body4:{{
 "longitude": 20,
 "telephone": "123456"
 }}
+```
 
 
 
 
 
-
-##Response
-
+## Response
+```
 Response1:{HTTP/1.1 200 OK
 Date: Mon, 15 Nov 2021 20:24:43 GMT
 Content-Type: application/json; charset=UTF-8
@@ -128,10 +130,10 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Success","payload":{"id":"35b41f98-dfd7-4077-baa4-451edcf368d3"}}}
+```
 
 
-
-
+```
 Response2:{HTTP/1.1 404 Not Found
 Date: Mon, 15 Nov 2021 20:57:05 GMT
 Content-Type: application/json; charset=UTF-8
@@ -154,10 +156,10 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"Not Found","payload":null}}
+```
 
 
-
-
+```
 Response3:{HTTP/1.1 400 Bad Request
 Date: Mon, 15 Nov 2021 20:59:26 GMT
 Content-Type: application/json; charset=UTF-8
@@ -179,11 +181,11 @@ CF-RAY: 6aeb673f9cc04e44-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"Key: 'UpdateUserDetailRequest.Email' Error:Field validation for 'Email' failed on the 'required' tag\nKey: 'UpdateUserDetailRequest.Telephone' Error:Field validation for 'Telephone' failed on the 'required' tag\nKey: 'UpdateUserDetailRequest.Bio' Error:Field validation for 'Bio' failed on the 'required' tag\nKey: 'UpdateUserDetailRequest.Latitude' Error:Field validation for 'Latitude' failed on the 'required' tag\nKey: 'UpdateUserDetailRequest.Longitude' Error:Field validation for 'Longitude' failed on the 'required' tag","payload":null}}
+```
 
 
 
-
-
+```
 Response4:{HTTP/1.1 401 Unauthorized
 Date: Mon, 15 Nov 2021 21:02:06 GMT
 Content-Type: application/json; charset=UTF-8
@@ -205,12 +207,12 @@ CF-RAY: 6aeb6b29a9934e44-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=token contains an invalid number of segments","payload":null}}
+```
 
 
 
 
 
 
-
-##Results
+## Results
 Success

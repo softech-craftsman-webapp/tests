@@ -1,14 +1,15 @@
-##UpdateEmail
+# UpdateEmail
 
 
 
-##Url
-{https://auth.hiringo.tech/users/{id}/update-email}
+## URL
+```
+https://auth.hiringo.tech/users/{id}/update-email
+```
 
 
-
-##Request
-
+## Request
+```
 
 Request Headers1:{PUT /users/%7B%7D/update-email HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNzQ0MDUyNzBlYmViZGU0M2RmODU1YTE5ZTQ3NDY2YjMzODJmNjQ3MDY2ZGNhMGIzOWRmYjdiMmIyYjEzNGFiNSJ9fSwiZXhwIjoxNjM2NzMyMjI2LCJpYXQiOjE2MzY3MzEzMjYsIm5iZiI6MTYzNjczMTMyNX0.a_cBs5wol42c_Ag1b94D8OQyT4dq3WuRhs7IFezJ0dA2Cm5XswmfF_ic8NQoCVMziLY_vJzcZRwa01g44AAVQg
@@ -27,10 +28,10 @@ Request Body1:{{
 "email": "xxxx@gmail.com",
 "password": "qwaezsxd12"
 }}
+```
 
 
-
-
+```
 Request Headers2:{PUT /users/%7B66312a78-1f9e-4d78-a9fb-231e84967f60%7D/update-email HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNzQ0MDUyNzBlYmViZGU0M2RmODU1YTE5ZTQ3NDY2YjMzODJmNjQ3MDY2ZGNhMGIzOWRmYjdiMmIyYjEzNGFiNSJ9fSwiZXhwIjoxNjM2NzMyMjI2LCJpYXQiOjE2MzY3MzEzMjYsIm5iZiI6MTYzNjczMTMyNX0.a_cBs5wol42c_Ag1b94D8OQyT4dq3WuRhs7IFezJ0dA2Cm5XswmfF_ic8NQoCVMziLY_vJzcZRwa01g44AAVQg
 Content-Type: application/json
@@ -48,10 +49,10 @@ Request Body2:{{
 "email": "xxxx@gmail.com",
 "password": "qwaezsxd12"
 }}
+```
 
 
-
-
+```
 Request Headers3:{PUT /users/%7B66666%7D/update-email HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNzQ0MDUyNzBlYmViZGU0M2RmODU1YTE5ZTQ3NDY2YjMzODJmNjQ3MDY2ZGNhMGIzOWRmYjdiMmIyYjEzNGFiNSJ9fSwiZXhwIjoxNjM2NzMyMjI2LCJpYXQiOjE2MzY3MzEzMjYsIm5iZiI6MTYzNjczMTMyNX0.a_cBs5wol42c_Ag1b94D8OQyT4dq3WuRhs7IFezJ0dA2Cm5XswmfF_ic8NQoCVMziLY_vJzcZRwa01g44AAVQg
 Content-Type: application/json
@@ -70,11 +71,11 @@ Request Body3:{{
 "email": "xxxx@gmail.com",
 "password": "qwaezsxd12"
 }}
+```
 
 
 
-
-
+```
 Request Headers4:{PUT /users/%7B66312a78-1f9e-4d78-a9fb-231e84967f60%7D/update-email HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMTY6NDI6MjMuODgwODI1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYmZjZGZhNjA2NDQyMDM0NWYwOWUxNDMxNTc2NmU2OTBiNWFiNjAzZjMxZGZkYTU3Y2IwNjlkNDA5ZjY5ZDNlYyJ9fSwiZXhwIjoxNjM2NzM4MTQwLCJpYXQiOjE2MzY3MzcyNDAsIm5iZiI6MTYzNjczNzIzOX0.UNwMY7dqm8j3giW3oZ60Gnp5WLM4V6r1OTIwnWXwK8_hkclJnOta8jKDijR5ALnhVJGfWQgzxEUk3sRX--vNvQ
 Content-Type: application/json
@@ -92,10 +93,10 @@ Request Body4:{{
 "email": "xxxx@gmail.com",
 "password": "qwaezsxd12"
 }}
+```
 
 
-
-
+```
 Request Headers5:{PUT /users/%7B66312a78-1f9e-4d78-a9fb-231e84967f60%7D/update-email HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMTY6NDI6MjMuODgwODI1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNDA3MWFiODBmNmE2NGE3MDY2ODNiMzUxMmFhMjBhZTZjYzEwODc4MTYxMTBhNDk4MTA2ZmNiYmM3YzE0ZjZjZiJ9fSwiZXhwIjoxNjM2NzM4NDgwLCJpYXQiOjE2MzY3Mzc1ODAsIm5iZiI6MTYzNjczNzU3OX0.LxoTboXplYxzCStlUOJgGo1xQGA47rw7WJSabWYRHvuOnj0CWHHkS3ZP5RT5gvbMCp7fI3wl5N3as6CQQ7uaOw
 Content-Type: application/json
@@ -109,13 +110,13 @@ Content-Length: 6}
 
 
 
-
 Request Body5:{{
 }}
+```
 
 
-
-##Response
+## Response
+```
 
 Response1:{HTTP/1.1 403 Forbidden
 Date: Fri, 12 Nov 2021 15:36:18 GMT
@@ -139,11 +140,11 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Forbidden","payload":null}}
+```
 
 
 
-
-
+```
 Response2:{HTTP/1.1 200 OK
 Date: Fri, 12 Nov 2021 15:42:26 GMT
 Content-Type: application/json; charset=UTF-8
@@ -166,10 +167,10 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Success","payload":{"id":"66312a78-1f9e-4d78-a9fb-231e84967f60"}}}
+```
 
 
-
-
+```
 Response3:{HTTP/1.1 401 Unauthorized
 Date: Fri, 12 Nov 2021 15:51:57 GMT
 Content-Type: application/json; charset=UTF-8
@@ -191,11 +192,11 @@ CF-RAY: 6ad0ecbad89e4a74-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=token is expired by 1m31s","payload":null}}
+```
 
 
 
-
-
+```
 Respoonse4:{HTTP/1.1 500 Internal Server Error
 Date: Fri, 12 Nov 2021 17:14:42 GMT
 Content-Type: application/json; charset=UTF-8
@@ -217,11 +218,11 @@ CF-RAY: 6ad165ee5b557031-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"token is blacklisted","payload":null}}
+```
 
 
 
-
-
+```
 Response5:{HTTP/1.1 400 Bad Request
 Date: Fri, 12 Nov 2021 17:20:05 GMT
 Content-Type: application/json; charset=UTF-8
@@ -243,9 +244,9 @@ CF-RAY: 6ad16dccba907031-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"Key: 'UpdateEmailRequest.Email' Error:Field validation for 'Email' failed on the 'required' tag\nKey: 'UpdateEmailRequest.Password' Error:Field validation for 'Password' failed on the 'required' tag","payload":null}}
+```
 
 
 
-
-##Results
+## Results
 Success

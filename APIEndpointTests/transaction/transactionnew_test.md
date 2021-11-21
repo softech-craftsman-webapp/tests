@@ -1,13 +1,15 @@
-##TransactionNew
+# TransactionNew
 
 
 
-##Url:{https://main-api.hiringo.tech/transactions/new}
+## URL
+```
+https://main-api.hiringo.tech/transactions/new
+```
 
 
-
-##Request
-
+## Request
+```
 Request Headers1:{POST /transactions/new HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYTRhNTQ0M2IwMjEwY2I3NzZlM2JlNjg4M2VhYjAzYzFmZWIyYWE5NmRiYWU5ZjBkMGY2Zjc2MzQzMDc0OWI1YyJ9fSwiZXhwIjoxNjM2NjYwMDYyLCJpYXQiOjE2MzY2NTkxNjIsIm5iZiI6MTYzNjY1OTE2MX0.v9oIcQIPlZyQ0Vn5lRAygMd20AIyEVGxRTR4XDrBWpdEjpzVdso6vzianiOEDr0aNyWlf7_2X2m6Z8YGm-2HJA
 Content-Type: application/json
@@ -25,9 +27,9 @@ Request Body1:{{
 "amount": 700,
 "currency": "EUR"
 }}
+```
 
-
-
+```
 Request Headers2:{POST /transactions/new HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiODFjNTYzNGExZTUyMTIxNmQzZDAzNWVmZDdjOWMzZWE0ZTRkMmQzYTg2Y2ZjNTQxZjY5YWUzNTcxMWI0N2ZlMCJ9fSwiZXhwIjoxNjM2NjYxODk1LCJpYXQiOjE2MzY2NjA5OTUsIm5iZiI6MTYzNjY2MDk5NH0.dlfJOhXcBzx2hq7WZuc7VlB6iqaknVZhtP0eKK1PMUkOXU9D7VZggJY7pi9yNUEuc9SwnduMZwmXolmrBZ6NUg
 Content-Type: application/json
@@ -43,10 +45,10 @@ Content-Length: 6}
 
 Request Body2:{{
 }}
+```
 
 
-
-
+```
 Request Headers3:{POST /transactions/new HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiYTRhNTQ0M2IwMjEwY2I3NzZlM2JlNjg4M2VhYjAzYzFmZWIyYWE5NmRiYWU5ZjBkMGY2Zjc2MzQzMDc0OWI1YyJ9fSwiZXhwIjoxNjM2NjYwMDYyLCJpYXQiOjE2MzY2NTkxNjIsIm5iZiI6MTYzNjY1OTE2MX0.v9oIcQIPlZyQ0Vn5lRAygMd20AIyEVGxRTR4XDrBWpdEjpzVdso6vzianiOEDr0aNyWlf7_2X2m6Z8YGm-2HJA
 Content-Type: application/json
@@ -59,18 +61,17 @@ Connection: keep-alive
 Content-Length: 40}
 
 
-
-
 Request Body3:{
 {
 "amount": 700,
 "currency": "dss"
 }}
+```
 
 
 
-
-##Response
+## Response
+```
 Response1:{HTTP/1.1 200 OK
 Date: Thu, 11 Nov 2021 19:39:35 GMT
 Content-Type: application/json; charset=UTF-8
@@ -93,10 +94,10 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Success","payload":{"id":"bf31b3bf-0fc6-4659-ba9f-431d4ca232a3","user_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","amount":700,"currency":"EUR"}}}
+```
 
 
-
-
+```
 Response2:{
 HTTP/1.1 400 Bad Request
 Date: Thu, 11 Nov 2021 20:04:13 GMT
@@ -119,10 +120,10 @@ CF-RAY: 6aca20decb2c1f3d-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"code=400, message=Key: 'CreateTransactionRequest.Amount' Error:Field validation for 'Amount' failed on the 'required' tag\nKey: 'CreateTransactionRequest.Currency' Error:Field validation for 'Currency' failed on the 'required' tag","payload":null}}
+```
 
 
-
-
+```
 Response3:{
 HTTP/1.1 401 Unauthorized
 Date: Thu, 11 Nov 2021 19:48:42 GMT
@@ -145,9 +146,9 @@ CF-RAY: 6aca0a277b466927-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=token is expired by 1m0s","payload":null}}
+```
 
 
 
-
-##Results
+## Results
 Success

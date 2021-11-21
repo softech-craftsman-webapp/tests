@@ -1,13 +1,15 @@
-##UserDetailsNew
+# UserDetailsNew
 
 
-##Url:{https://main-api.hiringo.tech/user-details/new}
+## URL
+```
+https://main-api.hiringo.tech/user-details/new
+```
 
 
 
-
-##Request
-
+## Request
+```
 Request Headers1:{POST /user-details/new HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNzY4ZjVlNDI2MGQ0M2ExNzA0ZjMyMjcwMmMwNjVkYjhmMzY2MWFhZGU0ZDhjZDU4ZTFlOWYxMzk0ZDI1MzEyMSJ9fSwiZXhwIjoxNjM3MDA1MjgyLCJpYXQiOjE2MzcwMDQzODIsIm5iZiI6MTYzNzAwNDM4MX0.33Q-oOVJrTmWHw8cbg0Iv5tiGyBgvwxdY7_MnoDmv5oocB6gkyAnzoQJKaHqblUQa6w7ArKcOUvYSIS3q_GjuA
 Content-Type: application/json
@@ -27,9 +29,9 @@ Request Body1:{{
 "longitude": 20,
 "telephone": "123456"
 }}
+```
 
-
-
+```
 Request Headers2:{POST /user-details/new HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNzY4ZjVlNDI2MGQ0M2ExNzA0ZjMyMjcwMmMwNjVkYjhmMzY2MWFhZGU0ZDhjZDU4ZTFlOWYxMzk0ZDI1MzEyMSJ9fSwiZXhwIjoxNjM3MDA1MjgyLCJpYXQiOjE2MzcwMDQzODIsIm5iZiI6MTYzNzAwNDM4MX0.33Q-oOVJrTmWHw8cbg0Iv5tiGyBgvwxdY7_MnoDmv5oocB6gkyAnzoQJKaHqblUQa6w7ArKcOUvYSIS3q_GjuA
 Content-Type: application/json
@@ -48,12 +50,12 @@ Request Body2:{{
 "longitude": 20,
 "telephone": "123456"
 }}
+```
 
 
 
 
-
-
+```
 Request Headers3:{POST /user-details/new111 HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNzY4ZjVlNDI2MGQ0M2ExNzA0ZjMyMjcwMmMwNjVkYjhmMzY2MWFhZGU0ZDhjZDU4ZTFlOWYxMzk0ZDI1MzEyMSJ9fSwiZXhwIjoxNjM3MDA1MjgyLCJpYXQiOjE2MzcwMDQzODIsIm5iZiI6MTYzNzAwNDM4MX0.33Q-oOVJrTmWHw8cbg0Iv5tiGyBgvwxdY7_MnoDmv5oocB6gkyAnzoQJKaHqblUQa6w7ArKcOUvYSIS3q_GjuA
 Content-Type: application/json
@@ -73,11 +75,11 @@ Request Body3:{{
 "longitude": 20,
 "telephone": "123456"
 }}
+```
 
 
 
-
-
+```
 Request Headers4:{POST /user-details/new HTTP/1.1
 Authorization: Bearer 111
 Content-Type: application/json
@@ -97,13 +99,13 @@ Request Body4:{{
 "longitude": 20,
 "telephone": "123456"
 }}
+```
 
 
 
 
-
-##Response
-
+## Response
+```
 Response1:{HTTP/1.1 200 OK
 Date: Mon, 15 Nov 2021 19:27:25 GMT
 Content-Type: application/json; charset=UTF-8
@@ -127,10 +129,10 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
  
 {"success":true,"message":"Success","payload":{"id":"35b41f98-dfd7-4077-baa4-451edcf368d3","user_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","email":"xxxx@gmail.com","bio":"lalalalalalala","telephone":"123456","latitude":10,"longitude":20}}
 }
+```
 
 
-
-
+```
 Response2:{HTTP/1.1 400 Bad Request
 Date: Mon, 15 Nov 2021 19:30:41 GMT
 Content-Type: application/json; charset=UTF-8
@@ -152,11 +154,11 @@ CF-RAY: 6aeae541cd5168f2-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"code=400, message=Key: 'CreateUserDetailRequest.Bio' Error:Field validation for 'Bio' failed on the 'required' tag","payload":null}}
+```
 
 
 
-
-
+```
 Response3:{HTTP/1.1 404 Not Found
 Date: Mon, 15 Nov 2021 19:31:54 GMT
 Content-Type: application/json; charset=UTF-8
@@ -179,11 +181,11 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"Not Found","payload":null}}
+```
 
 
 
-
-
+```
 Response4:{HTTP/1.1 401 Unauthorized
 Date: Mon, 15 Nov 2021 19:32:49 GMT
 Content-Type: application/json; charset=UTF-8
@@ -205,10 +207,10 @@ CF-RAY: 6aeae861789d68f2-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=token contains an invalid number of segments","payload":null}}
+```
 
 
 
 
-
-##Results
+## Results
 Sucess

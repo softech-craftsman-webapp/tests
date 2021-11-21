@@ -1,12 +1,13 @@
-##Login
+# Login
 
 
-##Url
+## URL
+```
 https://auth.hiringo.tech/auth/login
+```
 
-
-##Request
-
+## Request
+```
 Request Headers1:{POST /auth/login HTTP/1.1
 Content-Type: application/json
 User-Agent: PostmanRuntime/7.28.4
@@ -21,9 +22,9 @@ Request Body1:{{
 "email": "xxxx@gmail.com",
 "password": "qwaezsxd12"
 }}
+```
 
-
-
+```
 Request Headers2:{POST /auth/login HTTP/1.1
 Content-Type: application/json
 User-Agent: PostmanRuntime/7.28.4
@@ -41,12 +42,12 @@ Request Body2:{{
 "password": "qwaezsxd12"
 }
 }
+```
 
 
 
-
-##Response
-
+## Response
+```
 Response1:{
 Date: Wed, 10 Nov 2021 18:46:46 GMT
 Content-Type: application/json; charset=UTF-8
@@ -68,12 +69,12 @@ CF-RAY: 6ac1720a58c12c4a-FRA
 Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
 {"success":true,"message":"Success","payload":{"id":"66312a78-1f9e-4d78-a9fb-231e84967f60","email":"xxxx@gmail.com","name":"Rachel","email_verified_at":null,"token":"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiN2U3ODlkNGRlYTMwNTc5ZmJiYjI4N2VlM2FlN2VkOTMzODg4NzcxN2Y0NWU4MDkzYzdiNGM3MDM5MmFmMTk5MCJ9fSwiZXhwIjoxNjM2NTcwOTA2LCJpYXQiOjE2MzY1NzAwMDYsIm5iZiI6MTYzNjU3MDAwNX0.bveqbkjbbuW8jrGVVlBThfLgXsFYPLUtHUs5NZU5daxbKkhQTcpQ7dq-Ak47BN1EPxm4LhlmdF-XlvOSe5tS9A","token_expiration":1636570906,"refresh_token":"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiN2U3ODlkNGRlYTMwNTc5ZmJiYjI4N2VlM2FlN2VkOTMzODg4NzcxN2Y0NWU4MDkzYzdiNGM3MDM5MmFmMTk5MCJ9fSwiZXhwIjoxNjM5MTYyMDA2LCJpYXQiOjE2MzY1NzAwMDYsIm5iZiI6MTYzNjU3MDAwNX0.Yj6mTGF4i1KucfSO1wMjM54ddLCvxMJbBDSUN6biFwZhJWvYq78eVl3MdyKGMUROMp6Er9QGlcTLFjR3oj0tqg"}}}
+```
 
 
 
 
-
-
+```
 Response2:{
 HTTP/1.1 400 Bad Request
 Date: Thu, 11 Nov 2021 16:22:56 GMT
@@ -96,9 +97,9 @@ CF-RAY: 6ac8dcba7e85430f-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"Email or password is invalid","payload":null}}
+```
 
 
 
-
-##Result
+## Result
 Success

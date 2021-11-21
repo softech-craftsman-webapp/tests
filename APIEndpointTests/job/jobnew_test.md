@@ -1,13 +1,15 @@
-##JobNew
+# JobNew
 
 
 
-##Url:{https://main-api.hiringo.tech/jobs/new}
+## URL
+```
+https://main-api.hiringo.tech/jobs/new
+```
 
 
-
-##Request
-
+## Request
+```
 Request Headers1:{POST /jobs/new HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMDE1MmY2MWZhYmIzMDBiOWRhMGU3ZmZkNmE1NWZkZjY1MGY5MGYyMmU0MGM1NTJhNWY5OTIzNzU3NzFiYzg2NSJ9fSwiZXhwIjoxNjM2ODIyMjQzLCJpYXQiOjE2MzY4MjEzNDMsIm5iZiI6MTYzNjgyMTM0Mn0.UwA37kOAzOQEtWbKECYPYT-BBFFsFryAQ0p977wPpiBVTwdBSH-A-1I4Oz55XivraoPaZgvjDBINK23XpIWQzA
 Content-Type: application/json
@@ -31,10 +33,10 @@ Request Body1:{{
 "transaction_id": "e1f0431f-6db3-4495-aa5a-bf48539c9623",
 "valid_until": "2021-12-13"
 }}
+```
 
 
-
-
+```
 Request Headers2:{POST /jobs/new HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNTVmYmQ5NmFjMTE0MjM1NjhlNjllYWQyMWY0ZDI2YTIxMDMyMDVkMWE4ZGM3YWNjYWMxMjYwYzdlNDFmZjRmYSJ9fSwiZXhwIjoxNjM2ODIyNjg1LCJpYXQiOjE2MzY4MjE3ODUsIm5iZiI6MTYzNjgyMTc4NH0.LNIvBdeJ-ArE0u3fFHliGnnCZoP0ugA85kp4itx45K0sTyjyYZTrGpKL0oFJPXdhTGiacwV_qZccwfBHJkN_Zw
 Content-Type: application/json
@@ -59,10 +61,10 @@ Request Body2:{{
 "transaction_id": "d40062dd-f993-4ac7-8b60-f0269f38c5ca",
 "valid_until": "2021-12-13 15:09"
 }}
+```
 
 
-
-
+```
 Request Headers3:{POST /jobs/new111 HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNTVmYmQ5NmFjMTE0MjM1NjhlNjllYWQyMWY0ZDI2YTIxMDMyMDVkMWE4ZGM3YWNjYWMxMjYwYzdlNDFmZjRmYSJ9fSwiZXhwIjoxNjM2ODIyNjg1LCJpYXQiOjE2MzY4MjE3ODUsIm5iZiI6MTYzNjgyMTc4NH0.LNIvBdeJ-ArE0u3fFHliGnnCZoP0ugA85kp4itx45K0sTyjyYZTrGpKL0oFJPXdhTGiacwV_qZccwfBHJkN_Zw
 Content-Type: application/json
@@ -87,10 +89,10 @@ Request Body3:{{
 "transaction_id": "d40062dd-f993-4ac7-8b60-f0269f38c5ca",
 "valid_until": "2021-12-13 15:09"
 }}
+```
 
 
-
-
+```
 Request Headers4:{POST /jobs/new HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiODkxYTY5NjBjYmYyOWQ1YTdiZTM5ZWU3MzQ4MjM1OTIxZDY2NTFhMmMyMzY5NDZjNWQ5ZjViOTQ1MTA3YWVhZiJ9fSwiZXhwIjoxNjM2ODIzMTgxLCJpYXQiOjE2MzY4MjIyODEsIm5iZiI6MTYzNjgyMjI4MH0.zIy0aePLpuYg7gcfHDotnReyWIK4KqM8Teq6u14veRJ9VY4jYLOZ703JODQMT-nHlSTZjh0JEu_Najfp9Q8GlA111
 Content-Type: application/json
@@ -117,13 +119,13 @@ Request Body4:{{
 "transaction_id": "d40062dd-f993-4ac7-8b60-f0269f38c5ca",
 "valid_until": "2021-12-13 15:09"
 }}
+```
 
 
 
 
-
-##Response
-
+## Response
+```
 Response1:{HTTP/1.1 400 Bad Request
 Date: Sat, 13 Nov 2021 16:37:39 GMT
 Content-Type: application/json; charset=UTF-8
@@ -145,10 +147,10 @@ CF-RAY: 6ad96d0a4873697b-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"code=400, message=Key: 'CreateJobRequest.Latitude' Error:Field validation for 'Latitude' failed on the 'required' tag\nKey: 'CreateJobRequest.Longitude' Error:Field validation for 'Longitude' failed on the 'required' tag","payload":null}}
+```
 
 
-
-
+```
 Response2:{HTTP/1.1 200 OK
 Date: Sat, 13 Nov 2021 16:45:16 GMT
 Content-Type: application/json; charset=UTF-8
@@ -173,10 +175,10 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 {"success":true,"message":"Success","payload":{"id":"87baf4eb-ca40-4df9-acec-d842cc8b0bce","user_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","name":"Repairing Car","description":"lalalalala","image":"image1","valid_until":"2021-12-13T15:09:00Z","is_premium":false,"is_equipment_required":true,"category_id":"285932f0-3efe-4b05-a901-af952512fb6b","transaction_id":"d40062dd-f993-4ac7-8b60-f0269f38c5ca","latitude":10,"longitude":20,"distance":0,"is_contract_signed":false}}
 }
 
+```
 
 
-
-
+```
 Response3:{HTTP/1.1 404 Not Found
 Date: Sat, 13 Nov 2021 16:48:38 GMT
 Content-Type: application/json; charset=UTF-8
@@ -200,10 +202,10 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
  
 {"success":false,"message":"Not Found","payload":null}
 }
+```
 
 
-
-
+```
 Response4:{
 HTTP/1.1 401 Unauthorized
 Date: Sat, 13 Nov 2021 16:51:52 GMT
@@ -226,12 +228,12 @@ CF-RAY: 6ad981db58f9697b-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=illegal base64 data at input byte 88","payload":null}}
+```
 
 
 
 
 
 
-
-##Results
+## Results
 Success

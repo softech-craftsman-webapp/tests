@@ -1,12 +1,14 @@
-##Logout
+# Logout
 
 
 
-##Url
-{https://auth.hiringo.tech/auth/logout}
+## URL
+```
+https://auth.hiringo.tech/auth/logout
+```
 
-
-
+## Request
+```
 Request1:{POST /auth/logout HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNDUwMWU1MTFlYmE1YzNkZWJkMDlmZjMxOTY4MDU5ZmU2ZDZiMDM1NThkZTBkNWMyNGRhMTNlNzQ1M2ZkYzFlZSJ9fSwiZXhwIjoxNjM2NjU2NDc4LCJpYXQiOjE2MzY2NTU1NzgsIm5iZiI6MTYzNjY1NTU3N30.r4IyMgkXspfl91TWoDfVT0l2QGq7QRY6-TzcAXPcI7CRQ2GLSTHPhiuMWAHKWDyvvMYtzj0gRqu34PXFgRz5SQ
 User-Agent: PostmanRuntime/7.28.4
@@ -16,11 +18,11 @@ Host: auth.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
 Content-Length: 0}
+```
 
 
 
-
-
+```
 Request2:{POST /au/logout HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTFUMjA6MTA6NTYuMDAxODAyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiM2U4MjA5Mjc4OWQ5NTVmNWYwZDc5MWIwMjA2YTRkNWU1MGY5NTQ0NGQyOTIxNWY2MjFiNzdmNzA0ODZlMzhkNyJ9fSwiZXhwIjoxNjM2NjU5MjE4LCJpYXQiOjE2MzY2NTgzMTgsIm5iZiI6MTYzNjY1ODMxN30.1llVyczGYwrr_p8jkwSgvTNONDuoEeo0m_PEJ3uvsIotkX8obZENDirREa6Gpnyek9hjcF6ZPPv3BqiMKNmBgw
 User-Agent: PostmanRuntime/7.28.4
@@ -30,11 +32,11 @@ Host: auth.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
 Content-Length: 0}
+```
 
 
 
-
-
+```
 Request3:{POST /auth/logout HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiNWRiYzEyNDUxMWVlMjRjMzczZDhkZTgzMmZiMzhhMjkwNzU3OTdkMDJkYmFjMTY3ZDJmNTIzNGQyMzQ2OWI4YyJ9fSwiZXhwIjoxNjM2NjU1NTY3LCJpYXQiOjE2MzY2NTQ2NjcsIm5iZiI6MTYzNjY1NDY2Nn0.Sps-v8go_bJyDY_bX3HihLp3tLtPU1Y5ebb3jhC8XBKaS1-aQDVaY2RkvVuk4zcD1lqZC0s65Jq2vGczjL8JNg
 User-Agent: PostmanRuntime/7.28.4
@@ -44,13 +46,13 @@ Host: auth.hiringo.tech
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
 Content-Length: 0}
+```
 
 
 
 
-
-##Response
-
+## Response
+```
 Response1:{HTTP/1.1 200 OK
 Date: Thu, 11 Nov 2021 18:35:03 GMT
 Content-Type: application/json; charset=UTF-8
@@ -73,11 +75,11 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Success","payload":{"id":"66312a78-1f9e-4d78-a9fb-231e84967f60"}}}
+```
 
 
 
-
-
+```
 Response2:{HTTP/1.1 401 Unauthorized
 Date: Thu, 11 Nov 2021 19:22:45 GMT
 Content-Type: application/json; charset=UTF-8
@@ -99,12 +101,12 @@ CF-RAY: 6ac9e4254e9905d0-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=crypto/ecdsa: verification error","payload":null}}
+```
 
 
 
 
-
-
+```
 Response3:{HTTP/1.1 500 Internal Server Error
 Date: Thu, 11 Nov 2021 18:19:07 GMT
 Content-Type: application/json; charset=UTF-8
@@ -126,9 +128,9 @@ CF-RAY: 6ac986ec19ad4e9e-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"token is blacklisted","payload":null}}
+```
 
 
 
-
-##Result
+## Result
 Success

@@ -1,13 +1,15 @@
-##RatingsNew
+# RatingsNew
 
 
 
-##Url:{https://main-api.hiringo.tech/ratings/new}
+## URL
+```
+https://main-api.hiringo.tech/ratings/new
+```
 
 
-
-##Request
-
+## Request
+```
 Request Headers1:{POST /ratings/new HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiZGIwMGU4OTk5ZWUxMzc3ZjgxYzFiZDQzNzk2M2U0MDM2YzEwMTJhZjRhYTljYjdkOTIxYmMxMjVhMzEyYjJkOCJ9fSwiZXhwIjoxNjM3MDE5Njc5LCJpYXQiOjE2MzcwMTg3NzksIm5iZiI6MTYzNzAxODc3OH0.eeKBTdI1yIRcsvogzqbVqFQp7FLImp1R0xIWB3Jz2bwM_xwzgbNb1ctIsWTPQ8dTmYiFWnIGCLhZTc_Tb-upFA
 Content-Type: application/json
@@ -27,10 +29,10 @@ Request Body1:{{
 "user_id": "66312a78-1f9e-4d78-a9fb-231e84967f60"
 }
 }
+```
 
 
-
-
+```
 Request Headers2:{POST /ratings/new111 HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiZGIwMGU4OTk5ZWUxMzc3ZjgxYzFiZDQzNzk2M2U0MDM2YzEwMTJhZjRhYTljYjdkOTIxYmMxMjVhMzEyYjJkOCJ9fSwiZXhwIjoxNjM3MDE5Njc5LCJpYXQiOjE2MzcwMTg3NzksIm5iZiI6MTYzNzAxODc3OH0.eeKBTdI1yIRcsvogzqbVqFQp7FLImp1R0xIWB3Jz2bwM_xwzgbNb1ctIsWTPQ8dTmYiFWnIGCLhZTc_Tb-upFA
 Content-Type: application/json
@@ -49,10 +51,10 @@ Request Body2:{{
 "points": 3,
 "user_id": "66312a78-1f9e-4d78-a9fb-231e84967f60"
 }}
+```
 
 
-
-
+```
 Request Headers3:{POST /ratings/new HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiZGIwMGU4OTk5ZWUxMzc3ZjgxYzFiZDQzNzk2M2U0MDM2YzEwMTJhZjRhYTljYjdkOTIxYmMxMjVhMzEyYjJkOCJ9fSwiZXhwIjoxNjM3MDE5Njc5LCJpYXQiOjE2MzcwMTg3NzksIm5iZiI6MTYzNzAxODc3OH0.eeKBTdI1yIRcsvogzqbVqFQp7FLImp1R0xIWB3Jz2bwM_xwzgbNb1ctIsWTPQ8dTmYiFWnIGCLhZTc_Tb-upFA
 Content-Type: application/json
@@ -71,11 +73,11 @@ Request Body3:{{
 "points": 3,
 "user_id": "66312a78-1f9e-4d78-a9fb-231e84967f60"
 }}
+```
 
 
 
-
-
+```
 Request Headers4:{POST /ratings/new HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNzY4NjUzZjItZTljZi00OGU3LWFjNWMtN2MzMzUwOTA3ODI3IiwibmFtZSI6Inh4IiwiZW1haWwiOiJ4eHgxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTNUMTY6NTY6NDIuNjY3MjU3KzAxOjAwIiwiYXV0aCI6eyJpZCI6ImI1NGVjMGM5LWE1ZTEtNDFjNi1iY2NhLTIxMGUzNjQwYWM3NCIsInRva2VuIjoiZGIwMGU4OTk5ZWUxMzc3ZjgxYzFiZDQzNzk2M2U0MDM2YzEwMTJhZjRhYTljYjdkOTIxYmMxMjVhMzEyYjJkOCJ9fSwiZXhwIjoxNjM3MDE5Njc5LCJpYXQiOjE2MzcwMTg3NzksIm5iZiI6MTYzNzAxODc3OH0.eeKBTdI1yIRcsvogzqbVqFQp7FLImp1R0xIWB3Jz2bwM_xwzgbNb1ctIsWTPQ8dTmYiFWnIGCLhZTc_Tb-upFA
 Content-Type: application/json
@@ -90,11 +92,11 @@ Content-Length: 4}
 
 Request Body4:{{
 }}
+```
 
 
 
-
-
+```
 Request Headers5:{POST /ratings/new HTTP/1.1
 Authorization: Bearer 111
 Content-Type: application/json
@@ -113,14 +115,14 @@ Request Body5:{{
 "points": 3,
 "user_id": "66312a78-1f9e-4d78-a9fb-231e84967f60"
 }}
+```
 
 
 
 
 
-
-##Response
-
+## Response
+```
 Response1:{HTTP/1.1 200 OK
 Date: Mon, 15 Nov 2021 23:26:39 GMT
 Content-Type: application/json; charset=UTF-8
@@ -143,10 +145,10 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Success","payload":{"id":"0562f99f-0c3b-4a89-91d1-e97493369694","submitted_by_id":"768653f2-e9cf-48e7-ac5c-7c3350907827","contract_id":"5834d44f-9084-4539-81bb-fcbf57251d72","user_id":"66312a78-1f9e-4d78-a9fb-231e84967f60","points":3,"comment":"hahahahhaha"}}}
+```
 
 
-
-
+```
 Response2:{HTTP/1.1 404 Not Found
 Date: Mon, 15 Nov 2021 23:31:46 GMT
 Content-Type: application/json; charset=UTF-8
@@ -169,10 +171,10 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"Not Found","payload":null}}
+```
 
 
-
-
+```
 Response3:{HTTP/1.1 403 Forbidden
 Date: Mon, 15 Nov 2021 23:34:34 GMT
 Content-Type: application/json; charset=UTF-8
@@ -195,10 +197,10 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"You are not allowed to rate this contract","payload":null}}
+```
 
 
-
-
+```
 Response4:{HTTP/1.1 400 Bad Request
 Date: Mon, 15 Nov 2021 23:36:20 GMT
 Content-Type: application/json; charset=UTF-8
@@ -220,9 +222,9 @@ CF-RAY: 6aec4d141eed4e31-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"code=400, message=Key: 'CreateRatingRequest.UserID' Error:Field validation for 'UserID' failed on the 'required' tag\nKey: 'CreateRatingRequest.ContractID' Error:Field validation for 'ContractID' failed on the 'required' tag\nKey: 'CreateRatingRequest.Points' Error:Field validation for 'Points' failed on the 'required' tag\nKey: 'CreateRatingRequest.Comment' Error:Field validation for 'Comment' failed on the 'required' tag","payload":null}}
+```
 
-
-
+```
 Response5:{HTTP/1.1 401 Unauthorized
 Date: Mon, 15 Nov 2021 23:38:09 GMT
 Content-Type: application/json; charset=UTF-8
@@ -244,9 +246,9 @@ CF-RAY: 6aec4fc2ded44e31-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=token contains an invalid number of segments","payload":null}}
+```
 
 
 
-
-##Results
+## Results
 Success

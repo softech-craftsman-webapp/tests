@@ -1,13 +1,15 @@
-##JobSearch
+# JobSearch
 
 
 
-##Url:{https://main-api.hiringo.tech/jobs/search}
+## URL
+```
+https://main-api.hiringo.tech/jobs/search
+```
 
 
-
-##Request
-
+## Request
+```
 Request Headers1:{POST /jobs/search HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiODEyNWJjZWZlNjI1NTBjN2QyMTc1Yjc4NTU0ZTEzNmYyNDZiZGM5NTYzNThjMzcyODRiZWU3MjFkOGE1MDBkNCJ9fSwiZXhwIjoxNjM2ODMzMjA3LCJpYXQiOjE2MzY4MzIzMDcsIm5iZiI6MTYzNjgzMjMwNn0.W-yrNEl_mmTEefOZLNZSJZR5IOMvzLD5XuxZrsLeWX6FIvBDZBoiz-VWhnsjedBSghBU7VKlFU8R7213IFqxrg
 Content-Type: application/json
@@ -28,10 +30,10 @@ Request Body1:{{
 "longitude": 20,
 "name": "Repairing Car"
 }}
+```
 
 
-
-
+```
 Request Headers2:{POST /jobs/search HTTP/1.1
 Authorization: Bearer 1111
 Content-Type: application/json
@@ -53,10 +55,10 @@ Request Body2:{{
 "longitude": 20,
 "name": "Repairing Car"
 }}
+```
 
 
-
-
+```
 Request Headers3:{POST /jobs/search111 HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMDQ1MmZlYzY0YjRlNzM4OGUwZDg4ZDc2NTAzNDRmNzhkMzg2MDZjZDgyZjczZWQwZDg0MWVjZjg4YjM4ZDAzNCJ9fSwiZXhwIjoxNjM2ODMzOTc1LCJpYXQiOjE2MzY4MzMwNzUsIm5iZiI6MTYzNjgzMzA3NH0.4vDZNSkaWJiSker73VKZRTumTgTm4a4_5msf3eDpj72SxQ3WzanZbz0u_qsJv6AyJ1UiDLfJDLbdYfD3JMdVBQ
 Content-Type: application/json
@@ -78,10 +80,10 @@ Request Body3:{{
 "longitude": 20,
 "name": "Repairing Car"
 }}
+```
 
 
-
-
+```
 Request Headers4:{POST /jobs/search HTTP/1.1
 Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjYzMTJhNzgtMWY5ZS00ZDc4LWE5ZmItMjMxZTg0OTY3ZjYwIiwibmFtZSI6IlJhY2hlbCIsImVtYWlsIjoieHh4eEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZF9hdCI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDJUMDk6NDc6MjEuOTE3NTgyKzAxOjAwIiwidXBkYXRlZF9hdCI6IjIwMjEtMTEtMTJUMjE6NTI6MzEuMzA4Mjc1KzAxOjAwIiwiYXV0aCI6eyJpZCI6Ijk1YTUxYTNmLTU2ZmEtNDg4OS1iZjgwLTNjNTdkMDU0YjFjMiIsInRva2VuIjoiMDQ1MmZlYzY0YjRlNzM4OGUwZDg4ZDc2NTAzNDRmNzhkMzg2MDZjZDgyZjczZWQwZDg0MWVjZjg4YjM4ZDAzNCJ9fSwiZXhwIjoxNjM2ODMzOTc1LCJpYXQiOjE2MzY4MzMwNzUsIm5iZiI6MTYzNjgzMzA3NH0.4vDZNSkaWJiSker73VKZRTumTgTm4a4_5msf3eDpj72SxQ3WzanZbz0u_qsJv6AyJ1UiDLfJDLbdYfD3JMdVBQ
 Content-Type: application/json
@@ -104,13 +106,13 @@ Request Body4:{{
 "longitude": 0,
 "name": "Repairing Car"
 }}
+```
 
 
 
 
-
-##Response
-
+## Response
+```
 Response1:{HTTP/1.1 200 OK
 Date: Sat, 13 Nov 2021 19:42:11 GMT
 Content-Type: application/json; charset=UTF-8
@@ -133,10 +135,10 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":true,"message":"Success","payload":{"items":null,"pagination":{"totalRecords":0,"totalPage":0,"offset":0,"limit":10,"page":1,"prevPage":1,"nextPage":2}}}}
+```
 
 
-
-
+```
 Response2:{HTTP/1.1 401 Unauthorized
 Date: Sat, 13 Nov 2021 19:51:30 GMT
 Content-Type: application/json; charset=UTF-8
@@ -158,10 +160,10 @@ CF-RAY: 6ada89004d5b5c20-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"invalid or expired jwt, internal=token contains an invalid number of segments","payload":null}}
+```
 
 
-
-
+```
 Response3:{HTTP/1.1 404 Not Found
 Date: Sat, 13 Nov 2021 19:52:58 GMT
 Content-Type: application/json; charset=UTF-8
@@ -184,10 +186,10 @@ Content-Encoding: br
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"Not Found","payload":null}}
+```
 
 
-
-
+```
 Response4:{HTTP/1.1 400 Bad Request
 Date: Sat, 13 Nov 2021 19:55:16 GMT
 Content-Type: application/json; charset=UTF-8
@@ -209,11 +211,11 @@ CF-RAY: 6ada8e82cd645c20-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
  
 {"success":false,"message":"code=400, message=Key: 'SeachJobRequest.Latitude' Error:Field validation for 'Latitude' failed on the 'required' tag\nKey: 'SeachJobRequest.Longitude' Error:Field validation for 'Longitude' failed on the 'required' tag","payload":null}}
+```
 
 
 
 
 
-
-##Results
+## Results
 Success

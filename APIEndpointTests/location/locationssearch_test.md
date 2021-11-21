@@ -1,4 +1,4 @@
-## LocationsSearch
+# LocationsSearch
 
 ## URL
 ```

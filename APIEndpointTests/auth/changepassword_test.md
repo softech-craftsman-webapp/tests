@@ -1,13 +1,13 @@
-#ChangePassword
+# ChangePassword
 
 
-##URL
+## URL
 ```
 {https://auth.hiringo.tech/auth​/change-password​/{token}}
 ```
 
 
-##Request
+## Request
 ```
 Login Request Headers:{POST /auth/login HTTP/1.1
 Content-Type: application/json
@@ -47,7 +47,7 @@ Change Password Request Body:{
 ```
 
 
-##Response
+## Response
 ```
 Login Response:{HTTP/1.1 200 OK
 Date: Sun, 14 Nov 2021 13:22:41 GMT
@@ -102,5 +102,5 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 
 
-##Response
+## Results
 Failed

@@ -8,12 +8,32 @@ import unittest
 
 class JobOfferDriver():
     def __init__(self):
-        chrome_options = webdriver.chrome.options.Options()
-        chrome_options.add_argument("--window-size=1600,1000")
+        pass
 
-        chrome_options.add_argument("--headless")
+    def open_browser(self, browser_type, is_headless, install_chrome_driver = True):
+        
+        if (browser_type.lower() == 'chrome'):
+            print('Opening chrome')
+            chrome_options = webdriver.chrome.options.Options()
+            chrome_options.add_argument("--window-size=1600,1000")
 
-        self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
+            if (is_headless):
+                chrome_options.add_argument("--headless")
+
+            if (install_chrome_driver):
+                self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
+            else:
+                self.driver = webdriver.Chrome(options=chrome_options)
+        
+        if (browser_type.lower() == 'firefox'):
+            print('Opening firefox')
+            firefox_options = webdriver.firefox.options.Options()
+            
+            if (is_headless):
+                firefox_options.add_argument('--headless')
+            
+            self.driver = webdriver.Firefox(options=firefox_options)
+            
 
     def get_element(self, search_tag, search_term):
         return self.driver.find_element(search_tag, search_term)
@@ -28,10 +48,12 @@ class JobOfferDriver():
 
     def open_and_login(self):
         self.driver.get('https://hiringo.tech/auth/sign-in/')
-        sleep(1)
+        sleep(2)
 
         self.driver.find_element(By.ID, 'email').send_keys('test@testing.test')
         self.driver.find_element(By.ID, 'password').send_keys('test1234')
+        sleep(1)
+        
         button = self.driver.find_element(By.TAG_NAME, 'button')
         button.click()
         sleep(1)
@@ -50,6 +72,10 @@ class JobOfferDriver():
     def open_job_offer(self, id='0'):
         job = self.driver.find_element(By.ID, 'job-id-' + id)
         job.click()
+
+    def open_create_job_offer(self):
+        # Create job offer button XPATH: /html/body/div/div[2]/div[2]/main/div/div/div/a[3] note: click_on_button didn't seem to work
+        self.driver.find_element(By.XPATH, '/html/body/div/div[2]/div[2]/main/div/div/div/a[3]').click()
 
     def apply_for_job(self):
         self.click_on_button('Apply now')
@@ -72,104 +98,117 @@ class JobOfferDriver():
     def close(self):
         self.driver.close()
     
+
 class JobOfferTests(unittest.TestCase):
+
+    def setUp(self):
+        self.browser_type = 'chrome'
+        self.is_headless = True
+        self.tester = JobOfferDriver()
+
+    def tearDown(self):
+        self.tester.close()
+
     def test_opening_job_offer_page(self):
         print("\n[TESTING OPENING PAGE]")
-        tester = JobOfferDriver()
+        
+        self.tester.open_browser(self.browser_type, self.is_headless)
+        sleep(2)
+        self.tester.open_and_login()
+        sleep(1)
+        self.tester.open_job_offers()
+        sleep(2)
 
-        tester.open_and_login()
-        tester.open_job_offers()
-
-        job_offer_heading = tester.get_element(By.TAG_NAME, 'h1').text
+        job_offer_heading = self.tester.get_element(By.TAG_NAME, 'h1').text
         self.assertEqual(job_offer_heading, 'Job Offers')
-
-        tester.close()
 
     def test_searching_job_offers(self):
         print("\n[TESTING SEARCHING FOR AN OFFER]")
-        tester = JobOfferDriver()
-
-        tester.open_and_login()
-        tester.open_job_offers()
-        tester.search_job_offer('a')
-
+        
+        self.tester.open_browser(self.browser_type, self.is_headless)
+        self.tester.open_and_login()
         sleep(1)
+        self.tester.open_job_offers()
+        sleep(1)
+        self.tester.search_job_offer('a')
 
-        job = tester.get_element(By.ID, 'job-id-0')
+        sleep(2)
+
+        job = self.tester.get_element(By.ID, 'job-id-0')
         self.assertIsNotNone(job)
-
-        tester.close()
 
     def test_opening_job_offer(self):
         print("\n[TESTING OPENING AN OFFER]")
-        tester = JobOfferDriver()
-
-        tester.open_and_login()
-        tester.open_job_offers()
-        tester.search_job_offer('a')
+        
+        self.tester.open_browser(self.browser_type, self.is_headless)
+        sleep(2)
+        self.tester.open_and_login()
+        sleep(1)
+        self.tester.open_job_offers()
+        sleep(2)
+        self.tester.search_job_offer('a')
         sleep(2)
 
         id = '0'
-        job_title_before = tester\
+        job_title_before = self.tester\
             .get_element(By.ID, 'job-id-' + id)\
             .find_element(By.TAG_NAME, 'h4').text
 
-        tester.open_job_offer(id)
-        sleep(1)
+        self.tester.open_job_offer(id)
+        sleep(2)
 
-        headings = tester\
+        headings = self.tester\
             .get_element(By.ID, 'job_details')\
             .find_elements(By.TAG_NAME, 'h4')
 
         self.assertEqual(headings[0].text, 'Information')
         self.assertEqual(headings[1].text, 'Applications')
 
-        job_title_after = tester.get_element(By.TAG_NAME, 'h1').text
+        job_title_after = self.tester.get_element(By.TAG_NAME, 'h1').text
 
         self.assertEqual(job_title_before, job_title_after)
 
-        tester.close()
-
     def test_apply_for_job(self):
         print("\n[TESTING APPLYING FOR A JOB]")
-        tester = JobOfferDriver()
-
-        tester.open_and_login()
-        tester.open_job_offers()
-        tester.search_job_offer('a')
+        
+        self.tester.open_browser(self.browser_type, self.is_headless)
+        sleep(2)
+        self.tester.open_and_login()
+        sleep(1)
+        self.tester.open_job_offers()
+        sleep(1)
+        self.tester.search_job_offer('a')
         sleep(1)
 
-        tester.open_job_offer('2')
+        self.tester.open_job_offer('2')
         sleep(2)
 
-        applications_before = tester\
+        applications_before = self.tester\
             .get_element(By.ID, 'job_details')\
             .find_elements(By.TAG_NAME, 'a')
 
-        tester.apply_for_job()
+        self.tester.apply_for_job()
         sleep(1)
 
-        heading = tester.get_element(By.TAG_NAME, 'h1').text
+        heading = self.tester.get_element(By.TAG_NAME, 'h1').text
         self.assertEqual(heading, 'New application')
 
-        contract_texts = tester\
+        contract_texts = self.tester\
             .get_element(By.ID, 'contract')\
             .find_elements(By.TAG_NAME, 'p')
 
         self.assertEqual(contract_texts[0].text, 'Contract')
         self.assertIsNotNone(contract_texts[2].text)
 
-        tester.fill_apply_times('200001011000', '200002011000')
-        tester.click_on_button('Apply')
+        self.tester.fill_apply_times('200001011000', '200002011000')
+        self.tester.click_on_button('Apply')
         sleep(2)
 
-        applications_after = tester\
+        applications_after = self.tester\
             .get_element(By.ID, 'job_details')\
             .find_elements(By.TAG_NAME, 'a')
 
         self.assertGreater(len(applications_after), len(applications_before))
-
-        tester.close()
 
 
 if __name__ == '__main__':

@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import Select
 from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
 from numpy import arange
@@ -45,6 +46,39 @@ class JobOfferDriver():
             if button.text == text:
                 button.click()
                 return
+
+    def fill_create_jobb_offer(self, visible_text = 'IT'):
+        select_box = Select(self.driver.find_element(By.ID, 'category_id'))
+        select_box.select_by_visible_text(visible_text)
+
+        self.click_on_button('Next')
+        sleep(2)
+
+        title_input_field = self.driver.find_element(By.ID, 'name')
+        title_input_field.send_keys('Test Title')
+
+        description_field = self.driver.find_element(By.ID, 'description')
+        description_field.send_keys('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.')
+
+        date_field = self.driver.find_element(By.ID, 'valid_until')
+        date_field.send_keys('20220101')
+        
+        equipment_field = Select(self.driver.find_element(By.ID, 'is_equipment_required'))
+        # TODO: Allow test case to specify wether equipment should be required
+        equipment_field.select_by_visible_text('No')
+
+        self.click_on_button('Next')
+        sleep(2)
+        self.click_on_button('Next')
+        sleep(2)
+        self.click_on_button('Pay')
+        sleep(0.5)
+        self.click_on_button('Next')
+        sleep(3)
+        self.click_on_button('Create Job')
+
+    def open_created_job_offers(self):
+        self.driver.find_element(By.XPATH, '/html/body/div/div[2]/div[2]/main/div/div/div/a[1]').click()
 
     def open_and_login(self):
         self.driver.get('https://hiringo.tech/auth/sign-in/')
@@ -122,6 +156,35 @@ class JobOfferTests(unittest.TestCase):
         job_offer_heading = self.tester.get_element(By.TAG_NAME, 'h1').text
         self.assertEqual(job_offer_heading, 'Job Offers')
 
+    def test_create_job_offer(self):
+        print("\n[TESTING CREATING A NEW JOB OFFER]")
+
+        self.tester.open_browser(self.browser_type, self.is_headless)
+        sleep(2)
+        self.tester.open_and_login()
+        sleep(1)
+        self.tester.open_job_offers()
+        sleep(3)
+        self.tester.open_create_job_offer()
+        sleep(2)
+        header = self.tester.get_element(By.TAG_NAME, 'h1').text
+        self.assertEqual(header, 'Create new job')
+
+        self.tester.fill_create_jobb_offer()
+        sleep(4)
+        
+        self.tester.open_created_job_offers()
+        sleep(3)
+
+        job = self.tester.get_element(By.ID, 'job-id-0')
+
+        self.assertIsNotNone(job)
+
+        # Delete created job
+        job.click()
+        sleep(2)
+        self.tester.click_on_button('Delete')
+
     def test_searching_job_offers(self):
         print("\n[TESTING SEARCHING FOR AN OFFER]")
         
@@ -176,22 +239,22 @@ class JobOfferTests(unittest.TestCase):
         self.tester.open_and_login()
         sleep(1)
         self.tester.open_job_offers()
-        sleep(1)
+        sleep(2)
         self.tester.search_job_offer('a')
-        sleep(1)
+        sleep(3)
 
         self.tester.open_job_offer('2')
-        sleep(2)
+        sleep(3)
 
         applications_before = self.tester\
             .get_element(By.ID, 'job_details')\
             .find_elements(By.TAG_NAME, 'a')
 
         self.tester.apply_for_job()
-        sleep(1)
+        sleep(3)
 
         heading = self.tester.get_element(By.TAG_NAME, 'h1').text
-        self.assertEqual(heading, 'New application')
+        self.assertEqual(heading, 'German Literature')
 
         contract_texts = self.tester\
             .get_element(By.ID, 'contract')\
@@ -202,7 +265,7 @@ class JobOfferTests(unittest.TestCase):
 
         self.tester.fill_apply_times('200001011000', '200002011000')
         self.tester.click_on_button('Apply')
-        sleep(2)
+        sleep(3)
 
         applications_after = self.tester\
             .get_element(By.ID, 'job_details')\

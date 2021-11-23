@@ -47,6 +47,9 @@ class JobOfferDriver():
                 button.click()
                 return
 
+        print('Button with text [', text, '] not found!')
+        raise AssertionError
+
     def fill_create_jobb_offer(self, visible_text = 'IT'):
         select_box = Select(self.driver.find_element(By.ID, 'category_id'))
         select_box.select_by_visible_text(visible_text)
@@ -137,7 +140,7 @@ class JobOfferTests(unittest.TestCase):
 
     def setUp(self):
         self.browser_type = 'chrome'
-        self.is_headless = True
+        self.is_headless = False
         self.tester = JobOfferDriver()
 
     def tearDown(self):
@@ -235,9 +238,9 @@ class JobOfferTests(unittest.TestCase):
         print("\n[TESTING APPLYING FOR A JOB]")
         
         self.tester.open_browser(self.browser_type, self.is_headless)
-        sleep(2)
+        sleep(3)
         self.tester.open_and_login()
-        sleep(1)
+        sleep(2)
         self.tester.open_job_offers()
         sleep(2)
         self.tester.search_job_offer('a')
@@ -254,7 +257,7 @@ class JobOfferTests(unittest.TestCase):
         sleep(3)
 
         heading = self.tester.get_element(By.TAG_NAME, 'h1').text
-        self.assertEqual(heading, 'German Literature')
+        self.assertEqual(heading, 'aaa')
 
         contract_texts = self.tester\
             .get_element(By.ID, 'contract')\

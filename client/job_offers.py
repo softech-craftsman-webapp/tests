@@ -147,6 +147,13 @@ class JobOfferDriver():
         self.fill_time(inputs[0], start_time)
         self.fill_time(inputs[1], end_time)
 
+    def logout(self):
+        # click dropdown button /html/body/div/div[2]/div[2]/header/div/div/div[2]/div/button
+        self.get_element(By.XPATH, '/html/body/div/div[2]/div[2]/header/div/div/div[2]/div/button').click()
+        sleep(1)
+        self.click_on_button('Sign out')
+        sleep(4)
+
     def close(self):
         self.driver.close()
     
@@ -155,10 +162,12 @@ class JobOfferTests(unittest.TestCase):
 
     def setUp(self):
         self.browser_type = 'chrome'
-        self.is_headless = True
+        self.is_headless = False
         self.tester = JobOfferDriver()
 
     def tearDown(self):
+        self.tester.logout()
+        sleep(1)
         self.tester.close()
 
     def test_dashboard_reachable(self):

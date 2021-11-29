@@ -179,7 +179,7 @@ class JobOfferTests(unittest.TestCase):
         self.tester.open_and_login()
         sleep(2)
 
-        assert self.tester.get_element(By.TAG_NAME, 'h1').text == 'Dashboard'
+        self.assertEqual(self.tester.get_element(By.TAG_NAME, 'h1').text, 'Dashboard')
 
     def test_opening_job_offer_page(self):
         print("\n[TESTING OPENING PAGE]")

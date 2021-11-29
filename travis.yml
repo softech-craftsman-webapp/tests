@@ -1,20 +1,22 @@
 language: python
 
+dist: focal
+
 branches:
   only:
   - create-job-offer-test
 
 addons:
   chrome: stable
-  firefox: "49.0"
+  firefox: latest
 
 python:
   - "3.8" 
 
 before_install:
-  - wget https://github.com/mozilla/geckodriver/releases/download/v0.11.1/geckodriver-v0.11.1-linux64.tar.gz
+  - wget https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-linux64.tar.gz
   - mkdir geckodriver
-  - tar -xzf geckodriver-v0.11.1-linux64.tar.gz -C geckodriver
+  - tar -xzf geckodriver-v0.30.0-linux64.tar.gz -C geckodriver
   - export PATH=$PATH:$PWD/geckodriver
 
 intall:
@@ -24,4 +26,4 @@ intall:
 # command to run tests
 script:
   - cd client
-  - python job_offers.py JobOfferTests.test_opening_job_offer_page # for now only execute the 'easiest' test case
+  - python job_offers.py JobOfferTests.test_dashboard_reachable # for now only execute the 'easiest' test case

@@ -17,6 +17,7 @@ class JobOfferDriver():
             print('Opening chrome')
             chrome_options = webdriver.chrome.options.Options()
             chrome_options.add_argument("--window-size=1600,1000")
+            chrome_options.add_argument("--log-level=3")
 
             if (is_headless):
                 chrome_options.add_argument("--headless")
@@ -29,7 +30,16 @@ class JobOfferDriver():
         if (browser_type.lower() == 'firefox'):
             print('Opening firefox')
             firefox_options = webdriver.firefox.options.Options()
-            
+
+            # This can be used to bypass geolocation request browser pop-up, not needed now
+            #is_geolocation_bypass = False
+
+            #if (is_geolocation_bypass):
+                #firefox_options.set_preference("geo.enabled", True)
+                #firefox_options.set_preference("geo.prompt.testing", True)
+                #firefox_options.set_preference("geo.prompt.testing.allow", True)
+                #firefox_options.set_preference('geo.wifi.uri', 'test_geolocation.json')
+
             if (is_headless):
                 firefox_options.add_argument('--headless')
             
@@ -90,7 +100,7 @@ class JobOfferDriver():
             print('Login page reached')
         else:
             print('Unable to reach login page')
-        sleep(2)
+
         self.driver.find_element(By.ID, 'email').send_keys('test@testing.test')
         self.driver.find_element(By.ID, 'password').send_keys('test1234')
         print('Credentials entered')
@@ -144,12 +154,22 @@ class JobOfferDriver():
 class JobOfferTests(unittest.TestCase):
 
     def setUp(self):
-        self.browser_type = 'firefox'
+        self.browser_type = 'chrome'
         self.is_headless = True
         self.tester = JobOfferDriver()
 
     def tearDown(self):
         self.tester.close()
+
+    def test_dashboard_reachable(self):
+        print("\n[TESTING DASHBOARD REACHABLE]")
+        
+        self.tester.open_browser(self.browser_type, self.is_headless)
+        sleep(2)
+        self.tester.open_and_login()
+        sleep(2)
+
+        assert self.tester.get_element(By.TAG_NAME, 'h1').text == 'Dashboard'
 
     def test_opening_job_offer_page(self):
         print("\n[TESTING OPENING PAGE]")

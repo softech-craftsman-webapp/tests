@@ -150,7 +150,7 @@ class JobOfferDriver():
 
     def logout(self):
         # click dropdown button /html/body/div/div[2]/div[2]/header/div/div/div[2]/div/button
-        self.get_element(By.XPATH, '/html/body/div/div[2]/div[2]/header/div/div/div[2]/div/button').click()
+        self.click_on_button('TA')
         sleep(1)
         self.click_on_button('Sign out')
         sleep(4)

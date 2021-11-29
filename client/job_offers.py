@@ -86,8 +86,14 @@ class JobOfferDriver():
     def open_and_login(self):
         self.driver.get('https://hiringo.tech/auth/sign-in/')
         sleep(5)
+        if (self.get_element(By.TAG_NAME, 'h1').text) == 'Hiringo':
+            print('Login page reached')
+        else:
+            print('Unable to reach login page')
+        sleep(2)
         self.driver.find_element(By.ID, 'email').send_keys('test@testing.test')
         self.driver.find_element(By.ID, 'password').send_keys('test1234')
+        print('Credentials entered')
         sleep(3)
         
         button = self.driver.find_element(By.TAG_NAME, 'button')

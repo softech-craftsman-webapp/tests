@@ -163,7 +163,7 @@ class JobOfferTests(unittest.TestCase):
 
     def setUp(self):
         self.browser_type = 'chrome'
-        self.is_headless = False
+        self.is_headless = True
         self.tester = JobOfferDriver()
 
     def tearDown(self):

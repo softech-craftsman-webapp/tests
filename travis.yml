@@ -1,0 +1,16 @@
+language: python
+
+branches:
+  only:
+  - create-job-offer-test
+
+python:
+  - "3.8" 
+
+intall:
+  # if we need any deps installed write here
+
+# command to run tests
+script:
+  - cd client
+  - python job_offers.py JobOfferTests.test_opening_job_offer_page # for now only execute the 'easiest' test case

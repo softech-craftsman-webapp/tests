@@ -144,7 +144,7 @@ class JobOfferDriver():
 class JobOfferTests(unittest.TestCase):
 
     def setUp(self):
-        self.browser_type = 'chrome'
+        self.browser_type = 'firefox'
         self.is_headless = True
         self.tester = JobOfferDriver()
 

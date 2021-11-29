@@ -8,7 +8,8 @@ python:
   - "3.8" 
 
 intall:
-  # if we need any deps installed write here
+  - pip install selenium
+  - pip install webdriver-manager
 
 # command to run tests
 script:

@@ -17,6 +17,7 @@ class JobOfferDriver():
             print('Opening chrome')
             chrome_options = webdriver.chrome.options.Options()
             chrome_options.add_argument("--window-size=1600,1000")
+            chrome_options.add_argument('--disable-dev-shm-usage')
             chrome_options.add_argument("--log-level=3")
 
             if (is_headless):

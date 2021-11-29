@@ -85,15 +85,14 @@ class JobOfferDriver():
 
     def open_and_login(self):
         self.driver.get('https://hiringo.tech/auth/sign-in/')
-        sleep(2)
-
+        sleep(5)
         self.driver.find_element(By.ID, 'email').send_keys('test@testing.test')
         self.driver.find_element(By.ID, 'password').send_keys('test1234')
-        sleep(1)
+        sleep(3)
         
         button = self.driver.find_element(By.TAG_NAME, 'button')
         button.click()
-        sleep(1)
+        sleep(3)
 
     def open_job_offers(self):
         list = self.driver.find_element(By.TAG_NAME, 'ul')

@@ -4,7 +4,7 @@ dist: focal
 
 branches:
   only:
-  - create-job-offer-test
+  - main
 
 addons:
   chrome: stable
